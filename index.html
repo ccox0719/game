@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Quick Setup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        #searchBar {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        #gamesList {
+            list-style: none;
+            padding: 0;
+        }
+        .game-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .game-item h2 {
+            margin: 0;
+            color: #333;
+        }
+        .game-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Board Game Quick Setup</h1>
+    <input type="text" id="searchBar" placeholder="Search by game name, mechanics, complexity..." onkeyup="filterGames()">
+
+    <ul id="gamesList"></ul>
+
+    <script>
+        const apiUrl = "https://raw.githubusercontent.com/ccox0719/game/main/boardgames.json";
+
+        let games = []; // Store JSON data
+
+        async function fetchGames() {
+            try {
+                const response = await fetch(apiUrl);
+                games = await response.json();
+                displayGames(games);
+            } catch (error) {
+                console.error("Error fetching game data:", error);
+            }
+        }
+
+        function displayGames(gameList) {
+            const list = document.getElementById("gamesList");
+            list.innerHTML = ""; // Clear previous list
+            gameList.forEach(game => {
+                const listItem = document.createElement("li");
+                listItem.className = "game-item";
+                listItem.innerHTML = `
+                    <h2>${game.Game}</h2>
+                    <p><strong>Mechanics:</strong> ${game.Mechanics}</p>
+                    <p><strong>Playtime:</strong> ${game.Playtime}</p>
+                    <p><strong>Players:</strong> ${game.Players}</p>
+                    <p><strong>Complexity:</strong> ${game.Complexity}</p>
+                    <p><strong>Quick Setup Guide:</strong></p>
+                    <p>${game["Quick Setup Guide"]}</p>
+                `;
+                list.appendChild(listItem);
+            });
+        }
+
+        function filterGames() {
+            const query = document.getElementById("searchBar").value.toLowerCase();
+            const filteredGames = games.filter(game =>
+                game.Game.toLowerCase().includes(query) ||
+                game.Mechanics.toLowerCase().includes(query) ||
+                game.Complexity.toLowerCase().includes(query)
+            );
+            displayGames(filteredGames);
+        }
+
+        // Fetch games on page load
+        fetchGames();
+    </script>
+
+</body>
+</html>
