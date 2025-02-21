@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* White text for readability */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #1b5e20; /* Dark green header */
+    color: white;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Style */
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Dropdown */
+#gameSelect {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #43a047; /* Green border */
+    border-radius: 5px;
+    outline: none;
+    background-color: #1e1e1e; /* Dark dropdown background */
+    color: white;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Game Details Box */
+#gameDetails {
+    background: #1e1e1e; /* Dark box */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Game Guide Section Headings */
+#gameGuide h3 {
+    color: #43a047; /* Bright green headings */
+    border-bottom: 2px solid #43a047;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+}
