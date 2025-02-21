@@ -1,0 +1,426 @@
+[
+  {
+    "Game": "Space Base",
+    "Mechanics": "Dice Rolling, Engine Building",
+    "Playtime": "30-60 min",
+    "Players": "2-5",
+    "Complexity": "Medium",
+    "Quick Setup Guide": "Space Base - Quick Setup & Gameplay Overview\n\nSetup:\n\nPrepare the Game Components:\n\nPlace the main deck of ship cards in the center.\n\nSeparate and set aside Level 1, 2, and 3 ship cards in their respective decks.\n\nPlace the colony cards nearby.\n\nPlayer Setup:\n\nEach player takes a Player Board.\n\nPlace 12 starting ship cards in their designated slots (1-12) in active mode (blue).\n\nEach player starts with 5 credits. The second player gains 1 additional credit, the third player gains 2 additional credits, the fourth and fifth players gain 1 income instead of extra credits..\n\nTake one Level 1 ship card for free and replace the open market slot.\n\nDetermine First Player:\n\nThe last player to have flown in an airplane goes first.\n\nTurn order proceeds clockwise.\n\nBasic Gameplay Overview:\n\nRoll Dice & Gain Rewards:\n\nThe active player rolls two dice.\n\nThey may choose to take each die separately or sum them to activate rewards on the corresponding numbered slots.\n\nOther Players Also Gain Rewards:\n\nNon-active players activate red abilities from ships they have deployed (purchased ships moved under their board).\n\nBuy New Ships or Colonies:\n\nThe active player may purchase a ship from the market using credits.\n\nThe purchased ship replaces the existing one in its numbered slot.\n\nThe replaced ship is turned upside down and moved under the board, unlocking red abilities.\n\nGame Continues Until a Player Reaches 40 Victory Points, triggering a final round where all players get an equal number of turns:\n\nThe round is completed so all players have an equal number of turns.\n\nThe player with the most points wins!"
+  },
+  {
+    "Game": "Lost Ruins of Arnak",
+    "Mechanics": "Deck Building, Worker Placement",
+    "Playtime": "60-90 min",
+    "Players": "1-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": "Lost Ruins of Arnak - Quick Setup & Gameplay Overview\n\nSetup:\n\nPrepare the Game Board:\n\nPlace the main board in the center of the play area, ensuring the correct side is facing up based on player count.\nShuffle the Artifact and Item cards separately, placing them face-down on their designated spaces. Reveal the top five Item cards to form the item market.\nPlace the Idol tokens on the unexplored site spaces (Level 1 and Level 2 sites) as indicated.\nShuffle the Site and Guardian tiles separately, placing them face-down near the board.\nArrange the Research Track components:\nPlace the Research tokens (magnifying glass and notebook) of each player at the bottom of the track.\nShuffle and place the Research bonus tiles face-up on their designated spaces.\nStack the Temple tiles at the top of the track.\nPlayer Setup:\n\nEach player selects a color and receives:\nA player board.\nTwo Archaeologist figures.\nA set of Starting cards: two Funding cards, two Exploration cards, and two Fear cards.\nPlayers shuffle their Starting cards to form their personal deck and draw a starting hand of five cards.\nDistribute initial resources based on turn order:\nThe first player receives:\n2 Coins\n1 Compass\nThe second player receives:\n2 Coins\n2 Compasses\nThe third player receives:\n3 Coins\n2 Compasses\nThe fourth player receives:\n4 Coins\n2 Compasses\nMarket & Supply Setup:\n\nPlace the Moon Staff on the leftmost space of the Card Row to indicate the first round.\nArrange the Resource tokens (Coins, Compasses, Arrowheads, Tablets, and Jewels) in separate piles accessible to all players.\nKeep the Assistant tiles nearby for when players advance on the Research Track.\nBasic Gameplay Overview:\n\nPlayer Actions:\n\nPlayers take turns performing one main action per turn, with optional free actions. Main actions include:\nDig at a Site: Send an archaeologist to an existing site by paying the required travel cost to gain the site's resources.\nDiscover a New Site: Explore a new Level 1 or Level 2 site by paying the necessary compasses and placing an archaeologist there. Draw a Site tile to reveal its resources and place a Guardian tile on the site.\nBuy a Card: Purchase an Item or Artifact card by paying its cost. Items are placed at the bottom of your deck; Artifacts trigger their effect immediately.\nPlay a Card: Use a card from your hand for its effect, then place it in your play area.\nResearch: Advance your token on the Research Track by paying the required resources to gain bonuses and victory points.\nOvercome a Guardian: Defeat a Guardian at your archaeologist's location by paying its resource cost to earn victory points and avoid penalties.\nEnd of Round:\n\nAfter all players have passed, the round ends. Perform the following steps:\nRetrieve Archaeologists: Return all archaeologists to their owners.\nRefresh the Card Row: Remove the leftmost card (next to the Moon Staff) from the market and slide remaining cards to the left. Fill empty spaces with new cards from the corresponding deck.\nMove the Moon Staff: Advance the Moon Staff one space to the right to indicate the next round.\nPlayers' Maintenance: Each player discards any remaining cards in hand, then draws five new cards from their deck. If the deck is exhausted, shuffle the discard pile to form a new deck.\nEnd of Game & Scoring:\n\nThe game concludes after five rounds. Players then calculate their final scores based on:\nResearch Track Position: Points for the highest position reached and bonuses acquired.\nTemple Tiles: Points from any temple tiles obtained.\nIdol Tokens: Points from idols collected, minus any used for immediate benefits.\nDefeated Guardians: Each Guardian overcome grants additional points.\nCards: Some Item and Artifact cards provide end-game points.\nFear Cards: Each Fear card subtracts points from the total.\nThe player with the highest total score is declared the winner."
+  },
+  {
+    "Game": "Kingdomino",
+    "Mechanics": "Tile Placement, Set Collection",
+    "Playtime": "15-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": "Kingdomino - Quick Setup & Gameplay Overview\n\nSetup:\n\nPrepare the Tiles:\n\nShuffle all domino tiles and place them in a face-down draw pile.\n\nDepending on the player count, remove specific tiles:\n\n2 Players: Use all tiles.\n\n3 Players: Remove 12 tiles.\n\n4 Players: Use all tiles.\n\nPlayer Setup:\n\nEach player takes a starting square tile and a castle.\n\nEach player takes a colored king pawn (two per player in a 2-player game, one otherwise).\n\nRandomly determine player order.\n\nPrepare the Drafting Row:\n\nDraw four dominoes from the stack and place them face-up in numerical order.\n\nPlayers take turns placing their king pawn on a tile to claim it.\n\nBasic Gameplay Overview:\n\nTile Selection:\n\nPlayers select tiles in the order of their king pawn placement.\n\nNew tiles are drawn and arranged for the next round.\n\nPlacing Tiles:\n\nThe selected tile must be placed in a 5x5 grid adjacent to an existing tile.\n\nAt least one side of the new tile must match a terrain type of an adjacent tile.\n\nGame End & Scoring:\n\nThe game ends after all tiles are placed.\n\nPlayers score points by multiplying the number of connected matching terrain squares by the number of crowns in that terrain.\n\nThe player with the highest score wins!"
+  },
+  {
+    "Game": "Earth",
+    "Mechanics": "Engine-building, tableau-building, card drafting, action selection",
+    "Playtime": "45-90 min",
+    "Players": "1-5",
+    "Complexity": "Medium-Heavy",
+    "Quick Setup Guide": "Earth - Quick Setup & Gameplay Overview\n\nSetup:\n\nPrepare the Main Board:\n\nPlace the Fauna Board in the center.\n\nShuffle and place Fauna Cards face-up on the board.\n\nShuffle Ecosystem Cards and place one face-up per player.\n\nShuffle Island and Climate Cards, then deal one of each per player.\n\nPrepare the Decks:\n\nShuffle Earth Cards (green deck) and place them as a draw pile.\n\nPlace Soil, Sprout, Trunk, and Growth tokens in general supply.\n\nPlayer Setup:\n\nEach player chooses an Island and Climate card.\n\nDraw six Earth Cards and keep four.\n\nStart with Soil as determined by your Island Card.\n\nEach player takes a Player Board.\n\nTake five Fauna Leaf tokens.\n\nStarting Player:\n\nThe last person who watered a plant goes first.\n\nBasic Gameplay Overview:\n\nActive Player Chooses an Action (all players perform an action, but the active player gets a bonus):\n\nPlant: Place Earth cards in your tableau by spending Soil.\n\nCompost: Gain Soil and compost cards for endgame points.\n\nWater: Gain Sprouts for extra points.\n\nGrow: Gain Growth to develop trees for points.\n\nAll Players Activate Matching Color Abilities:\n\nPlayers trigger abilities from their played Earth cards that match the action.\n\nTurns Continue Until a Player Has a 4x4 Grid:\n\nThe game ends when any player completes their 16-card tableau.\n\nFinal scoring includes Fauna objectives, Ecosystem goals, and resource conversions.\n\nWinning: The player with the most points from cards, sprouts, growth, compost, and objectives wins!"
+  },
+  {
+    "Game": "Arcs",
+    "Mechanics": "Area Control, Card-driven",
+    "Playtime": "60-120 min",
+    "Players": "2-4",
+    "Complexity": "Medium-Heavy",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Azul",
+    "Mechanics": "Pattern Building, Tile Drafting",
+    "Playtime": "30-45 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Bounce-Off",
+    "Mechanics": "Dexterity, Pattern Recognition",
+    "Playtime": "10-20 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Cartographers",
+    "Mechanics": "Flip and Write, Map Building",
+    "Playtime": "30-45 min",
+    "Players": "1-100",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Catch Phrase",
+    "Mechanics": "Party, Word Game",
+    "Playtime": "15-30 min",
+    "Players": "4-20",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Chronicles of Crime",
+    "Mechanics": "Storytelling, Detective",
+    "Playtime": "60-90 min",
+    "Players": "1-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Codenames",
+    "Mechanics": "Word Deduction, Team Play",
+    "Playtime": "15-30 min",
+    "Players": "2-8",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Cosmic Encounter Duel",
+    "Mechanics": "Area Control, Bluffing",
+    "Playtime": "45-60 min",
+    "Players": "2",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Dixit",
+    "Mechanics": "Storytelling, Creativity",
+    "Playtime": "30 min",
+    "Players": "3-6",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Dragonwood",
+    "Mechanics": "Dice Rolling, Set Collection",
+    "Playtime": "20-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Dungeon",
+    "Mechanics": "Dungeon Crawl, Roll to Move",
+    "Playtime": "60 min",
+    "Players": "1-8",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Dungeon Mayhem",
+    "Mechanics": "Take That, Card Play",
+    "Playtime": "15-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Dutch Blitz",
+    "Mechanics": "Speed, Pattern Recognition",
+    "Playtime": "10-15 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Fantastic Factories",
+    "Mechanics": "Engine Building, Dice Rolling",
+    "Playtime": "45-60 min",
+    "Players": "1-5",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Fire Tower",
+    "Mechanics": "Grid Movement, Take That",
+    "Playtime": "15-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Fluxx",
+    "Mechanics": "Variable Rules, Hand Management",
+    "Playtime": "10-30 min",
+    "Players": "2-6",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Forbidden Island",
+    "Mechanics": "Cooperative, Hand Management",
+    "Playtime": "30-45 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Gloomhaven",
+    "Mechanics": "Campaign, Tactical Combat",
+    "Playtime": "120-240 min",
+    "Players": "1-4",
+    "Complexity": "Heavy",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Gloomhaven: Jaws of the Lion",
+    "Mechanics": "Campaign, Tactical Combat",
+    "Playtime": "90-120 min",
+    "Players": "1-4",
+    "Complexity": "Medium-Heavy",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Gravity Maze",
+    "Mechanics": "Puzzle, Logic",
+    "Playtime": "10-30 min",
+    "Players": "1",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Labyrinth",
+    "Mechanics": "Tile Movement, Maze Navigation",
+    "Playtime": "20-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Last Light",
+    "Mechanics": "Simultaneous Action Selection",
+    "Playtime": "60 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Lost Cities",
+    "Mechanics": "Hand Management, Push Your Luck",
+    "Playtime": "30 min",
+    "Players": "2",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Megaland",
+    "Mechanics": "Push Your Luck, Set Collection",
+    "Playtime": "20 min",
+    "Players": "2-5",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Mystic Vale",
+    "Mechanics": "Deck Building, Card Crafting",
+    "Playtime": "45-60 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Obscurio",
+    "Mechanics": "Cooperative, Hidden Role",
+    "Playtime": "45-60 min",
+    "Players": "2-8",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Party Fox",
+    "Mechanics": "Party, Social Deduction",
+    "Playtime": "30-60 min",
+    "Players": "4-10",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Pathfinder Adventure Card Game",
+    "Mechanics": "Deck Building, RPG",
+    "Playtime": "90-120 min",
+    "Players": "1-4",
+    "Complexity": "Medium-Heavy",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Pie Face",
+    "Mechanics": "Dexterity, Press Your Luck",
+    "Playtime": "5-15 min",
+    "Players": "2-20",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Point Salad",
+    "Mechanics": "Set Collection, Card Drafting",
+    "Playtime": "15-30 min",
+    "Players": "2-6",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Port Royal",
+    "Mechanics": "Push Your Luck, Card Drafting",
+    "Playtime": "30 min",
+    "Players": "2-5",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Res Arcana",
+    "Mechanics": "Engine Building, Card Drafting",
+    "Playtime": "30-60 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Roll Player",
+    "Mechanics": "Dice Drafting, Tableau Building",
+    "Playtime": "60-90 min",
+    "Players": "1-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Sanctum",
+    "Mechanics": "Deck Building, Dice Rolling",
+    "Playtime": "60-120 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Scrabble",
+    "Mechanics": "Word Game, Tile Placement",
+    "Playtime": "30-60 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Skill King",
+    "Mechanics": "Dexterity, Party",
+    "Playtime": "15-30 min",
+    "Players": "2-8",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Stratego",
+    "Mechanics": "Hidden Information, Strategy",
+    "Playtime": "30-60 min",
+    "Players": "2",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Captain is Dead",
+    "Mechanics": "Cooperative, Action Point",
+    "Playtime": "60-90 min",
+    "Players": "2-7",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Castles of Burgundy",
+    "Mechanics": "Dice Rolling, Tile Placement",
+    "Playtime": "30-90 min",
+    "Players": "2-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Castles of Mad King Ludwig",
+    "Mechanics": "Tile Placement, Auction",
+    "Playtime": "45-90 min",
+    "Players": "1-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Fox in the Forest",
+    "Mechanics": "Trick-Taking, Hand Management",
+    "Playtime": "30 min",
+    "Players": "2",
+    "Complexity": "Light-Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Game of Life",
+    "Mechanics": "Roll and Move, Decision Making",
+    "Playtime": "30-60 min",
+    "Players": "2-6",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Initiative",
+    "Mechanics": "Cooperative, Codebreaking",
+    "Playtime": "30-60 min",
+    "Players": "1-4",
+    "Complexity": "Light-Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "The Isle of Cats",
+    "Mechanics": "Tile Placement, Drafting",
+    "Playtime": "60-90 min",
+    "Players": "1-4",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Throw Throw Burrito",
+    "Mechanics": "Dexterity, Set Collection",
+    "Playtime": "15-30 min",
+    "Players": "2-6",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Ticket to Ride: First Journey",
+    "Mechanics": "Set Collection, Route Building",
+    "Playtime": "15-30 min",
+    "Players": "2-4",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Tiny Epic Kingdoms",
+    "Mechanics": "Area Control, Resource Management",
+    "Playtime": "30-45 min",
+    "Players": "2-5",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Tiny Epic Zombies",
+    "Mechanics": "Survival, Variable Player Powers",
+    "Playtime": "30-45 min",
+    "Players": "1-5",
+    "Complexity": "Medium",
+    "Quick Setup Guide": ""
+  },
+  {
+    "Game": "Wits & Wagers",
+    "Mechanics": "Trivia, Betting",
+    "Playtime": "30 min",
+    "Players": "4-20",
+    "Complexity": "Light",
+    "Quick Setup Guide": ""
+  }
+]
