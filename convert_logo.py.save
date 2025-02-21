@@ -1,0 +1,38 @@
+from PIL import Image
+
+# Open the image
+image = Image.open("logo.jpg").convert("RGBA")
+
+# Convert black background to dark grey (#121212)
+new_data = [
+    (18, 18, 18, item[3]) if item[:3] == (0, 0, 0) else item
+    for item in image.getdata()
+]
+
+# Apply the new background
+image.putdata(new_data)
+image.save("logo-fixed.jpg", "JPEG")
+
+print("✅ Logo background converted to #121212 (Dark Grey)")
+python3 convert_logo.py
+
+from PIL import Image
+
+# Open the image
+image = Image.open("logo.jpg").convert("RGBA")
+
+# Make black pixels transparent
+datas = image.getdata()
+new_data = []
+for item in datas:
+    # If the pixel is black or near-black, make it transparent
+    if item[:3] == (0, 0, 0) or sum(item[:3]) < 50: 
+        new_data.append((0, 0, 0, 0))  # Transparent
+    else:
+        new_data.append(item)
+
+# Apply transparency and save as PNG
+image.putdata(new_data)
+image.save("logo.png", "PNG")
+
+print("✅ Logo converted to transparent PNG (logo.png)")

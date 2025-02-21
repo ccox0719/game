@@ -8,38 +8,60 @@ body {
     text-align: center;
 }
 
-/* Header */
+/* Header - Full Width with Correct Background */
 header {
-    background-color: #1b5e20; /* Dark green header */
-    color: white;
+    background-color: #58c7c7; /* Cyan-teal header */
+    color: #121212; /* Dark text for contrast */
     padding: 20px;
-    font-size: 1.8em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width */
+    margin: 0;
+    border-radius: 0; /* No rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Title Style */
-header h1 {
-    margin: 0;
-    font-size: 2em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+/* Logo */
+.logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 15px 0 0 0; /* Only top-left corner rounded */
+    object-fit: cover;
+}
+
+/* Main Title */
+.main-title {
+    margin: 5px 0 0 0;
+    font-size: 2em; /* Bigger and bold */
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.2em; /* Smaller than main title */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2b2b2b; /* Darker text for contrast */
+    margin-top: -5px; /* Move closer to main title */
 }
 
 /* Dropdown */
 #gameSelect {
     width: 80%;
     max-width: 400px;
-    padding: 12px;
-    font-size: 16px;
-    border: 2px solid #43a047; /* Green border */
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #58c7c7; /* Cyan-teal border */
     border-radius: 5px;
     outline: none;
     background-color: #1e1e1e; /* Dark dropdown background */
     color: white;
-    margin: 20px 0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Game Details Box */
@@ -49,14 +71,14 @@ header h1 {
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 
 /* Game Guide Section Headings */
 #gameGuide h3 {
-    color: #43a047; /* Bright green headings */
-    border-bottom: 2px solid #43a047;
+    color: #58c7c7; /* Bright cyan-teal headings */
+    border-bottom: 2px solid #58c7c7;
     padding-bottom: 5px;
     margin-top: 15px;
 }
@@ -64,8 +86,8 @@ header h1 {
 /* Footer */
 footer {
     margin-top: 30px;
-    background-color: #1b5e20;
-    color: white;
-    padding: 10px;
+    background-color: #58c7c7;
+    color: #121212; /* Dark text for contrast */
+    padding: 8px;
     font-size: 0.9em;
 }
