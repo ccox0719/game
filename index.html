@@ -9,6 +9,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Center content on mobile */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        select, button {
+            width: 90%;
+            max-width: 400px;
+        }
+
+        #gameDetails {
+            width: 90%;
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
 
@@ -23,6 +53,9 @@
         <select id="gameSelect" onchange="displaySelectedGame()">
             <option value="">Select a game...</option>
         </select>
+
+        <!-- Random Pick Button -->
+        <button id="randomButton" onclick="pickRandomGame()">🎲 Pick a Random Game</button>
 
         <!-- Game details section -->
         <div id="gameDetails" style="display: none;">

@@ -25,7 +25,17 @@ function populateDropdown(gameList) {
         dropdown.appendChild(option);
     });
 }
+// ✅ Selects a random game from the dropdown
+function pickRandomGame() {
+    const dropdown = document.getElementById("gameSelect");
+    const options = dropdown.options;
 
+    if (options.length > 1) {
+        let randomIndex = Math.floor(Math.random() * (options.length - 1)) + 1; // Avoids "Select a game..."
+        dropdown.selectedIndex = randomIndex;
+        displaySelectedGame(); // Shows the details of the selected game
+    }
+}
 // ✅ Display selected game details
 function displaySelectedGame() {
     const selectedGameName = document.getElementById("gameSelect").value;

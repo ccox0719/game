@@ -91,3 +91,21 @@ footer {
     padding: 8px;
     font-size: 0.9em;
 }
+/* Random Select Button */
+#randomButton {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #58c7c7;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#randomButton:hover {
+    background-color: #46a0a0;
+}
