@@ -1,7 +1,10 @@
 [
   {
     "Game": "Space Base",
-    "Mechanics": "Dice Rolling, Engine Building",
+    "Mechanics": [
+      "Dice Rolling",
+      "Engine Building"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -18,7 +21,10 @@
   },
   {
     "Game": "Lost Ruins of Arnak",
-    "Mechanics": "Deck Building, Worker Placement",
+    "Mechanics": [
+      "Deck Building",
+      "Worker Placement"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 1,
@@ -35,7 +41,10 @@
   },
   {
     "Game": "Kingdomino",
-    "Mechanics": "Tile Placement, Set Collection",
+    "Mechanics": [
+      "Tile Placement",
+      "Set Collection"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -52,7 +61,12 @@
   },
   {
     "Game": "Earth",
-    "Mechanics": "Engine-building, tableau-building, card drafting, action selection",
+    "Mechanics": [
+      "Engine-building",
+      "tableau-building",
+      "card drafting",
+      "action selection"
+    ],
     "Playtime": "45-90 min",
     "Players": {
       "Min": 1,
@@ -69,7 +83,10 @@
   },
   {
     "Game": "Arcs",
-    "Mechanics": "Area Control, Card-driven",
+    "Mechanics": [
+      "Area Control",
+      "Card-driven"
+    ],
     "Playtime": "60-120 min",
     "Players": {
       "Min": 3,
@@ -86,7 +103,10 @@
   },
   {
     "Game": "Azul",
-    "Mechanics": "Pattern Building, Tile Drafting",
+    "Mechanics": [
+      "Pattern Building",
+      "Tile Drafting"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -103,7 +123,10 @@
   },
   {
     "Game": "Bounce-Off",
-    "Mechanics": "Dexterity, Pattern Recognition",
+    "Mechanics": [
+      "Dexterity",
+      "Pattern Recognition"
+    ],
     "Playtime": "10-20 min",
     "Players": {
       "Min": 2,
@@ -120,7 +143,10 @@
   },
   {
     "Game": "Cartographers",
-    "Mechanics": "Flip and Write, Map Building",
+    "Mechanics": [
+      "Flip and Write",
+      "Map Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 1,
@@ -137,7 +163,10 @@
   },
   {
     "Game": "Catch Phrase",
-    "Mechanics": "Party, Word Game",
+    "Mechanics": [
+      "Party",
+      "Word Game"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 4,
@@ -154,7 +183,10 @@
   },
   {
     "Game": "Chronicles of Crime",
-    "Mechanics": "Storytelling, Detective",
+    "Mechanics": [
+      "Storytelling",
+      "Detective"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 1,
@@ -171,7 +203,10 @@
   },
   {
     "Game": "Codenames",
-    "Mechanics": "Word Deduction, Team Play",
+    "Mechanics": [
+      "Word Deduction",
+      "Team Play"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -188,7 +223,10 @@
   },
   {
     "Game": "Cosmic Encounter Duel",
-    "Mechanics": "Area Control, Bluffing",
+    "Mechanics": [
+      "Area Control",
+      "Bluffing"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 2,
@@ -205,7 +243,10 @@
   },
   {
     "Game": "Dixit",
-    "Mechanics": "Storytelling, Creativity",
+    "Mechanics": [
+      "Storytelling",
+      "Creativity"
+    ],
     "Playtime": "30 min",
     "Players": {
       "Min": 3,
@@ -222,7 +263,10 @@
   },
   {
     "Game": "Dragonwood",
-    "Mechanics": "Dice Rolling, Set Collection",
+    "Mechanics": [
+      "Dice Rolling",
+      "Set Collection"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -239,7 +283,10 @@
   },
   {
     "Game": "Dungeon",
-    "Mechanics": "Dungeon Crawl, Roll to Move",
+    "Mechanics": [
+      "Dungeon Crawl",
+      "Roll to Move"
+    ],
     "Playtime": "60 min",
     "Players": {
       "Min": 1,
@@ -256,7 +303,10 @@
   },
   {
     "Game": "Dungeon Mayhem",
-    "Mechanics": "Take That, Card Play",
+    "Mechanics": [
+      "Take That",
+      "Card Play"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -273,7 +323,10 @@
   },
   {
     "Game": "Dutch Blitz",
-    "Mechanics": "Speed, Pattern Recognition",
+    "Mechanics": [
+      "Speed",
+      "Pattern Recognition"
+    ],
     "Playtime": "10-15 min",
     "Players": {
       "Min": 2,
@@ -290,7 +343,10 @@
   },
   {
     "Game": "Fantastic Factories",
-    "Mechanics": "Engine Building, Dice Rolling",
+    "Mechanics": [
+      "Engine Building",
+      "Dice Rolling"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 1,
@@ -307,7 +363,10 @@
   },
   {
     "Game": "Fire Tower",
-    "Mechanics": "Grid Movement, Take That",
+    "Mechanics": [
+      "Grid Movement",
+      "Take That"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -324,7 +383,10 @@
   },
   {
     "Game": "Fluxx",
-    "Mechanics": "Variable Rules, Hand Management",
+    "Mechanics": [
+      "Variable Rules",
+      "Hand Management"
+    ],
     "Playtime": "10-30 min",
     "Players": {
       "Min": 2,
@@ -341,7 +403,10 @@
   },
   {
     "Game": "Forbidden Island",
-    "Mechanics": "Cooperative, Hand Management",
+    "Mechanics": [
+      "Cooperative",
+      "Hand Management"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -358,7 +423,10 @@
   },
   {
     "Game": "Gloomhaven",
-    "Mechanics": "Campaign, Tactical Combat",
+    "Mechanics": [
+      "Campaign",
+      "Tactical Combat"
+    ],
     "Playtime": "120-240 min",
     "Players": {
       "Min": 1,
@@ -375,7 +443,10 @@
   },
   {
     "Game": "Gloomhaven: Jaws of the Lion",
-    "Mechanics": "Campaign, Tactical Combat",
+    "Mechanics": [
+      "Campaign",
+      "Tactical Combat"
+    ],
     "Playtime": "90-120 min",
     "Players": {
       "Min": 1,
@@ -392,7 +463,10 @@
   },
   {
     "Game": "Gravity Maze",
-    "Mechanics": "Puzzle, Logic",
+    "Mechanics": [
+      "Puzzle",
+      "Logic"
+    ],
     "Playtime": "10-30 min",
     "Players": {
       "Min": 1,
@@ -409,7 +483,10 @@
   },
   {
     "Game": "Labyrinth",
-    "Mechanics": "Tile Movement, Maze Navigation",
+    "Mechanics": [
+      "Tile Movement",
+      "Maze Navigation"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 1,
@@ -426,7 +503,9 @@
   },
   {
     "Game": "Last Light",
-    "Mechanics": "Simultaneous Action Selection",
+    "Mechanics": [
+      "Simultaneous Action Selection"
+    ],
     "Playtime": "60 min",
     "Players": {
       "Min": 2,
@@ -443,7 +522,10 @@
   },
   {
     "Game": "Lost Cities",
-    "Mechanics": "Hand Management, Push Your Luck",
+    "Mechanics": [
+      "Hand Management",
+      "Push Your Luck"
+    ],
     "Playtime": "30 min",
     "Players": {
       "Min": 2,
@@ -460,7 +542,10 @@
   },
   {
     "Game": "Megaland",
-    "Mechanics": "Push Your Luck, Set Collection",
+    "Mechanics": [
+      "Push Your Luck",
+      "Set Collection"
+    ],
     "Playtime": "20 min",
     "Players": {
       "Min": 2,
@@ -477,7 +562,10 @@
   },
   {
     "Game": "Mystic Vale",
-    "Mechanics": "Deck Building, Card Crafting",
+    "Mechanics": [
+      "Deck Building",
+      "Card Crafting"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 2,
@@ -494,7 +582,10 @@
   },
   {
     "Game": "Obscurio",
-    "Mechanics": "Cooperative, Hidden Role",
+    "Mechanics": [
+      "Cooperative",
+      "Hidden Role"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 2,
@@ -511,7 +602,10 @@
   },
   {
     "Game": "Point Salad",
-    "Mechanics": "Set Collection, Card Drafting",
+    "Mechanics": [
+      "Set Collection",
+      "Card Drafting"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -528,7 +622,10 @@
   },
   {
     "Game": "Port Royal",
-    "Mechanics": "Push Your Luck, Card Drafting",
+    "Mechanics": [
+      "Push Your Luck",
+      "Card Drafting"
+    ],
     "Playtime": "30 min",
     "Players": {
       "Min": 1,
@@ -545,7 +642,10 @@
   },
   {
     "Game": "Res Arcana",
-    "Mechanics": "Engine Building, Card Drafting",
+    "Mechanics": [
+      "Engine Building",
+      "Card Drafting"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -562,7 +662,10 @@
   },
   {
     "Game": "Roll Player",
-    "Mechanics": "Dice Drafting, Tableau Building",
+    "Mechanics": [
+      "Dice Drafting",
+      "Tableau Building"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 1,
@@ -579,7 +682,10 @@
   },
   {
     "Game": "Sanctum",
-    "Mechanics": "Deck Building, Dice Rolling",
+    "Mechanics": [
+      "Deck Building",
+      "Dice Rolling"
+    ],
     "Playtime": "60-120 min",
     "Players": {
       "Min": 2,
@@ -596,7 +702,10 @@
   },
   {
     "Game": "Skill King",
-    "Mechanics": "Dexterity, Party",
+    "Mechanics": [
+      "Dexterity",
+      "Party"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -613,7 +722,10 @@
   },
   {
     "Game": "The Captain is Dead",
-    "Mechanics": "Cooperative, Action Point",
+    "Mechanics": [
+      "Cooperative",
+      "Action Point"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 2,
@@ -630,7 +742,10 @@
   },
   {
     "Game": "The Castles of Burgundy",
-    "Mechanics": "Dice Rolling, Tile Placement",
+    "Mechanics": [
+      "Dice Rolling",
+      "Tile Placement"
+    ],
     "Playtime": "30-90 min",
     "Players": {
       "Min": 2,
@@ -647,7 +762,10 @@
   },
   {
     "Game": "The Castles of Mad King Ludwig",
-    "Mechanics": "Tile Placement, Auction",
+    "Mechanics": [
+      "Tile Placement",
+      "Auction"
+    ],
     "Playtime": "45-90 min",
     "Players": {
       "Min": 1,
@@ -664,7 +782,10 @@
   },
   {
     "Game": "The Fox in the Forest",
-    "Mechanics": "Trick-Taking, Hand Management",
+    "Mechanics": [
+      "Trick-Taking",
+      "Hand Management"
+    ],
     "Playtime": "30 min",
     "Players": {
       "Min": 2,
@@ -681,7 +802,10 @@
   },
   {
     "Game": "The Initiative",
-    "Mechanics": "Cooperative, Codebreaking",
+    "Mechanics": [
+      "Cooperative",
+      "Codebreaking"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 1,
@@ -698,7 +822,10 @@
   },
   {
     "Game": "The Isle of Cats",
-    "Mechanics": "Tile Placement, Drafting",
+    "Mechanics": [
+      "Tile Placement",
+      "Drafting"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 1,
@@ -715,7 +842,10 @@
   },
   {
     "Game": "Wits & Wagers",
-    "Mechanics": "Trivia, Betting",
+    "Mechanics": [
+      "Trivia",
+      "Betting"
+    ],
     "Playtime": "30 min",
     "Players": {
       "Min": 3,
@@ -732,7 +862,10 @@
   },
   {
     "Game": "San Juan",
-    "Mechanics": "Deck Building, Hand Management",
+    "Mechanics": [
+      "Deck Building",
+      "Hand Management"
+    ],
     "Playtime": "45 min",
     "Players": {
       "Min": 2,
@@ -749,7 +882,10 @@
   },
   {
     "Game": "Puzzle Strike",
-    "Mechanics": "Bag Building, Deck Building",
+    "Mechanics": [
+      "Bag Building",
+      "Deck Building"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -766,7 +902,12 @@
   },
   {
     "Game": "Arcadia Quest",
-    "Mechanics": "Campaign, Dice Rolling, Modular Board, Variable Player Powers",
+    "Mechanics": [
+      "Campaign",
+      "Dice Rolling",
+      "Modular Board",
+      "Variable Player Powers"
+    ],
     "Playtime": "60-90 min",
     "Players": {
       "Min": 2,
@@ -783,7 +924,11 @@
   },
   {
     "Game": "Century: Golem Edition",
-    "Mechanics": "Hand Management, Deck Building, Engine Building",
+    "Mechanics": [
+      "Hand Management",
+      "Deck Building",
+      "Engine Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -800,7 +945,10 @@
   },
   {
     "Game": "Juicy Fruits",
-    "Mechanics": "Tile Placement, Set Collection",
+    "Mechanics": [
+      "Tile Placement",
+      "Set Collection"
+    ],
     "Playtime": "20-40 min",
     "Players": {
       "Min": 1,
@@ -817,7 +965,12 @@
   },
   {
     "Game": "Terraforming Mars",
-    "Mechanics": "Engine Building, Tile Placement, Hand Management, Drafting",
+    "Mechanics": [
+      "Engine Building",
+      "Tile Placement",
+      "Hand Management",
+      "Drafting"
+    ],
     "Playtime": "90-120 min",
     "Players": {
       "Min": 1,
@@ -834,7 +987,11 @@
   },
   {
     "Game": "Bargain Quest",
-    "Mechanics": "Auction/Bidding, Drafting, Set Collection",
+    "Mechanics": [
+      "Auction/Bidding",
+      "Drafting",
+      "Set Collection"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -851,7 +1008,11 @@
   },
   {
     "Game": "Hero Realms",
-    "Mechanics": "Deck Building, Hand Management, Cooperative Play",
+    "Mechanics": [
+      "Deck Building",
+      "Hand Management",
+      "Cooperative Play"
+    ],
     "Playtime": "20-40 min",
     "Players": {
       "Min": 2,
@@ -868,7 +1029,12 @@
   },
   {
     "Game": "Massive Darkness 2",
-    "Mechanics": "Cooperative Play, Dice Rolling, Modular Board, Campaign",
+    "Mechanics": [
+      "Cooperative Play",
+      "Dice Rolling",
+      "Modular Board",
+      "Campaign"
+    ],
     "Playtime": "90-120 min",
     "Players": {
       "Min": 1,
@@ -885,7 +1051,11 @@
   },
   {
     "Game": "Race for the Galaxy",
-    "Mechanics": "Hand Management, Tableau Building, Variable Player Powers",
+    "Mechanics": [
+      "Hand Management",
+      "Tableau Building",
+      "Variable Player Powers"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -902,7 +1072,11 @@
   },
   {
     "Game": "Stockpile",
-    "Mechanics": "Stock Holding, Auction/Bidding, Market Manipulation",
+    "Mechanics": [
+      "Stock Holding",
+      "Auction/Bidding",
+      "Market Manipulation"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 2,
@@ -919,7 +1093,10 @@
   },
   {
     "Game": "Sagrada",
-    "Mechanics": "Dice Drafting, Pattern Building",
+    "Mechanics": [
+      "Dice Drafting",
+      "Pattern Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 1,
@@ -936,7 +1113,10 @@
   },
   {
     "Game": "Dominion",
-    "Mechanics": "Deck Building, Hand Management",
+    "Mechanics": [
+      "Deck Building",
+      "Hand Management"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -953,7 +1133,11 @@
   },
   {
     "Game": "7 Wonders",
-    "Mechanics": "Card Drafting, Set Collection, Engine Building",
+    "Mechanics": [
+      "Card Drafting",
+      "Set Collection",
+      "Engine Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 3,
@@ -970,7 +1154,11 @@
   },
   {
     "Game": "Dune: Imperium",
-    "Mechanics": "Deck Building, Worker Placement, Area Control",
+    "Mechanics": [
+      "Deck Building",
+      "Worker Placement",
+      "Area Control"
+    ],
     "Playtime": "60-120 min",
     "Players": {
       "Min": 1,
@@ -987,7 +1175,11 @@
   },
   {
     "Game": "Catan",
-    "Mechanics": "Trading, Route Building, Dice Rolling",
+    "Mechanics": [
+      "Trading",
+      "Route Building",
+      "Dice Rolling"
+    ],
     "Playtime": "60-120 min",
     "Players": {
       "Min": 3,
@@ -1004,7 +1196,11 @@
   },
   {
     "Game": "My City",
-    "Mechanics": "Legacy, Tile Placement, City Building",
+    "Mechanics": [
+      "Legacy",
+      "Tile Placement",
+      "City Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1021,7 +1217,11 @@
   },
   {
     "Game": "Ticket to Ride",
-    "Mechanics": "Route Building, Network Building, Set Collection",
+    "Mechanics": [
+      "Route Building",
+      "Network Building",
+      "Set Collection"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 2,
@@ -1038,7 +1238,11 @@
   },
   {
     "Game": "Legendary: A Marvel Deck Building Game",
-    "Mechanics": "Deck Building, Cooperative Play, Variable Player Powers",
+    "Mechanics": [
+      "Deck Building",
+      "Cooperative Play",
+      "Variable Player Powers"
+    ],
     "Playtime": "30-60 min",
     "Players": {
       "Min": 1,
@@ -1055,7 +1259,11 @@
   },
   {
     "Game": "Viticulture",
-    "Mechanics": "Worker Placement, Set Collection, Engine Building",
+    "Mechanics": [
+      "Worker Placement",
+      "Set Collection",
+      "Engine Building"
+    ],
     "Playtime": "45-90 min",
     "Players": {
       "Min": 1,
@@ -1072,8 +1280,12 @@
   },
   {
     "Game": "Pandemic",
-    "Mechanics": "Cooperative Play, Action Points, Set Collection",
-    "Playtime": "45 min",
+    "Mechanics": [
+      "Cooperative Play",
+      "Action Points",
+      "Set Collection"
+    ],
+    "Playtime": "45-90 min",
     "Players": {
       "Min": 2,
       "Max": 4
@@ -1089,7 +1301,10 @@
   },
   {
     "Game": "Castle Panic",
-    "Mechanics": "Cooperative Play, Tower Defense",
+    "Mechanics": [
+      "Cooperative Play",
+      "Tower Defense"
+    ],
     "Playtime": "45-60 min",
     "Players": {
       "Min": 1,
@@ -1106,7 +1321,11 @@
   },
   {
     "Game": "MicroMacro: Crime City",
-    "Mechanics": "Deduction, Pattern Recognition, Hidden Information",
+    "Mechanics": [
+      "Deduction",
+      "Pattern Recognition",
+      "Hidden Information"
+    ],
     "Playtime": "15-45 min",
     "Players": {
       "Min": 1,
@@ -1123,7 +1342,10 @@
   },
   {
     "Game": "Point Salad",
-    "Mechanics": "Drafting, Set Collection",
+    "Mechanics": [
+      "Drafting",
+      "Set Collection"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -1140,7 +1362,11 @@
   },
   {
     "Game": "One Deck Dungeon",
-    "Mechanics": "Dice Rolling, Dungeon Crawl, Push Your Luck",
+    "Mechanics": [
+      "Dice Rolling",
+      "Dungeon Crawl",
+      "Push Your Luck"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 1,
@@ -1157,7 +1383,10 @@
   },
   {
     "Game": "Biblios",
-    "Mechanics": "Auction/Bidding, Set Collection",
+    "Mechanics": [
+      "Auction/Bidding",
+      "Set Collection"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1174,7 +1403,11 @@
   },
   {
     "Game": "7 Wonders Duel",
-    "Mechanics": "Drafting, Set Collection, Engine Building",
+    "Mechanics": [
+      "Drafting",
+      "Set Collection",
+      "Engine Building"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1191,7 +1424,10 @@
   },
   {
     "Game": "Radlands",
-    "Mechanics": "Hand Management, Tactical Movement",
+    "Mechanics": [
+      "Hand Management",
+      "Tactical Movement"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1208,7 +1444,10 @@
   },
   {
     "Game": "Here to Slay",
-    "Mechanics": "Set Collection, Take That",
+    "Mechanics": [
+      "Set Collection",
+      "Take That"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1225,7 +1464,11 @@
   },
   {
     "Game": "Under Falling Skies",
-    "Mechanics": "Solo, Dice Rolling, Puzzle Solving",
+    "Mechanics": [
+      "Solo",
+      "Dice Rolling",
+      "Puzzle Solving"
+    ],
     "Playtime": "20-40 min",
     "Players": {
       "Min": 1,
@@ -1242,7 +1485,10 @@
   },
   {
     "Game": "The Crew: The Quest for Planet Nine",
-    "Mechanics": "Trick-Taking, Cooperative Play",
+    "Mechanics": [
+      "Trick-Taking",
+      "Cooperative Play"
+    ],
     "Playtime": "20-40 min",
     "Players": {
       "Min": 2,
@@ -1259,7 +1505,10 @@
   },
   {
     "Game": "Welcome to the Dungeon",
-    "Mechanics": "Push Your Luck, Hand Management",
+    "Mechanics": [
+      "Push Your Luck",
+      "Hand Management"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -1276,7 +1525,10 @@
   },
   {
     "Game": "Boss Monster",
-    "Mechanics": "Card Drafting, Engine Building",
+    "Mechanics": [
+      "Card Drafting",
+      "Engine Building"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -1293,7 +1545,10 @@
   },
   {
     "Game": "Jaipur",
-    "Mechanics": "Set Collection, Drafting",
+    "Mechanics": [
+      "Set Collection",
+      "Drafting"
+    ],
     "Playtime": "30-45 min",
     "Players": {
       "Min": 2,
@@ -1310,7 +1565,9 @@
   },
   {
     "Game": "Sushi Go!",
-    "Mechanics": "Trick-Taking",
+    "Mechanics": [
+      "Trick-Taking"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -1327,7 +1584,10 @@
   },
   {
     "Game": "Rook",
-    "Mechanics": "Cooperative Play, Limited Communication",
+    "Mechanics": [
+      "Cooperative Play",
+      "Limited Communication"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 2,
@@ -1344,7 +1604,11 @@
   },
   {
     "Game": "Hanabi",
-    "Mechanics": "Set Collection, Hand Management, Push Your Luck",
+    "Mechanics": [
+      "Set Collection",
+      "Hand Management",
+      "Push Your Luck"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -1361,7 +1625,10 @@
   },
   {
     "Game": "Sea Salt & Paper",
-    "Mechanics": "Set Collection, Hand Management",
+    "Mechanics": [
+      "Set Collection",
+      "Hand Management"
+    ],
     "Playtime": "20-30 min",
     "Players": {
       "Min": 2,
@@ -1378,7 +1645,10 @@
   },
   {
     "Game": "Cover Your Assets",
-    "Mechanics": "Set Collection, Push Your Luck",
+    "Mechanics": [
+      "Set Collection",
+      "Push Your Luck"
+    ],
     "Playtime": "15-30 min",
     "Players": {
       "Min": 4,
@@ -1395,7 +1665,10 @@
   },
   {
     "Game": "Port Royal",
-    "Mechanics": "Market, Push Your Luck",
+    "Mechanics": [
+      "Market",
+      "Push Your Luck"
+    ],
     "Playtime": "20-50 min",
     "Players": {
       "Min": 1,
