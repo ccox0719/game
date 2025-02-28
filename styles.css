@@ -8,18 +8,13 @@ body {
     text-align: center;
 }
 
-/* Header - Full Width with Correct Background */
+/* Header */
 header {
     background-color: #58c7c7; /* Cyan-teal header */
     color: #121212; /* Dark text for contrast */
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%; /* Full width */
-    margin: 0;
-    border-radius: 0; /* No rounded corners */
+    text-align: center;
+    width: 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -27,74 +22,93 @@ header {
 .logo {
     width: 60px;
     height: 60px;
-    display: block;
     border-radius: 15px 0 0 0; /* Only top-left corner rounded */
     object-fit: cover;
 }
 
 /* Main Title */
 .main-title {
-    margin: 5px 0 0 0;
-    font-size: 2em; /* Bigger and bold */
+    font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 /* Subtitle */
 .subtitle {
-    font-size: 1.2em; /* Smaller than main title */
-    font-weight: 400;
+    font-size: 1.2em;
     text-transform: uppercase;
-    color: #2b2b2b; /* Darker text for contrast */
-    margin-top: -5px; /* Move closer to main title */
+    color: #2b2b2b;
 }
 
-/* Dropdown */
-#gameSelect {
-    width: 80%;
+/* Filters Container - Stack all elements */
+.filters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adds spacing between elements */
+    margin: 20px auto;
+    width: 90%;
     max-width: 400px;
-    padding: 10px;
+}
+
+/* Styling for input fields & dropdowns */
+input[type="text"], select {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;  /* Reduced padding to match dropdown height */
     font-size: 14px;
-    border: 2px solid #58c7c7; /* Cyan-teal border */
+    height: 38px; /* Set height explicitly to match dropdowns */
+    border: 2px solid #58c7c7;
     border-radius: 5px;
-    outline: none;
-    background-color: #1e1e1e; /* Dark dropdown background */
+    background-color: #1e1e1e;
     color: white;
-    margin: 15px 0;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Game Selection - Stack dropdown and button */
+.game-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Dropdowns */
+select {
+    height: 38px; /* Ensure dropdowns match input height */
+    cursor: pointer;
 }
 
 /* Game Details Box */
-#gameDetails {
-    background: #1e1e1e; /* Dark box */
+.game-details {
+    background: #1e1e1e;
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     text-align: left;
+    line-height: 1.6;
 }
 
 /* Game Guide Section Headings */
 #gameGuide h3 {
-    color: #58c7c7; /* Bright cyan-teal headings */
+    color: #58c7c7;
     border-bottom: 2px solid #58c7c7;
     padding-bottom: 5px;
     margin-top: 15px;
 }
 
-/* Footer */
-footer {
-    margin-top: 30px;
-    background-color: #58c7c7;
-    color: #121212; /* Dark text for contrast */
-    padding: 8px;
-    font-size: 0.9em;
-}
-/* Random Select Button */
-#randomButton {
+/* Buttons */
+button {
     display: block;
-    margin: 15px auto;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px auto;
     padding: 10px 15px;
     font-size: 16px;
     font-weight: bold;
@@ -106,6 +120,15 @@ footer {
     transition: background 0.3s;
 }
 
-#randomButton:hover {
+button:hover {
     background-color: #46a0a0;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background-color: #58c7c7;
+    color: #121212;
+    padding: 8px;
+    font-size: 0.9em;
 }

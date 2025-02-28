@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,36 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Center content on mobile */
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            max-width: 600px;
-        }
-
-        select, button {
-            width: 90%;
-            max-width: 400px;
-        }
-
-        #gameDetails {
-            width: 90%;
-            max-width: 600px;
-        }
-    </style>
 </head>
 <body>
 
@@ -49,16 +19,39 @@
     </header>
 
     <main>
-        <!-- Dropdown to select a game -->
-        <select id="gameSelect" onchange="displaySelectedGame()">
-            <option value="">Select a game...</option>
-        </select>
+        <div class="filters-container">
+            <!-- Search Bar -->
+            <input type="text" id="searchBox" placeholder="🔍 Search for a game...">
 
-        <!-- Random Pick Button -->
-        <button id="randomButton" onclick="pickRandomGame()">🎲 Pick a Random Game</button>
+            <!-- Filters Section -->
+            <div class="filter-group">
+                <label for="playerFilter">Players:</label>
+                <select id="playerFilter">
+                    <option value="">Any</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="complexityFilter">Complexity:</label>
+                <select id="complexityFilter">
+                    <option value="">Any</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Game Selection -->
+        <div class="game-selection">
+            <label for="gameSelect">Choose a Game:</label>
+            <select id="gameSelect" onchange="displaySelectedGame()">
+                <option value="">Select a game...</option>
+            </select>
+
+            <!-- Random Pick Button -->
+            <button id="randomButton" onclick="pickRandomGame()">🎲 Pick a Random Game</button>
+        </div>
 
         <!-- Game details section -->
-        <div id="gameDetails" style="display: none;">
+        <div id="gameDetails" class="game-details" style="display: none;">
             <h2 id="gameTitle"></h2>
             <p><strong>Mechanics:</strong> <span id="gameMechanics"></span></p>
             <p><strong>Playtime:</strong> <span id="gamePlaytime"></span></p>
