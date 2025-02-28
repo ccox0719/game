@@ -10,7 +10,7 @@ async function fetchGames() {
         games = await response.json();
         filteredGames = [...games]; // Ensure filteredGames starts as full list
         populateDropdown(filteredGames);
-        populateFilters(games);
+        populateFilters(games); // ✅ Populate filters AFTER loading games
     } catch (error) {
         console.error("Error fetching game data:", error);
     }
@@ -29,6 +29,52 @@ function populateDropdown(gameList) {
     });
 
     filteredGames = [...gameList]; // Update filtered list for random selection
+}
+
+// ✅ Populate filter dropdowns dynamically
+function populateFilters(gameList) {
+    const playerFilter = document.getElementById("playerFilter");
+    const complexityFilter = document.getElementById("complexityFilter");
+    const mechanicsFilter = document.getElementById("mechanicsFilter");
+
+    let maxPlayers = new Set();
+    let complexities = new Set();
+    let mechanicsSet = new Set();
+
+    gameList.forEach(game => {
+        for (let i = game.Players.Min; i <= Math.min(game.Players.Max, 15); i++) {
+            maxPlayers.add(i);
+        }
+        complexities.add(game.Complexity);
+        game.Mechanics.forEach(mechanic => mechanicsSet.add(mechanic));
+    });
+
+    // ✅ Populate Player Filter
+    playerFilter.innerHTML = `<option value="">Any</option>`; // Reset before filling
+    [...maxPlayers].sort((a, b) => a - b).forEach(count => {
+        const option = document.createElement("option");
+        option.value = count;
+        option.textContent = `${count} Players`;
+        playerFilter.appendChild(option);
+    });
+
+    // ✅ Populate Complexity Filter
+    complexityFilter.innerHTML = `<option value="">Any</option>`; // Reset before filling
+    complexities.forEach(level => {
+        const option = document.createElement("option");
+        option.value = level;
+        option.textContent = level;
+        complexityFilter.appendChild(option);
+    });
+
+    // ✅ Populate Mechanics Filter
+    mechanicsFilter.innerHTML = `<option value="">Any</option>`; // Reset before filling
+    mechanicsSet.forEach(mechanic => {
+        const option = document.createElement("option");
+        option.value = mechanic;
+        option.textContent = mechanic;
+        mechanicsFilter.appendChild(option);
+    });
 }
 
 // ✅ Display selected game details
