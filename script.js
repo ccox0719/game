@@ -1,13 +1,15 @@
 const apiUrl = "https://raw.githubusercontent.com/ccox0719/game/main/boardgames.json";
 
 let games = []; // Store JSON data
+let filteredGames = []; // Store filtered list
 
 // ✅ Fetch latest JSON (prevents caching issues)
 async function fetchGames() {
     try {
         const response = await fetch(apiUrl + "?nocache=" + new Date().getTime()); // Prevents caching
         games = await response.json();
-        populateDropdown(games);
+        filteredGames = [...games]; // Ensure filteredGames starts as full list
+        populateDropdown(filteredGames);
         populateFilters(games);
     } catch (error) {
         console.error("Error fetching game data:", error);
@@ -25,41 +27,9 @@ function populateDropdown(gameList) {
         option.textContent = `${game.Game} (${game.Players.Min}-${game.Players.Max} Players)`;
         dropdown.appendChild(option);
     });
+
+    filteredGames = [...gameList]; // Update filtered list for random selection
 }
-
-// ✅ Populate filter dropdowns dynamically (Limits Players to Max 15)
-function populateFilters(gameList) {
-    const playerFilter = document.getElementById("playerFilter");
-    const complexityFilter = document.getElementById("complexityFilter");
-
-    let maxPlayers = new Set();
-    let complexities = new Set();
-
-    gameList.forEach(game => {
-        for (let i = game.Players.Min; i <= Math.min(game.Players.Max, 15); i++) {
-            maxPlayers.add(i); // Store all valid player numbers up to 15
-        }
-        complexities.add(game.Complexity);
-    });
-
-    // Populate Player Filter (Limited to 1-15)
-    maxPlayers = [...maxPlayers].sort((a, b) => a - b); // Sort numerically
-    maxPlayers.forEach(count => {
-        const option = document.createElement("option");
-        option.value = count;
-        option.textContent = `${count} Players`;
-        playerFilter.appendChild(option);
-    });
-
-    // Populate Complexity Filter
-    complexities.forEach(level => {
-        const option = document.createElement("option");
-        option.value = level;
-        option.textContent = level;
-        complexityFilter.appendChild(option);
-    });
-}
-
 
 // ✅ Display selected game details
 function displaySelectedGame() {
@@ -68,18 +38,23 @@ function displaySelectedGame() {
 
     if (selectedGame) {
         document.getElementById("gameTitle").textContent = selectedGame.Game;
-        document.getElementById("gameMechanics").textContent = selectedGame.Mechanics;
-        document.getElementById("gamePlaytime").textContent = selectedGame.Playtime;
+        document.getElementById("gameMechanics").textContent = selectedGame.Mechanics.join(", ");
+        document.getElementById("gamePlaytime").textContent = `${selectedGame.Playtime.Min}-${selectedGame.Playtime.Max} min`;
         document.getElementById("gamePlayers").textContent = `${selectedGame.Players.Min}-${selectedGame.Players.Max} Players`;
         document.getElementById("gameComplexity").textContent = selectedGame.Complexity;
 
-        // ✅ Display Quick Setup Guide sections
+        // ✅ Ensure Overview and Setup are properly displayed
         document.getElementById("gameGuide").innerHTML = `
-            <h3>Overview</h3><p>${formatText(selectedGame.QuickSetupGuide.Overview)}</p>
-            <h3>Setup</h3><p>${formatText(selectedGame.QuickSetupGuide.Setup)}</p>
-            <h3>Player Setup</h3><p>${formatText(selectedGame.QuickSetupGuide.PlayerSetup)}</p>
-            <h3>Gameplay</h3><p>${formatText(selectedGame.QuickSetupGuide.Gameplay)}</p>
-            <h3>End of Game</h3><p>${formatText(selectedGame.QuickSetupGuide.EndOfGame)}</p>
+            <h3>Overview</h3>
+            <p>${selectedGame.QuickSetupGuide.Overview || "No overview available."}</p>
+            <h3>Setup</h3>
+            <p>${selectedGame.QuickSetupGuide.Setup || "No setup details available."}</p>
+            <h3>Player Setup</h3>
+            <p>${selectedGame.QuickSetupGuide.PlayerSetup || "No player setup details available."}</p>
+            <h3>Gameplay</h3>
+            <p>${selectedGame.QuickSetupGuide.Gameplay || "No gameplay details available."}</p>
+            <h3>End of Game</h3>
+            <p>${selectedGame.QuickSetupGuide.EndOfGame || "No end game details available."}</p>
         `;
 
         document.getElementById("gameDetails").style.display = "block";
@@ -88,43 +63,53 @@ function displaySelectedGame() {
     }
 }
 
-// ✅ Selects a random game from the dropdown
+// ✅ Pick a random game from the filtered list
 function pickRandomGame() {
-    const dropdown = document.getElementById("gameSelect");
-    const options = dropdown.options;
-
-    if (options.length > 1) {
-        let randomIndex = Math.floor(Math.random() * (options.length - 1)) + 1; // Avoids "Select a game..."
-        dropdown.selectedIndex = randomIndex;
-        displaySelectedGame(); // Shows the details of the selected game
+    if (filteredGames.length === 0) {
+        alert("No games available. Adjust your filters!");
+        return;
     }
+
+    let randomIndex = Math.floor(Math.random() * filteredGames.length);
+    let randomGame = filteredGames[randomIndex];
+
+    // ✅ Set dropdown to the selected random game
+    document.getElementById("gameSelect").value = randomGame.Game;
+    
+    // ✅ Trigger game details display
+    displaySelectedGame();
 }
 
-// ✅ Filter games based on search, player count, and complexity
+// ✅ Filter games based on search, players, mechanics, playtime, and complexity
 function filterGames() {
     let searchQuery = document.getElementById("searchBox").value.toLowerCase();
     let selectedPlayers = parseInt(document.getElementById("playerFilter").value, 10);
     let selectedComplexity = document.getElementById("complexityFilter").value;
+    let selectedMechanics = document.getElementById("mechanicsFilter").value;
+    let minPlaytime = parseInt(document.getElementById("playtimeMin").value, 10) || 0;
+    let maxPlaytime = parseInt(document.getElementById("playtimeMax").value, 10) || Infinity;
 
-    let filteredGames = games.filter(game => {
+    filteredGames = games.filter(game => {
         let matchesSearch = searchQuery === "" || game.Game.toLowerCase().includes(searchQuery);
         let matchesPlayers = isNaN(selectedPlayers) || (selectedPlayers >= game.Players.Min && selectedPlayers <= game.Players.Max);
         let matchesComplexity = selectedComplexity === "" || game.Complexity === selectedComplexity;
+        let matchesMechanics = selectedMechanics === "" || game.Mechanics.includes(selectedMechanics);
+        let matchesPlaytime = (game.Playtime.Min >= minPlaytime) && (game.Playtime.Max <= maxPlaytime);
 
-        return matchesSearch && matchesPlayers && matchesComplexity;
+        return matchesSearch && matchesPlayers && matchesComplexity && matchesMechanics && matchesPlaytime;
     });
 
     populateDropdown(filteredGames);
 }
 
-// ✅ Format text for better readability (adds line breaks after ".")
-function formatText(text) {
-    return text.replace(/\.\s/g, ".<br>");
-}
-
-// Event Listeners
+// ✅ Event Listeners for Selection & Filtering
+document.getElementById("gameSelect").addEventListener("change", displaySelectedGame);
+document.getElementById("randomButton").addEventListener("click", pickRandomGame);
 document.getElementById("playerFilter").addEventListener("change", filterGames);
 document.getElementById("complexityFilter").addEventListener("change", filterGames);
+document.getElementById("mechanicsFilter").addEventListener("change", filterGames);
+document.getElementById("playtimeMin").addEventListener("input", filterGames);
+document.getElementById("playtimeMax").addEventListener("input", filterGames);
 document.getElementById("searchBox").addEventListener("input", filterGames);
 
 // Fetch games on page load

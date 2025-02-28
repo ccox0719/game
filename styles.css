@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Body Styling */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -6,89 +6,104 @@ body {
     background-color: #121212; /* Dark mode background */
     color: #ffffff; /* White text for readability */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures everything inside the body is centered */
 }
 
-/* Header */
+/* Header Styling */
 header {
     background-color: #58c7c7; /* Cyan-teal header */
     color: #121212; /* Dark text for contrast */
-    padding: 20px;
     text-align: center;
+    padding: 20px;
     width: 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Logo */
+/* Logo Centering */
 .logo {
     width: 60px;
     height: 60px;
     border-radius: 15px 0 0 0; /* Only top-left corner rounded */
     object-fit: cover;
+    margin-bottom: 10px; /* Adds spacing below the logo */
 }
 
-/* Main Title */
+/* Main Title Centering */
 .main-title {
     font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 5px 0;
 }
 
-/* Subtitle */
+/* Subtitle Centering */
 .subtitle {
     font-size: 1.2em;
     text-transform: uppercase;
+    margin: 5px 0;
     color: #2b2b2b;
 }
 
-/* Filters Container - Stack all elements */
+/* Main Content Wrapper - Ensures Centering */
+main {
+    width: 100%;
+    max-width: 450px; /* Keeps everything aligned and centered */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Filters & Input Section */
 .filters-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Adds spacing between elements */
-    margin: 20px auto;
-    width: 90%;
-    max-width: 400px;
+    gap: 10px;
+    width: 100%;
 }
 
-/* Styling for input fields & dropdowns */
-input[type="text"], select {
+/* Search Bar & Input Styling */
+input[type="text"], select, input[type="number"] {
     width: 100%;
-    max-width: 350px;
-    padding: 8px;  /* Reduced padding to match dropdown height */
-    font-size: 14px;
-    height: 38px; /* Set height explicitly to match dropdowns */
+    padding: 10px;
+    font-size: 16px;
+    height: 42px; /* Consistent height for all inputs */
     border: 2px solid #58c7c7;
     border-radius: 5px;
     background-color: #1e1e1e;
     color: white;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Game Selection - Stack dropdown and button */
+/* Filter Groups - Each Filter Takes Full Width */
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Game Selection Section */
 .game-selection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 400px;
-}
-
-/* Dropdowns */
-select {
-    height: 38px; /* Ensure dropdowns match input height */
-    cursor: pointer;
+    width: 100%;
 }
 
 /* Game Details Box */
 .game-details {
     background: #1e1e1e;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     text-align: left;
@@ -105,11 +120,8 @@ select {
 
 /* Buttons */
 button {
-    display: block;
     width: 100%;
-    max-width: 350px;
-    margin: 10px auto;
-    padding: 10px 15px;
+    padding: 12px;
     font-size: 16px;
     font-weight: bold;
     background-color: #58c7c7;
@@ -131,4 +143,6 @@ footer {
     color: #121212;
     padding: 8px;
     font-size: 0.9em;
+    width: 100%;
+    text-align: center;
 }
