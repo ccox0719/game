@@ -1,13 +1,12 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game Quick Setup</title>
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,56 +18,48 @@
     </header>
 
     <main>
+        <!-- ✅ Moved Most Played & Suggested Game to the Top -->
+        <div id="gameStats">
+            <h3>Most Played Game</h3>
+            <p id="mostPlayedGame">No data yet.</p>
+
+            <h3>Suggested Game</h3>
+            <p id="suggestedGame">No data yet.</p>
+        </div>
+
+        <!-- ✅ Search & Filters -->
         <div class="filters-container">
-            <!-- Search Bar -->
             <input type="text" id="searchBox" placeholder="🔍 Search for a game...">
 
-            <!-- Filters Section -->
-            <div class="filter-group">
-                <label for="playerFilter">Players:</label>
-                <select id="playerFilter">
-                    <option value="">Any</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="complexityFilter">Complexity:</label>
-                <select id="complexityFilter">
-                    <option value="">Any</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="mechanicsFilter">Mechanics:</label>
-                <select id="mechanicsFilter">
-                    <option value="">Any</option>
-                </select>
-            </div>
-
-            <!-- Playtime Filter (Numeric Inputs) -->
-            <div class="filter-group">
-                <label for="playtimeMin">Min Playtime (min):</label>
-                <input type="number" id="playtimeMin" placeholder="Min">
-            </div>
-
-            <div class="filter-group">
-                <label for="playtimeMax">Max Playtime (min):</label>
-                <input type="number" id="playtimeMax" placeholder="Max">
-            </div>
-        </div>
-
-        <!-- Game Selection -->
-        <div class="game-selection">
-            <label for="gameSelect">Choose a Game:</label>
-            <select id="gameSelect" onchange="displaySelectedGame()">
-                <option value="">Select a game...</option>
+            <label for="playerFilter">Players:</label>
+            <select id="playerFilter">
+                <option value="">Any</option>
             </select>
 
-            <!-- Random Pick Button -->
-            <button id="randomButton" onclick="pickRandomGame()">🎲 Pick a Random Game</button>
+            <label for="complexityFilter">Complexity:</label>
+            <select id="complexityFilter">
+                <option value="">Any</option>
+            </select>
+
+            <label for="mechanicsFilter">Mechanics:</label>
+            <select id="mechanicsFilter">
+                <option value="">Any</option>
+            </select>
+
+            <label for="timeFilter">Time (Max Minutes):</label>
+            <input type="number" id="timeFilter" placeholder="Enter max time">
         </div>
 
-        <!-- Game details section -->
+        <!-- ✅ Game Selection -->
+        <div class="game-selection">
+            <label for="gameSelect">Choose a Game:</label>
+            <select id="gameSelect">
+                <option value="">Select a game...</option>
+            </select>
+            <button id="randomButton">🎲 Pick a Random Game</button>
+        </div>
+
+        <!-- ✅ Game Details -->
         <div id="gameDetails" class="game-details" style="display: none;">
             <h2 id="gameTitle"></h2>
             <p><strong>Mechanics:</strong> <span id="gameMechanics"></span></p>
@@ -77,6 +68,13 @@
             <p><strong>Complexity:</strong> <span id="gameComplexity"></span></p>
             <p><strong>Quick Setup Guide:</strong></p>
             <div id="gameGuide"></div>
+        </div>
+
+        <!-- ✅ Recently Played at the Bottom -->
+        <div id="recentGamesSection">
+            <h3>Recently Played</h3>
+            <ul id="recentGamesList"></ul>
+            <button id="clearRecentButton">Clear History</button>
         </div>
     </main>
 
