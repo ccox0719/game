@@ -5,6 +5,10 @@ let filteredGames = [];
 const recentGamesKey = "recentGames";
 const playCountKey = "playCount";
 
+// ✅ Predefined Complexity Order
+const complexityOrder = ["Light", "Light-Med", "Medium", "Medium-Heavy", "Heavy"];
+
+// ✅ Fetch Game Data
 async function fetchGames() {
     try {
         const response = await fetch(apiUrl + "?nocache=" + new Date().getTime());
@@ -12,6 +16,7 @@ async function fetchGames() {
         filteredGames = [...games];
         populateDropdown(filteredGames);
         populateFilters(games);
+        
         displayRecentGames();
         displayMostPlayedGame();
         displaySuggestedGame();
@@ -19,34 +24,61 @@ async function fetchGames() {
         console.error("Error fetching game data:", error);
     }
 }
+// ✅ Display Suggested Game
+function displaySuggestedGame() {
+    const suggestedGameElement = document.getElementById("suggestedGame");
+    let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
+
+    let neverPlayedGames = games.filter(game => !playCount[game.Game]);
+    let leastPlayedGame = null;
+
+    if (neverPlayedGames.length > 0) {
+        // ✅ Randomly select from never-played games
+        leastPlayedGame = neverPlayedGames[Math.floor(Math.random() * neverPlayedGames.length)];
+    } else if (Object.keys(playCount).length > 0) {
+        // ✅ If all games have been played, find the least-played
+        let sortedGames = Object.entries(playCount).sort((a, b) => a[1] - b[1]);
+        leastPlayedGame = games.find(game => game.Game === sortedGames[0][0]);
+    }
+
+    suggestedGameElement.textContent = leastPlayedGame ? leastPlayedGame.Game : "No suggestions available.";
+}
 
 // ✅ Populate Filters
 function populateFilters(gameList) {
     const playerFilter = document.getElementById("playerFilter");
     const complexityFilter = document.getElementById("complexityFilter");
     const mechanicsFilter = document.getElementById("mechanicsFilter");
+    const timeFilter = document.getElementById("timeFilter");
 
     let maxPlayers = new Set();
-    let complexities = new Set();
     let mechanicsSet = new Set();
 
     gameList.forEach(game => {
         for (let i = game.Players.Min; i <= Math.min(game.Players.Max, 15); i++) {
             maxPlayers.add(i);
         }
-        complexities.add(game.Complexity);
         game.Mechanics.forEach(mechanic => mechanicsSet.add(mechanic));
     });
 
-    populateFilterDropdown(playerFilter, maxPlayers, "Players");
-    populateFilterDropdown(complexityFilter, complexities);
-    populateFilterDropdown(mechanicsFilter, mechanicsSet);
+    populateFilterDropdown(playerFilter, [...maxPlayers].sort((a, b) => a - b), "Players");
+    populateFilterDropdown(complexityFilter, complexityOrder, ""); // Sorted Complexity
+    populateFilterDropdown(mechanicsFilter, [...mechanicsSet].sort(), ""); // Alphabetically Sorted Mechanics
+
+    // ✅ Populate Time Dropdown in 15-minute increments (15 to 180 min)
+    timeFilter.innerHTML = `<option value="">Any</option>`;
+    for (let i = 15; i <= 180; i += 15) {
+        const option = document.createElement("option");
+        option.value = i;
+        option.textContent = `${i} min`;
+        timeFilter.appendChild(option);
+    }
 }
 
-// ✅ Helper function to populate dropdowns
-function populateFilterDropdown(filterElement, dataSet, label = "") {
+// ✅ Helper Function to Populate Dropdowns
+function populateFilterDropdown(filterElement, dataArray, label = "") {
     filterElement.innerHTML = `<option value="">Any</option>`;
-    [...dataSet].sort((a, b) => a - b).forEach(value => {
+    dataArray.forEach(value => {
         const option = document.createElement("option");
         option.value = value;
         option.textContent = label ? `${value} ${label}` : value;
@@ -54,7 +86,7 @@ function populateFilterDropdown(filterElement, dataSet, label = "") {
     });
 }
 
-// ✅ Populate game dropdown
+// ✅ Populate Game Dropdown
 function populateDropdown(gameList) {
     const dropdown = document.getElementById("gameSelect");
     dropdown.innerHTML = `<option value="">Select a game...</option>`;
@@ -69,7 +101,7 @@ function populateDropdown(gameList) {
     filteredGames = [...gameList];
 }
 
-// ✅ Pick a random game from the filtered list
+// ✅ Pick a Random Game
 function pickRandomGame() {
     if (filteredGames.length === 0) {
         alert("No games available. Adjust your filters!");
@@ -83,7 +115,7 @@ function pickRandomGame() {
     displaySelectedGame();
 }
 
-// ✅ Display selected game details & track play history
+// ✅ Display Selected Game
 function displaySelectedGame() {
     const selectedGameName = document.getElementById("gameSelect").value;
     const selectedGame = games.find(game => game.Game === selectedGameName);
@@ -115,23 +147,19 @@ function displaySelectedGame() {
     }
 }
 
-// ✅ Track Recently Played Games & Update Play Count
-function trackRecentGame(gameName) {
-    let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
+// ✅ Display Most Played Game
+function displayMostPlayedGame() {
+    const mostPlayedElement = document.getElementById("mostPlayedGame");
     let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
 
-    recentGames = recentGames.filter(game => game !== gameName);
-    recentGames.unshift(gameName);
-    if (recentGames.length > 5) recentGames.pop();
+    if (!Object.keys(playCount).length) {
+        mostPlayedElement.textContent = "No games played yet.";
+        return;
+    }
 
-    playCount[gameName] = (playCount[gameName] || 0) + 1;
+    let mostPlayed = Object.entries(playCount).sort((a, b) => b[1] - a[1])[0];
 
-    localStorage.setItem(recentGamesKey, JSON.stringify(recentGames));
-    localStorage.setItem(playCountKey, JSON.stringify(playCount));
-
-    displayRecentGames();
-    displayMostPlayedGame();
-    displaySuggestedGame();
+    mostPlayedElement.textContent = mostPlayed ? `${mostPlayed[0]} (${mostPlayed[1]} plays)` : "No games played yet.";
 }
 
 // ✅ Display Recently Played Games
@@ -152,50 +180,37 @@ function displayRecentGames() {
     });
 }
 
-// ✅ Display Most Played Game
-function displayMostPlayedGame() {
-    const mostPlayedElement = document.getElementById("mostPlayedGame");
+// ✅ Track Recently Played Games
+function trackRecentGame(gameName) {
+    let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
     let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
 
-    let mostPlayed = Object.entries(playCount).sort((a, b) => b[1] - a[1])[0];
+    recentGames = recentGames.filter(game => game !== gameName);
+    recentGames.unshift(gameName);
+    if (recentGames.length > 5) recentGames.pop();
 
-    mostPlayedElement.innerHTML = mostPlayed ? `${mostPlayed[0]} (${mostPlayed[1]} plays)` : "No games played yet.";
-}
+    playCount[gameName] = (playCount[gameName] || 0) + 1;
 
-// ✅ **Fixing Suggested Game Selection**
-function displaySuggestedGame() {
-    const suggestedGameElement = document.getElementById("suggestedGame");
-    let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
+    localStorage.setItem(recentGamesKey, JSON.stringify(recentGames));
+    localStorage.setItem(playCountKey, JSON.stringify(playCount));
 
-    // ✅ Prioritize games that have never been played
-    let neverPlayedGames = games.filter(game => !playCount[game.Game]);
-
-    let leastPlayedGame;
-    
-    if (neverPlayedGames.length > 0) {
-        // Pick a random game from never played games
-        leastPlayedGame = neverPlayedGames[Math.floor(Math.random() * neverPlayedGames.length)];
+    // ✅ Ensure `displaySuggestedGame()` exists before calling it
+    if (typeof displaySuggestedGame === "function") {
+        displaySuggestedGame();
     } else {
-        // Sort all played games by least played count
-        let sortedGames = Object.entries(playCount).sort((a, b) => a[1] - b[1]);
-
-        // ✅ Find all games with the lowest play count
-        let lowestPlayCount = sortedGames[0][1];
-        let tiedGames = sortedGames.filter(game => game[1] === lowestPlayCount).map(game => game[0]);
-
-        // ✅ Randomly pick one from the tied games
-        let randomIndex = Math.floor(Math.random() * tiedGames.length);
-        leastPlayedGame = games.find(game => game.Game === tiedGames[randomIndex]);
+        console.error("displaySuggestedGame is not defined!");
     }
 
-    // ✅ Ensure a game is selected before displaying
-    suggestedGameElement.textContent = leastPlayedGame ? leastPlayedGame.Game : "No suggestions available.";
+    displayRecentGames();
+    displayMostPlayedGame();
 }
 
-// ✅ Clear Recent Games & Reset Play Counts
+
+// ✅ Clear Recently Played Games
 function clearRecentGames() {
     localStorage.removeItem(recentGamesKey);
     localStorage.removeItem(playCountKey);
+    
     displayRecentGames();
     displayMostPlayedGame();
     displaySuggestedGame();
@@ -206,5 +221,5 @@ document.getElementById("gameSelect").addEventListener("change", displaySelected
 document.getElementById("randomButton").addEventListener("click", pickRandomGame);
 document.getElementById("clearRecentButton").addEventListener("click", clearRecentGames);
 
-// Fetch games on page load
+// ✅ Fetch Games on Page Load
 fetchGames();

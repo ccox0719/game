@@ -18,7 +18,7 @@
     </header>
 
     <main>
-        <!-- ✅ Moved Most Played & Suggested Game to the Top -->
+        <!-- ✅ Most Played & Suggested Game at the Top -->
         <div id="gameStats">
             <h3>Most Played Game</h3>
             <p id="mostPlayedGame">No data yet.</p>
@@ -27,10 +27,8 @@
             <p id="suggestedGame">No data yet.</p>
         </div>
 
-        <!-- ✅ Search & Filters -->
+        <!-- ✅ Filters (Search Box Removed) -->
         <div class="filters-container">
-            <input type="text" id="searchBox" placeholder="🔍 Search for a game...">
-
             <label for="playerFilter">Players:</label>
             <select id="playerFilter">
                 <option value="">Any</option>
@@ -47,7 +45,21 @@
             </select>
 
             <label for="timeFilter">Time (Max Minutes):</label>
-            <input type="number" id="timeFilter" placeholder="Enter max time">
+            <select id="timeFilter">
+                <option value="">Any</option>
+                <option value="15">15 min</option>
+                <option value="30">30 min</option>
+                <option value="45">45 min</option>
+                <option value="60">60 min</option>
+                <option value="75">75 min</option>
+                <option value="90">90 min</option>
+                <option value="105">105 min</option>
+                <option value="120">120 min</option>
+                <option value="135">135 min</option>
+                <option value="150">150 min</option>
+                <option value="165">165 min</option>
+                <option value="180">180 min</option>
+            </select>
         </div>
 
         <!-- ✅ Game Selection -->
