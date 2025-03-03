@@ -13,7 +13,7 @@
     ],
     "Playtime": {
       "Min": 30,
-      "Max": 45
+      "Max": 40
     },
     "Players": {
       "Min": 3,
@@ -48,7 +48,7 @@
       "Min": 2,
       "Max": 2
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A two-player version of 7 Wonders, where players compete to build a civilization with a limited number of cards.",
       "Setup": "**Game Board**: Place the game board between both players, positioning the Conflict pawn on the center space of the military track. Randomly place five Progress tokens face-up on the designated spaces atop the board.\\n\\n**Wonder Cards**: Shuffle the 12 Wonder cards and reveal four of them. The first player selects one Wonder, the second player chooses two, and the first player takes the remaining one. Repeat this process with another set of four Wonders, starting with the second player. Each player will have four Wonders in total.\\n\\n**Age Cards**: Separate the Age I, II, and III cards. Remove three random cards from both the Age I and Age II decks without revealing them. Shuffle the Guild cards and add three randomly to the Age III deck. Return the unused Guild cards to the box.\\n\\n**Card Layout**: For Age I, arrange the cards in a specific face-up and face-down pattern as shown in the rulebook. This formation dictates which cards are accessible based on their exposure.\\n\\n**Coins**: Each player starts with 7 coins from the bank.\\n\\n**Military Tokens**: Place the appropriate Military tokens on the board's designated spaces.\r",
@@ -78,7 +78,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Heavy",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A miniatures-based game where players take on the role of guilds battling monsters to complete quests.",
       "Setup": "**Guild Selection**: Each player chooses a Guild color (Orange, Blue, Red, or Green) and takes the corresponding Guild dashboard and tokens.\\n\\n**Hero Drafting**: Players select 3 Heroes for their Guilds. Place the chosen Hero cards on the Guild dashboard and attach matching colored bases to their figures.\\n\\n**Starting Equipment**: Distribute 5 starter Upgrade cards to each player: Rusty Blade, Parrying Blade, Slingshot, Life Drain, and Nova Bolt. Players assign these cards to their Heroes, ensuring each Hero has up to 4 cards.\\n\\n**Scenario Selection**: Refer to the Campaign Book to choose the starting scenario. For first-time players, it's recommended to begin with the \"District of Hammers\" scenario.\\n\\n**Board Setup**: Arrange the game tiles as depicted in the chosen scenario's map, place door tokens, spawn tokens, portals, monsters, and quest tokens as specified.\\n\\n**Determine First Player**: Randomly select a player to take the first turn.\\n",
@@ -136,7 +136,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Light",
     "QuickSetupGuide": {
       "Overview": "A tile-laying game where players take turns drafting tiles to decorate their palace while trying to score the most points.",
       "Setup": "**Player Boards**: Each player receives a board and places a scoring marker on the \"0\" space.\\n**Factory Displays**: Depending on the number of players, set up Factory displays:\\n   - 2 players: 5 factories\\n   - 3 players: 7 factories\\n   - 4 players: 9 factories\\n**Tile Bag**: Fill the bag with 100 tiles (20 of each color).\\n**Starting Player**: The player who most recently visited Portugal takes the starting player marker and fills each Factory display with 4 random tiles from the bag.",
@@ -163,7 +163,7 @@
       "Min": 2,
       "Max": 6
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A deck-building game where players run shops selling gear to adventurers, aiming to become the most successful business.",
       "Setup": "**Setup the Market**:\\n   - Shuffle the Item deck and place it face down to form the Item Shop.\\n   - Reveal the top 4 Item cards to create the Market.\\n\\n**Prepare Hero and Monster Decks**:\\n   - Separate Hero cards by level (I, II, III), shuffle each level, and stack them with Level I on top.\\n   - Shuffle the Monster cards and place them face down.\\n\\n**Distribute Player Materials**:\\n   - Each player receives a Shop Board, a random Showcase Tile, and 100 Gold.\\n   - Shuffle the Employee cards and deal 3 to each player; players choose 1 to keep and discard the rest.\\n\\n**Determine Starting Player**:\\n   - The player who most recently visited a shop becomes the starting player and receives the Starting Player token.\r",
@@ -189,7 +189,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A card game where players collect and trade valuable scrolls to earn the most points in a monastery.",
       "Setup": "**Scriptorium Setup**: Place the Scriptorium board in the center and set one die on each category (Pigments, Monks, Holy Books, Manuscripts, Forbidden Tomes) with the value \"3\" facing up.\\n\\n**Card Preparation**: Depending on the number of players, remove specific cards from the deck:\\n   - 2 players: Remove 6 Gold cards (two of each value) and 21 random cards.\\n   - 3 players: Remove 3 Gold cards (one of each value) and 12 random cards.\\n   - 4 players: Remove 7 random cards.\\n\\n   Shuffle the remaining cards to form the draw pile.\\n\\n**Determine Starting Player**: Choose a starting player by any agreed method (e.g., the oldest player).\\n",
@@ -211,14 +211,14 @@
       "Tableau Building"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A card game where players take on the role of villains building dungeons to lure heroes and defeat them for points.",
       "Setup": "**Hero Deck Preparation**: Depending on the number of players, prepare the Hero deck:\\n   - 2 players: 13 Ordinary Heroes, 8 Epic Heroes\\n   - 3 players: 17 Ordinary Heroes, 12 Epic Heroes\\n   - 4 players: 25 Ordinary Heroes, 16 Epic Heroes\\n   Remove Hero cards that are not suitable for the player count, as indicated by the player icons on the cards.\\n\\n**Deck Setup**: Shuffle the Room deck and Spell deck separately. Place them face down within reach of all players.\\n\\n**Boss Selection**: Shuffle the Boss cards and deal one to each player. Players reveal their Boss cards simultaneously and place them face up in their play area. The Boss card determines the player's XP (which influences turn order) and provides a unique Level Up ability.\\n\\n**Initial Draw**: Each player draws a starting hand of 5 Room cards and 2 Spell cards. After reviewing their hand, each player discards any 2 cards, leaving them with a hand of 5 cards.\\n\\n**First Room Construction**: Before the first turn begins, each player may build one Room:\\n   - Choose a Room card from your hand and place it face down to the left of your Boss card.\\n   - Once all players have placed their Room cards, reveal them simultaneously.\\n   - Resolve any \"When you build this Room\" effects in XP order, starting with the highest.\\n\\n**Hero Placement**: Draw Heroes from the Hero deck equal to the number of players and place them face up in the \"Town\" area. These Heroes are awaiting luring into dungeons.\\n\\n**Determine Turn Order**: The player with the highest XP on their Boss card goes first, followed by the next highest, and so on. This order remains consistent throughout the game.\r",
@@ -236,12 +236,12 @@
       "Speed"
     ],
     "Playtime": {
-      "Min": 10,
-      "Max": 20
+      "Min": 15,
+      "Max": 30
     },
     "Players": {
       "Min": 2,
-      "Max": 4
+      "Max": 8
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -270,7 +270,7 @@
       "Min": 1,
       "Max": 100
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A flip-and-write game where players draw maps, fulfilling specific goals while competing to score the highest points.",
       "Setup": "**Map Sheets**: Each player receives a blank map sheet. Decide collectively whether to use side A (wilderness) or side B (wastelands).\\n\\n**Writing Tools**: Provide each player with a pencil.\\n\\n**Edict Cards**: Arrange the four edict cards (A, B, C, D) face up in the center in alphabetical order.\\n\\n**Scoring Cards**: Separate the scoring cards into four stacks by their backs. Shuffle each stack and draw one card from each, placing it face up under the corresponding edict card. Return unused scoring cards to the box.\\n\\n**Season Cards**: Stack the four season cards face up in order: spring on top, followed by summer, fall, and winter.\\n\\n**Ambush Cards**: Shuffle the ambush cards into a face-down deck.\\n\\n**Explore Deck**: Shuffle the explore cards into a face-down deck. Add one randomly drawn ambush card to this deck and shuffle again.\\n\\n**Starting the Game**: Place the explore deck next to the season cards. The game is now ready to begin.",
@@ -319,9 +319,9 @@
     },
     "Players": {
       "Min": 3,
-      "Max": 4
+      "Max": 6
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A classic board game about resource gathering and trading, where players build settlements and roads to expand their influence.",
       "Setup": "**Board Assembly**: Arrange the hexagonal terrain tiles to form the island of Catan. For beginners, use the fixed layout provided in the rulebook; experienced players can opt for a random setup.\\n\\n**Number Tokens**: Place numbered tokens on each terrain hex, excluding the desert. These numbers determine which dice rolls produce resources for the adjacent settlements.\\n\\n**Robber Placement**: Position the robber token on the desert hex.\\n\\n**Resource and Development Cards**: Sort the resource cards into five stacks (brick, lumber, wool, grain, and ore) and place them face up beside the board. Shuffle the development cards and place them face down nearby.\\n\\n**Player Pieces**: Each player selects a color and takes:\\n   - 5 settlements\\n   - 4 cities\\n   - 15 roads\\n   - 1 building costs card\\n\\n**Determine Starting Player**: Each player rolls both dice; the highest roller goes first.\\n",
@@ -340,12 +340,12 @@
       "Deduction"
     ],
     "Playtime": {
-      "Min": 15,
-      "Max": 30
+      "Min": 10,
+      "Max": 20
     },
     "Players": {
       "Min": 4,
-      "Max": 99
+      "Max": 20
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -373,7 +373,7 @@
       "Min": 2,
       "Max": 5
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "Golem Edition: A resource management game where players trade and collect gems to earn victory points.",
       "Setup": "**Setup Point Cards**: Shuffle the point cards (Golem back) to form a deck. Draw five cards and place them face-up in a row.\\n\\n**Place Bonus Tokens**: Above the leftmost point card, place a number of copper tokens equal to twice the number of players. Above the second point card, place silver tokens in the same quantity.\\n\\n**Prepare Merchant Deck**: Separate the 10 starting merchant cards (purple-bordered) and distribute one 'Create 2' and one 'Upgrade 2' card to each player as their starting hand. Shuffle the remaining merchant cards to form a deck and draw six cards, placing them face-up in a row.\\n\\n**Set Up Crystals**: Arrange the crystals by color (yellow, green, turquoise, magenta) into their respective bowls.\\n\\n**Distribute Caravans**: Each player receives a caravan card. Determine the first player randomly; they receive three yellow crystals. Subsequent players receive crystals as follows:\\n   - Second player: four yellow crystals\\n   - Third player: four yellow crystals\\n   - Fourth player: three yellow and one green crystal\\n   - Fifth player: three yellow and one green crystal\r",
@@ -425,7 +425,7 @@
     },
     "Players": {
       "Min": 2,
-      "Max": 8
+      "Max": 20
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -446,8 +446,8 @@
       "Card Play"
     ],
     "Playtime": {
-      "Min": 45,
-      "Max": 60
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
@@ -475,7 +475,7 @@
       "Max": 30
     },
     "Players": {
-      "Min": 4,
+      "Min": 2,
       "Max": 6
     },
     "Complexity": "Light",
@@ -502,7 +502,7 @@
     },
     "Players": {
       "Min": 3,
-      "Max": 6
+      "Max": 12
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -548,10 +548,10 @@
     ],
     "Playtime": {
       "Min": 20,
-      "Max": 30
+      "Max": 40
     },
     "Players": {
-      "Min": 2,
+      "Min": 1,
       "Max": 4
     },
     "Complexity": "Light",
@@ -580,7 +580,7 @@
       "Min": 1,
       "Max": 4
     },
-    "Complexity": "Heavy",
+    "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "Imperium: A strategy game that combines deck-building with worker placement, set in the Dune universe where players vie for control of the planet Arrakis.",
       "Setup": "**Game Board and Components**:\\n   - Place the game board centrally.\\n   - Shuffle the Intrigue and Imperium decks separately; place them face down on their designated spots.\\n   - Arrange the Spice tokens, Solari tokens, and Water tokens as general supplies.\\n   - Shuffle the Conflict cards and place them face down on the Conflict deck space.\\n\\n**Faction and Leader Selection**:\\n   - Each player selects a House and its corresponding leader, taking the associated leader card and components.\\n\\n**Player Components**:\\n   - Each player receives:\\n     - 1 player board.\\n     - 2 Agent tokens (place a third Agent, the Swordmaster, near the Mentat board space).\\n     - 1 Alliance token for each of the four factions.\\n     - 1 Combat marker.\\n     - 1 set of 10 starting cards (shuffle to form a personal draw deck).\\n     - 3 Control markers.\\n     - 4 discs (place one on the score track, one on the water track, and two on the persuasion track).\\n\\n**Setup Specifics**:\\n   - Place the Mentat token on its designated board space.\\n   - Position the appropriate number of spice tokens on spaces indicated by the game board.\\n   - Reveal the top card of the Conflict deck to determine the first round's conflict.\\n   - Randomly determine the first player, who receives the First Player marker.\r",
@@ -598,7 +598,7 @@
       "Push Your Luck"
     ],
     "Playtime": {
-      "Min": 45,
+      "Min": 30,
       "Max": 60
     },
     "Players": {
@@ -628,7 +628,7 @@
     },
     "Players": {
       "Min": 2,
-      "Max": 4
+      "Max": 8
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -649,7 +649,7 @@
     ],
     "Playtime": {
       "Min": 10,
-      "Max": 15
+      "Max": 30
     },
     "Players": {
       "Min": 2,
@@ -681,7 +681,7 @@
       "Min": 1,
       "Max": 5
     },
-    "Complexity": "Medium-Heavy",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A strategy game where players build ecosystems, placing tiles and developing synergies to score points.",
       "Setup": "Prepare the Main Board:\\n\\nPlace the Fauna Board in the center.\\n\\nShuffle and place Fauna Cards face-up on the board.\\n\\nShuffle Ecosystem Cards and place one face-up per player.\\n\\nShuffle Island and Climate Cards, then deal one of each per player.\\n\\nPrepare the Decks:\\n\\nShuffle Earth Cards (green deck) and place them as a draw pile.\\n\\nPlace Soil, Sprout, Trunk, and Growth tokens in general supply.",
@@ -732,7 +732,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A competitive card game where players work to extinguish wildfires while attempting to sabotage their opponents.",
       "Setup": "**Board Placement**: Lay the game board flat, ensuring all players have clear access. Each player selects a tower in one of the board's corners to defend.\\n\\n**Component Organization**:\\n   - **Fire Gems**: Place the orange fire gems in a communal pile accessible to all.\\n   - **Firebreak Tokens**: Place the purple firebreak tokens in a separate communal pile.\\n\\n**Weathervane Setup**: Position the weathervane next to the board, aligning its compass directions (N, E, S, W) with those on the board.\\n\\n**Bucket Cards**: Each player receives one Bucket/Reckless Abandon card, placing it bucket-side up in front of them.\\n\\n**Event Cards Removal**: Remove the \"Firestorm\" and \"Mutual Aid\" event cards from the action deck. Shuffle the remaining action cards thoroughly.\\n\\n**Card Distribution**: Deal five action cards to each player. Players may look at their own cards but should keep them hidden from opponents.\\n\\n**Firestorm Card Placement**: After dealing, shuffle the \"Firestorm\" card back into the action deck and place the deck face down as the draw pile.\\n\\n**Wind Direction Determination**: Roll the wind die to establish the initial wind direction. Place the wooden flame marker on the corresponding direction on the weathervane.\\n\\n**Starting Player**: The player whose tower is closest to the initial wind direction takes the first turn. If multiple towers are equidistant, the player with the wind direction to their left goes first.",
@@ -757,7 +757,7 @@
       "Min": 2,
       "Max": 6
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A card game with changing rules, where players try to fulfill changing win conditions by playing cards that alter the game.",
       "Setup": "**Setup the Game**:\\n   - Place the Basic Rules card in the center of the table.\\n   - Shuffle the deck thoroughly.\\n   - Deal three cards to each player.\\n   - Place the remaining deck face down as the draw pile within everyone's reach.\\n\\n**Determine First Player**:\\n   - The dealer goes first, or choose a player at random.",
@@ -780,8 +780,8 @@
       "Max": 45
     },
     "Players": {
-      "Min": 2,
-      "Max": 4
+      "Min": 1,
+      "Max": 6
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -806,8 +806,8 @@
       "Cooperative Play"
     ],
     "Playtime": {
-      "Min": 120,
-      "Max": 240
+      "Min": 60,
+      "Max": 120
     },
     "Players": {
       "Min": 1,
@@ -836,7 +836,7 @@
       "Cooperative Play"
     ],
     "Playtime": {
-      "Min": 90,
+      "Min": 60,
       "Max": 120
     },
     "Players": {
@@ -861,12 +861,12 @@
       "Solo Play"
     ],
     "Playtime": {
-      "Min": 10,
+      "Min": 15,
       "Max": 30
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 2,
+      "Max": 5
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -887,14 +887,14 @@
       "Push Your Luck"
     ],
     "Playtime": {
-      "Min": 20,
+      "Min": 25,
       "Max": 30
     },
     "Players": {
       "Min": 2,
       "Max": 5
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A cooperative card game where players try to create a beautiful firework display by playing cards in the correct order.",
       "Setup": "**Prepare the Game Components**:\\n   - **Information Tokens**: Place 8 blue tokens (representing clues) in a central area accessible to all players.\\n   - **Fuse Tokens**: Arrange 3 red tokens (representing mistakes) nearby.\\n   - **Deck Setup**: Shuffle the 50-card deck, which consists of five colors (white, yellow, green, blue, and red), each containing cards numbered 1 through 5 in specific distributions: three 1s, two 2s, two 3s, two 4s, and one **Deal Cards to Players**:\\n   - For 2 or 3 players: Deal 5 cards to each player.\\n   - For 4 or 5 players: Deal 4 cards to each player.\\n\\n   **Important**: Players must hold their cards facing outward, so they cannot see their own cards but can see the cards of their teammates.\\n\\n**Game Area Setup**:\\n   - Designate space on the table for five potential piles (one for each color) where cards will be played in ascending order to build the fireworks.\\n   - Reserve an area for a discard pile where players will place discarded cards.\r",
@@ -913,13 +913,13 @@
     ],
     "Playtime": {
       "Min": 30,
-      "Max": 45
+      "Max": 60
     },
     "Players": {
       "Min": 2,
-      "Max": 6
+      "Max": 2
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A lighthearted, fantasy-themed card game where players build a party of heroes and try to slay monsters.",
       "Setup": "**Separate Decks**: Divide the cards into their respective types: Party Leader cards, Monster cards, and the main deck (comprising Hero, Item, Magic, Modifier, and Challenge cards).\\n\\n**Choose Party Leaders**: Each player selects a Party Leader card to represent them. To determine the selection order, players can roll dice or choose another random method. Once chosen, place any unselected Party Leader cards back in the box.\\n\\n**Distribute Reference Cards**: Provide each player with a rules reference card for guidance during gameplay.\\n\\n**Prepare the Main Deck**: Shuffle the main deck thoroughly and deal five cards to each player. Place the remaining cards face down in the center of the table to form the draw pile, leaving space beside it for a discard pile.\\n\\n**Set Up Monster Cards**: Shuffle the Monster cards and reveal the top three, placing them face up in the center of the table. The remaining Monster cards form a face-down Monster deck.\\n\\n**Establish Player Areas**: Each player places their chosen Party Leader card face up in front of them, designating their Party area where Heroes and Items will be played.\r",
@@ -944,7 +944,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A deck-building game where players create powerful combos and battle opponents with various heroes.",
       "Setup": "**Health Tracking**: Each player sets their starting health to **Starting Deck**: Each player shuffles a personal deck containing:\\n   - 7 Gold cards\\n   - 1 Shortsword card\\n   - 1 Dagger card\\n   - 1 Ruby card\\n\\n**Market Setup**: Shuffle the Market Deck and reveal the top five cards, placing them face-up in the center as the Market Row. Place the Fire Gem cards in a pile accessible to all players.\\n\\n**Determine First Player**: Randomly select a starting player. The first player draws a three-card hand; the second player draws four cards; all other players draw five cards.\\n",
@@ -967,9 +967,9 @@
     },
     "Players": {
       "Min": 2,
-      "Max": 2
+      "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A fast-paced two-player card game where players are merchants competing to earn the most profit by buying and selling goods.",
       "Setup": "**Market Setup**: Place 3 camel cards face up between the players to form the starting market.\\n**Deck Preparation**: Shuffle the remaining cards and deal 5 to each player. These are the players' starting hands.\\n**Market Completion**: Draw 2 additional cards from the deck and place them face up next to the camel cards, completing the 5-card market.\\n**Player Herds**: Players reveal any camel cards from their hands and place them face up in front of them; this forms their herd.\\n**Token Arrangement**: Sort the goods tokens by type and arrange each stack in descending order of value. Shuffle the bonus tokens separately by type and place them in three face-down piles. Position the camel token and the three Seals of Excellence within reach.\\n**Starting Player**: Determine the first player by mutual agreement or random choice.\\n",
@@ -988,13 +988,13 @@
     ],
     "Playtime": {
       "Min": 20,
-      "Max": 40
+      "Max": 30
     },
     "Players": {
-      "Min": 1,
+      "Min": 2,
       "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A tile-laying game where players gather fruit and manage an island to earn points.",
       "Setup": "**Island Boards**: Each player receives an island board, placing it in front of them.\\n\\n**Fruit Tokens**: Place the fruit tokens (bananas, limes, oranges, pomegranates, and mangosteens) in a general supply accessible to all players.\\n\\n**Ship Tokens**: Randomly draw and place ship tokens on the designated dock spaces around each player's island.\\n\\n**Business Board**: Set up the central business board with available business tiles and the license track.\\n\\n**Juice Factory (Optional Advanced Variant)**: If playing with the juice factory, place the juice factory board nearby, along with the corresponding components.\r",
@@ -1013,7 +1013,7 @@
       "Spatial Puzzle"
     ],
     "Playtime": {
-      "Min": 15,
+      "Min": 20,
       "Max": 30
     },
     "Players": {
@@ -1038,11 +1038,11 @@
       "Route Building"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 60,
+      "Max": 90
     },
     "Players": {
-      "Min": 1,
+      "Min": 3,
       "Max": 4
     },
     "Complexity": "Light",
@@ -1065,12 +1065,12 @@
       "4X"
     ],
     "Playtime": {
-      "Min": 60,
+      "Min": 45,
       "Max": 90
     },
     "Players": {
-      "Min": 2,
-      "Max": 8
+      "Min": 1,
+      "Max": 5
     },
     "Complexity": "Medium",
     "QuickSetupGuide": {
@@ -1091,13 +1091,13 @@
     ],
     "Playtime": {
       "Min": 30,
-      "Max": 60
+      "Max": 45
     },
     "Players": {
       "Min": 1,
-      "Max": 5
+      "Max": 2
     },
-    "Complexity": "Heavy",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A Marvel Deck Building Game: A cooperative deck-building game where players recruit Marvel heroes to fight villains and save the world.",
       "Setup": "**Select Mastermind and Scheme**: Choose a Mastermind villain and a Scheme they are attempting to execute. Place the Mastermind card and its associated Master Strikes in their designated area.\\n\\n**Assemble Villain Deck**: Based on the chosen Scheme, gather the required Villain groups, Henchmen groups, Scheme Twists, and Bystanders. Shuffle these cards together to form the Villain Deck.\\n\\n**Prepare Hero Deck**: Select heroes as dictated by the number of players (typically five heroes for a standard game). Shuffle all chosen Hero cards to create the Hero Deck.\\n\\n**Set Up the Board**: Place the S.H.I.E.L.D. Officer Stack, Wound Stack, and Bystander Stack in their respective spaces on the board. Draw five Hero cards from the Hero Deck and place them face-up in the HQ spaces.\\n\\n**Player Starting Decks**: Each player receives a starting deck of 8 S.H.I.E.L.D. Agent cards and 4 S.H.I.E.L.D. Trooper cards. Shuffle your deck and draw six cards to form your starting hand.\\n\\n**Determine Starting Player**: Choose a player to go first. Turns will proceed clockwise from the starting player.\\n",
@@ -1115,14 +1115,14 @@
       "Two-Player Game"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 30,
+      "Max": 60
     },
     "Players": {
-      "Min": 2,
-      "Max": 2
+      "Min": 1,
+      "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A two-player card game where players embark on expeditions to score points by playing cards in sequence.",
       "Setup": "**Game Board Setup**:\\n   - Place the game board between both players. It features five colored spaces corresponding to the five expeditions and areas for discard piles.\\n\\n**Card Preparation**:\\n   - Shuffle the 60-card deck, comprising:\\n     - 45 Expedition cards (values 2?10 in five colors).\\n     - 15 Wager cards (three per color).\\n   - Deal eight cards face down to each player.\\n   - Place the remaining deck face down as the draw pile beside the board.\\n\\n**Discard Piles**:\\n   - Ensure space is available for five separate discard piles, one for each color.",
@@ -1142,12 +1142,12 @@
       "Tableau Building"
     ],
     "Playtime": {
-      "Min": 60,
-      "Max": 90
+      "Min": 120,
+      "Max": 180
     },
     "Players": {
       "Min": 1,
-      "Max": 4
+      "Max": 6
     },
     "Complexity": "Medium",
     "QuickSetupGuide": {
@@ -1170,14 +1170,14 @@
       "Cooperative Play"
     ],
     "Playtime": {
-      "Min": 90,
-      "Max": 120
+      "Min": 20,
+      "Max": 30
     },
     "Players": {
-      "Min": 1,
-      "Max": 6
+      "Min": 2,
+      "Max": 5
     },
-    "Complexity": "Heavy",
+    "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "A dungeon crawler where players take on the role of heroes exploring dark environments to defeat enemies and gain loot.",
       "Setup": "**Select Quest**: Choose a quest from the quest book and set up the game tiles as indicated.\\n\\n**Prepare Hero Dashboards**: Each player selects a hero and takes the corresponding dashboard, miniature, and class components. Attach the colored base to the hero miniature and place the level token in the level slot on the dashboard, starting at level **Distribute Starting Equipment**: Lay out the starting equipment cards. Each hero selects one starting weapon, one starting armor, and one potion (health or mana) and places them in the appropriate slots on their dashboard.\\n\\n**Set Up Lifebringer Tokens**: Place two Lifebringer tokens face-up within reach of all players.\\n\\n**Arrange Game Components**: Shuffle the Door, Mob, Roaming Monster, and Treasure decks separately. Place the Darkness track and marker nearby. Position all monster miniatures, tokens, and dice within easy reach.\\n\\n**Spawn Initial Mobs**: For each white spawn point on the game tiles, draw a card from the Level 1?2 Mob deck and place the corresponding miniatures (one leader and a number of minions equal to the number of heroes) on the spawn point. Equip each mob with a Level 1?2 monster item by drawing from the appropriate deck.\\n\\n**Position Heroes**: Place all hero miniatures in the designated starting zone as specified by the quest.\\n\\n**Prepare Treasure Bag**: Place the specified number of Common, Rare, and Epic Treasure tokens into the Treasure bag as directed by the quest setup.\r",
@@ -1195,14 +1195,14 @@
       "Engine Building"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 15,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
-      "Max": 5
+      "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A push-your-luck game where players explore dungeons, earn treasure, and decide when to push their luck for more rewards.",
       "Setup": "**Arrange Building Cards**:\\n   - Place all six types of star building cards in a row at the center of the play area, each type in its own pile, face up.\\n   - Choose seven types of normal building cards and place them below the star buildings in separate face-up piles. For the first game, ensure a variety of costs (1-5) are included.\\n\\n**Prepare Level and Treasure Decks**:\\n   - Shuffle the level cards and place them face down next to the level tile.\\n   - Shuffle the treasure cards and place them face down within reach.\\n\\n**Set Up Supply**:\\n   - Place heart tokens, jump tokens, and coin tokens in a designated supply area.\\n   - Position the heart cost card nearby to reference during gameplay.\\n\\n**Distribute Player Materials**:\\n   - Each player selects a character token and receives a corresponding player card.\\n   - Provide each player with four heart tokens, placing them on the \"heart\" side of their player card.\\n\\n**Determine First Player**:\\n   - The player who most recently played a video game receives the first-player token and will start the game.",
@@ -1220,14 +1220,14 @@
       "Cooperative Play"
     ],
     "Playtime": {
-      "Min": 15,
+      "Min": 30,
       "Max": 45
     },
     "Players": {
-      "Min": 1,
+      "Min": 2,
       "Max": 4
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A cooperative crime-solving game where players search for clues on a city map to solve different mysteries.",
       "Setup": "**Prepare the Map**: Unfold the city map and place it on a large, well-lit surface accessible to all players. Ensure the entire map is visible, and consider playing on a table, floor, or even hanging the map on a wall.\\n\\n**Organize Case Cards**: The game includes 16 distinct cases, each comprising a deck of case cards marked with a unique icon and card number. Sort these cards into their respective envelopes in numerical order.\\n\\n**Magnifying Glass**: Affix the provided sticker to the magnifying glass and keep it handy for examining small details on the map.\\n\\n**Player Arrangement**: Position all players so they have a clear view of the map and can move around it freely to observe from different angles.\r",
@@ -1245,14 +1245,14 @@
       "Grid Movement"
     ],
     "Playtime": {
-      "Min": 30,
-      "Max": 45
+      "Min": 40,
+      "Max": 75
     },
     "Players": {
       "Min": 2,
-      "Max": 4
+      "Max": 6
     },
-    "Complexity": "Light",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A legacy-style city-building game where players develop their cities over time, changing the rules and elements as they go.",
       "Setup": "**Game Board and Components**:\\n   - Each player receives:\\n     - 1 personal game board with a unique animal symbol.\\n     - A set of 24 building tiles corresponding to their game board's symbol, comprising:\\n       - 8 yellow residential buildings\\n       - 8 red public buildings\\n       - 8 blue industrial buildings\\n     - 1 scoring token, placed on the number 10 of the scoring track.\\n\\n**Construction Cards**:\\n   - Shuffle the 24 construction cards and place them face down in the center. These cards dictate the order in which buildings are placed during the game.\\n\\n**Chapter Envelopes**:\\n   - The game includes 8 sealed envelopes, each containing new rules and components for three episodes. Open only the envelope corresponding to the current chapter being played.\\n",
@@ -1270,12 +1270,12 @@
       "Tableau Building"
     ],
     "Playtime": {
-      "Min": 45,
-      "Max": 60
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
-      "Max": 4
+      "Max": 8
     },
     "Complexity": "Medium",
     "QuickSetupGuide": {
@@ -1296,14 +1296,14 @@
       "Pattern Recognition"
     ],
     "Playtime": {
-      "Min": 45,
-      "Max": 60
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
-      "Min": 2,
-      "Max": 8
+      "Min": 1,
+      "Max": 2
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A cooperative deduction game where players work together to escape from a magical library while one player secretly tries to sabotage them.",
       "Setup": "**Game Board Setup**:\\n   - Place the Library board at the center of the table.\\n   - Position the Progress marker on the first space of the Progress track.\\n\\n**Role Assignment**:\\n   - Select one player as the Grimoire; they will provide clues and manage the game components.\\n   - The Grimoire takes the Grimoire book, magnetic desk board, two Butterfly tokens, the hourglass, and the deck of Door cards.\\n   - The remaining players are Wizards. Prepare role cards by including one Traitor card and Loyal Wizard cards to match the number of Wizards. Shuffle and deal one to each Wizard player secretly.\\n\\n**Player Components**:\\n   - Each Wizard selects a Character card and the corresponding colored token.\\n   - Place all Wizard tokens in the center of the Library board.\\n\\n**Cohesion Tokens**:\\n   - Determine the number of Cohesion tokens based on the desired difficulty:\\n     - Easy: 12 tokens\\n     - Medium: 10 tokens\\n     - Hard: 8 tokens\\n   - Place the tokens on the designated area of the Library board.\\n\\n**Trap Tokens**:\\n   - Place all 14 Trap tokens into the bag and mix them.\\n\\n**Grimoire Preparation**:\\n   - The Grimoire shuffles the Door deck and places eight cards into the Grimoire book, ensuring only they can see them.",
@@ -1323,7 +1323,7 @@
     ],
     "Playtime": {
       "Min": 30,
-      "Max": 45
+      "Max": 60
     },
     "Players": {
       "Min": 1,
@@ -1349,7 +1349,7 @@
     ],
     "Playtime": {
       "Min": 45,
-      "Max": 90
+      "Max": 60
     },
     "Players": {
       "Min": 2,
@@ -1398,14 +1398,14 @@
       "Market Manipulation"
     ],
     "Playtime": {
-      "Min": 30,
-      "Max": 45
+      "Min": 20,
+      "Max": 40
     },
     "Players": {
       "Min": 1,
       "Max": 5
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A push-your-luck card game where players explore the Caribbean, recruit crew, and loot ships for profit.",
       "Setup": "**Preparation**:\\n   - If playing with fewer than 5 players, remove the special Expedition card (identifiable by the absence of a coin on its back) and return it to the box. In a 5-player game, place this card in the center of the table.\\n   - Shuffle the remaining cards to form a face-down draw pile. Leave space for a discard pile.\\n\\n**Starting Coins**:\\n   - Each player receives 3 coins. To represent this, deal 3 cards face-down from the draw pile to each player; the back of each card depicts a coin. Players should not look at the front of these cards.\\n\\n**Player Order**:\\n   - The player who most recently visited a harbor becomes the starting player.",
@@ -1424,7 +1424,7 @@
     ],
     "Playtime": {
       "Min": 30,
-      "Max": 60
+      "Max": 45
     },
     "Players": {
       "Min": 2,
@@ -1457,7 +1457,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "A fast-paced card game about exploring space, with players building empires through trade, exploration, and military conquest.",
       "Setup": "**Setup Victory Points**: Place 12 victory point (VP) chips per player in the center. For example, in a 3-player game, set out 36 VP chips. Set aside the 10 VP chips for use only during the final round if needed.\\n\\n**Distribute Action Cards**: Each player receives a set of seven different action cards, used to select phases each round.\\n\\n**Assign Start Worlds**: Shuffle the five start world cards and deal one face-up to each player. This card forms the beginning of each player's tableau.\\n\\n**Prepare Game Deck**: Shuffle the remaining game cards, including any unused start worlds, to form the draw deck. Deal six cards to each player; each player then discards two cards, keeping four as their starting hand.\\n\\n**Initial Goods**: If a player's start world indicates a starting good (e.g., a windfall world), place a face-down card from the deck on that world to represent the good.\r",
@@ -1476,14 +1476,14 @@
       "Resource Management"
     ],
     "Playtime": {
-      "Min": 30,
-      "Max": 45
+      "Min": 20,
+      "Max": 40
     },
     "Players": {
       "Min": 2,
       "Max": 2
     },
-    "Complexity": "Light",
+    "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A fast-paced card game where players build and protect their bases in a post-apocalyptic world.",
       "Setup": "**General Setup**:\\n   - **Camp Deck**: Shuffle and place the camp deck in the center.\\n   - **Water Discs**: Place extra water discs (black) nearby.\\n   - **Draw Deck**: Shuffle the main deck (person and event cards) and place it centrally, leaving space for a discard pile.\\n\\n**Player Setup**:\\n   - **Camps**: Each player draws 6 camp cards, selects 3 to place face-up in a row as their camps, and returns the rest.\\n   - **Water Silo and Raiders**: Each player places a Water Silo and Raiders card face-up in their area.\\n   - **Water Supply**: Each player takes 3 water discs (white) as their starting supply.\\n   - **Starting Hand**: Draw cards equal to the total number in the black rectangles on your camps.\\n\\n**Determine Start Player**: Flip a water disc; if it lands water side up, you start; otherwise, your opponent starts.\\n",
@@ -1554,14 +1554,14 @@
       "Bidding"
     ],
     "Playtime": {
-      "Min": 15,
-      "Max": 30
+      "Min": 30,
+      "Max": 60
     },
     "Players": {
       "Min": 2,
       "Max": 6
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A trick-taking game where players aim to win tricks and score points based on a specific card (the Rook).",
       "Setup": "**Setup**:\\n- **Players**: Four players divided into two teams, partners seated opposite each other.\\n- **Deck**: Remove the 1s, 2s, 3s, and 4s from a standard Rook deck; include the Rook Bird card for a total of 41 cards.\\n- **Dealing**: Shuffle and deal all cards, one at a time. After each player receives a card, place one card face down in the center to form a five-card \"nest.\" Continue dealing until all cards are distributed.\r",
@@ -1586,7 +1586,7 @@
       "Min": 1,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A dice-drafting game where players build colorful stained glass windows while following certain patterns and rules.",
       "Setup": "**Prepare the Game Area**:\\n   - **Round Track**: Place the Round Track in the center of the play area.\\n   - **Tool Cards**: Shuffle and reveal 3 Tool Cards, placing them face-up near the Round Track.\\n   - **Public Objective Cards**: Shuffle and reveal 3 Public Objective Cards, placing them face-up for all players to see.\\n   - **Dice Bag**: Place all 90 dice into the provided dice bag.\\n\\n**Determine Start Player**: Randomly select a player to begin; this player receives the dice bag and will start the first round.\\n",
@@ -1605,14 +1605,14 @@
       "Card Drafting"
     ],
     "Playtime": {
-      "Min": 45,
-      "Max": 60
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A card game version of Puerto Rico, where players manage a city and construct buildings to earn points.",
       "Setup": "**Setup**:\\n   - **Governor Selection**: Choose a starting player to receive the Governor card.\\n   - **Role Cards**: Place the five role cards (Builder, Producer, Trader, Councillor, Prospector) in the center.\\n   - **Trading House Tiles**: Shuffle and stack the five trading house tiles face down near the role cards.\\n   - **Player Hands**: Each player:\\n     - Takes one Indigo Plant card, placing it face up in their play area.\\n     - Draws four cards from the deck as their starting hand.\\n   - **Deck Placement**: Place the remaining cards face down as the draw pile.\\n",
@@ -1655,7 +1655,7 @@
       "Hand Management"
     ],
     "Playtime": {
-      "Min": 20,
+      "Min": 15,
       "Max": 30
     },
     "Players": {
@@ -1680,14 +1680,14 @@
       "Push Your Luck"
     ],
     "Playtime": {
-      "Min": 15,
-      "Max": 30
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
       "Max": 6
     },
-    "Complexity": "Light",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A fast-paced card game where players must play cards from their hands to match skills and collect points.",
       "Setup": "**Deck Composition**:\\n   - Numbered Cards: Four suits (yellow, green, purple, black) numbered 1 to - Special Cards: Pirates, Skull King, Mermaids, Escape cards, and additional special cards like the Kraken and White Whale in newer editions.\\n\\n**Initial Setup**:\\n   - Shuffle all cards to form a draw deck.\\n   - Prepare a scoresheet to track players' bids and scores.\\n   - Determine the starting player randomly.",
@@ -1706,14 +1706,14 @@
       "Card Drafting"
     ],
     "Playtime": {
-      "Min": 30,
-      "Max": 60
+      "Min": 60,
+      "Max": 90
     },
     "Players": {
       "Min": 2,
       "Max": 5
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A dice-based game where players manage a fleet of ships, rolling dice to earn money and upgrade their space station to generate points.",
       "Setup": "Shipyard Preparation: Shuffle each level of ship cards (Levels 1, 2, and 3) into separate decks. Place each deck face down and reveal six cards from each, laying them face up to form the shipyard.\\n\\nPlayer Components: Each player receives:\\n   - 1 Player Console\\n   - A set of 12 starting ship cards\\n   - 1 Credit Cube (starting at 5 credits)\\n   - 1 Income Cube (starting at 0)\\n   - 1 Victory Point (VP) Cube (starting at 0)\\n\\nInitial Deployment: Each player draws a card from the Level 1 deck, pays its cost by adjusting their credits accordingly, and stations it in the matching sector on their console. The previously stationed ship in that sector is deployed above the console.\\n\\nDetermine Starting Player: The player who drew the ship with the highest sector number becomes the starting player and receives the starting player card. In case of a tie, roll dice to decide.\\n\\nStarting Bonuses: Players, other than the starting player, receive bonuses as follows:\\n   - 2nd player: gains 1 credit\\n   - 3rd player: gains 2 credits\\n   - 4th player: gains 1 income\\n   - 5th player: gains 1 income\\n",
@@ -1734,7 +1734,7 @@
     ],
     "Playtime": {
       "Min": 45,
-      "Max": 60
+      "Max": 75
     },
     "Players": {
       "Min": 2,
@@ -1785,8 +1785,8 @@
       "Card Drafting"
     ],
     "Playtime": {
-      "Min": 90,
-      "Max": 120
+      "Min": 120,
+      "Max": 180
     },
     "Players": {
       "Min": 1,
@@ -1845,7 +1845,7 @@
       "Min": 2,
       "Max": 4
     },
-    "Complexity": "Medium",
+    "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "A strategy game where players build estates by collecting and placing tiles of various types to earn points.",
       "Setup": "In *The Castles of Burgundy*, players assume the roles of influential princes in 15th century France, aiming to develop their estates through strategic trade, construction, and research. Utilizing dice to determine actions, players must carefully plan to accumulate the most victory points by the game's end.",
@@ -1868,7 +1868,7 @@
       "Max": 90
     },
     "Players": {
-      "Min": 1,
+      "Min": 2,
       "Max": 4
     },
     "Complexity": "Medium",
@@ -1890,13 +1890,13 @@
     ],
     "Playtime": {
       "Min": 20,
-      "Max": 40
+      "Max": 30
     },
     "Players": {
       "Min": 2,
       "Max": 5
     },
-    "Complexity": "Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "The Quest for Planet Nine: A cooperative trick-taking game where players work together to complete missions and uncover the mystery of Planet Nine.",
       "Setup": "**Mission Setup**: Refer to the mission log to determine the number of task cards required. Draw the specified number of task cards and place them face-up in the center of the table.\\n\\n**Commander Assignment**: After dealing the playing cards, the player holding the 4 rocket card becomes the commander for the mission and receives the commander token as a reminder.\\n\\n**Task Distribution**: Starting with the commander and proceeding clockwise, each player selects one task card at a time until all tasks are assigned. Players place their chosen task cards face-up in front of them.\\n\\n**Communication Tokens**: Each player places their radio communication token green side up in front of them, indicating that communication is available.\\n\\n**Distress Signal**: Place the distress signal token face down; it can be activated later if the crew agrees to use it.\\n\\n**Reminder Cards**: Each player takes a reminder card to use if they choose to communicate during the mission.\\n",
@@ -1913,14 +1913,14 @@
       "Two-Player Game"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
       "Min": 2,
       "Max": 2
     },
-    "Complexity": "Light-Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A two-player trick-taking game where players try to win tricks by playing cards with different values and abilities.",
       "Setup": "- **Hand Review**:\\n  - Each player examines their 13-card hand, noting the distribution of suits and the presence of odd-numbered cards with special abilities.\\n\\n- **Game Components**:\\n  - Ensure access to scoring tokens and reference cards detailing special abilities and scoring guidelines.",
@@ -1947,7 +1947,7 @@
       "Min": 1,
       "Max": 4
     },
-    "Complexity": "Light-Medium",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
       "Overview": "A cooperative game that blends a unique narrative with puzzle-solving and codebreaking, where players complete challenges.",
       "Setup": "**Select Characters**: Each player chooses a character card and the corresponding standee. If playing with fewer than four players, unchosen characters are returned to the box.\\n\\n**Prepare Mission and Board**: For the first game, use Mission Place the mission card facedown without viewing its other side. Set up the game board as indicated by the mission card.\\n\\n**Distribute Clue Tokens**: Shuffle all tan clue tokens facedown. Place them on the board according to the mission card's instructions, creating stacks in designated rooms. Return unused tokens to the box.\\n\\n**Place Features and Standees**: Position feature tokens on the board as shown on the mission card. Players then place their standees in the room marked as the entrance.\\n\\n**Set Up Mission Console**: Ensure all windows on the mission console are closed. Without viewing the mission card's face, insert it into the console. Stand the console upright near the game board.\\n\\n**Arrange Action and Resource Cards**: Lay out the four action cards beside the board. Place the \"Discard Pile\" card nearby with the four time resource cards on it. Shuffle the remaining 36 resource cards to form the resource deck and place it facedown within reach. Each player draws four cards to form their starting hand.\\n\\n**Prepare Secret Cards**: Keep the secret cards and remaining mission cards in the box until instructed to use them.",
@@ -1999,7 +1999,7 @@
       "Min": 2,
       "Max": 5
     },
-    "Complexity": "Medium",
+    "Complexity": "Light",
     "QuickSetupGuide": {
       "Overview": "A railway-themed game where players collect cards to build train routes across the country and complete destination tickets.",
       "Setup": "**Board Setup**: Place the game board depicting North American train routes at the center of the table.\\n\\n**Player Pieces**: Each player selects a color and takes 45 corresponding train car pieces, placing their scoring marker on the starting point of the scoring track around the board's edge.\\n\\n**Train Car Cards**: Shuffle the train car cards and deal four to each player. Place the remaining deck near the board and reveal the top five cards face-up.\\n\\n**Destination Tickets**: Shuffle the destination ticket cards and deal three to each player. Players must keep at least two but may retain all three. Return any unkept tickets to the bottom of the deck.\\n\\n**Bonus Card**: Place the \"Longest Continuous Path\" bonus card face-up beside the board.\r",
@@ -2051,7 +2051,7 @@
       "Min": 1,
       "Max": 6
     },
-    "Complexity": "Light",
+    "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "A worker placement game where players run a vineyard, producing wine and fulfilling orders to earn victory points.",
       "Setup": "**Board and Decks**: Place the game board centrally. Shuffle and position the vine, summer visitor, wine order, and winter visitor decks on their designated spots.\\n\\n**Player Components**: Each player receives:\\n- 1 vineyard mat\\n- 3 field cards valued at 5, 6, and 7 lira; place them on the corresponding fields\\n- Tokens in their chosen color: workers, structures, and markers\\n\\n**Mamas and Papas**: Shuffle and deal one Mama and one Papa card to each player to determine starting resources, including initial workers, lira, and cards.\\n\\n**Determine First Player**: Randomly select a starting player to receive the first player token. The game begins in the spring season.",
@@ -2069,11 +2069,11 @@
       "Hand Management"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
-      "Min": 2,
+      "Min": 3,
       "Max": 4
     },
     "Complexity": "Light",
@@ -2094,12 +2094,12 @@
       "Push Your Luck"
     ],
     "Playtime": {
-      "Min": 20,
-      "Max": 30
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
-      "Min": 3,
-      "Max": 7
+      "Min": 2,
+      "Max": 8
     },
     "Complexity": "Light",
     "QuickSetupGuide": {
@@ -2112,142 +2112,178 @@
   },
   {
     "Game": "Harry Potter Hogwarts Battle",
-    "Mechanics": [],
+    "Mechanics": [
+      "Deck Building",
+      "Cooperative Play",
+      "Hand Management",
+      "Variable Player Powers"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 30,
+      "Max": 60
     },
     "Players": {
       "Min": 1,
-      "Max": 1
+      "Max": 4
     },
-    "Complexity": "",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Cooperative deck-building game where players work together as Hogwarts students to defeat villains and protect the wizarding world.",
+      "Setup": "1. Place the game board on the table.\\n2. Shuffle the Hogwarts cards and place them in their designated space.\\n3. Place the Villain deck and Dark Arts deck in their respective spaces.\\n4. Set the Location cards in order, starting with the first location on top.\\n5. Place the Horcrux and Encounter cards (if applicable) nearby.\\n6. Set the Influence tokens, Attack tokens, and Health trackers within reach.",
+      "PlayerSetup": "- Each player selects a Hero (Harry, Ron, Hermione, or Neville).\\n- Take the corresponding Hero Deck (10 starting cards).\\n- Shuffle and place the Hero Deck face down as the draw pile.\\n- Draw 5 cards as the starting hand.\\n- Place a Player Board in front of each player.\\n- Set starting Health to 10 on the Player Board.\\n- Place Influence tokens nearby.",
+      "Gameplay": "**1. Reveal the Dark Arts card and resolve its effect.**  \\n**2. Resolve any Villain abilities that trigger at the start of a turn.**  \\n**3. Play cards from hand to gain Influence, Attack, or Health.**  \\n**4. Use Influence to acquire new cards from the market.**  \\n**5. Assign Attack to Villains.**  \\n**6. Discard remaining cards and draw a new hand.**  \\n**7. Replenish the market and pass to the next player.**  ",
+      "EndOfGame": "The game ends when either:  \\n  - Players successfully defeat all villains in the final scenario.  \\n  - All locations are controlled by villains, resulting in player loss.  "
     }
   },
   {
     "Game": "Tiny Towns",
-    "Mechanics": [],
+    "Mechanics": [
+      "Pattern Building",
+      "Resource Management",
+      "Tile Placement",
+      "Grid Movement"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 45,
+      "Max": 60
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 2,
+      "Max": 6
     },
-    "Complexity": "",
+    "Complexity": "Light",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Strategic city-building game where players construct towns using polyomino pieces, balancing resources and placement.",
+      "Setup": "1. Place the Town Hall board in the center.\\n2. Shuffle the Resource deck and place it face down.\\n3. Arrange the Monument cards and distribute one to each player.\\n4. Place the Resource cubes (wood, wheat, brick, glass, stone) within reach.\\n5. Set up the Building cards in a 4x4 grid.",
+      "PlayerSetup": "- Give each player a 4x4 grid player board.\\n- Shuffle and place all Building cards in the center.\\n- Randomly select one of each type of Building card for the game.\\n- Each player takes a Monument card (randomly drawn or chosen).\\n- Place the Resource cubes within reach of all players.",
+      "Gameplay": "**1. The active player names a resource.**  \\n**2. All players must place that resource on an empty square of their board.**  \\n**3. If the placement completes a building pattern, replace the resources with the corresponding building.**  \\n**4. Repeat until no players can place resources or construct buildings.**  ",
+      "EndOfGame": "-The game ends when all players can no longer place a building or choose to pass.  \\n- Scores are calculated based on completed buildings and negative points for empty spaces.  "
     }
   },
   {
     "Game": "King of Tokyo",
-    "Mechanics": [],
+    "Mechanics": [
+      "Dice Rolling",
+      "Push Your Luck",
+      "Player Elimination",
+      "Variable Player Powers",
+      "Take That"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 3,
+      "Max": 6
     },
-    "Complexity": "",
+    "Complexity": "Light-Med",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Dice-rolling game where players take on the roles of monsters battling to become the king of Tokyo through attacks and special powers.",
+      "Setup": "1. Place the Tokyo board in the center.\\n2. Shuffle the deck of Power cards and place it face down.\\n3. Place the Energy cubes, dice, and tokens within reach.\\n4. Each player chooses a Monster and takes the corresponding figure and board.",
+      "PlayerSetup": "- Each player selects a Monster and takes the corresponding Monster board.\\n- Set Health to 10 and Victory Points to 0 on the Monster board.\\n- Shuffle the deck of Power cards and place it in the center.\\n- Reveal the top 3 Power cards as the market.\\n- Place the Energy cubes within reach of all players.\\n- Roll dice to determine the first player (most Attack results starts).  ",
+      "Gameplay": "**1. Roll six dice (up to three times, keeping or rerolling any number of dice).**  \\n**2. Resolve dice results: Attack (damage opponents), Energy (gain energy cubes), Heal (restore health), Points (gain stars).**  \\n**3. If dealing damage, the current Tokyo occupant takes it and may choose to yield.**  \\n**4. If entering Tokyo, gain 1 star.**  \\n**5. Spend energy cubes to purchase power cards.**  \\n**6. Check if any player reaches 20 stars or is the last monster standing.**  ",
+      "EndOfGame": "The game ends when a player reaches **20 Victory Points** or is the **last monster standing**.  "
     }
   },
   {
     "Game": "Letter Jam",
-    "Mechanics": [],
+    "Mechanics": [
+      "Word Deduction",
+      "Cooperative Play",
+      "Limited Communication",
+      "Puzzle Solving"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 30,
+      "Max": 45
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 2,
+      "Max": 6
     },
-    "Complexity": "",
+    "Complexity": "Light",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Cooperative word game where players give and interpret clues to deduce their hidden letters and form a word.",
+      "Setup": "1. Arrange the letter cards into a deck and shuffle.\\n2. Place the clue tokens, number tokens, and green tokens within reach.\\n3. Set up the clue sheet and pencils for each player.",
+      "PlayerSetup": "- Each player selects a set of Letter cards, shuffles, and forms a word.\\n- Place Letter cards face down in a stack in front of the player.\\n- Reveal the top Letter card on a stand, facing outward.\\n- Place the numbered clue tokens within reach.\\n- Set up the Clue Tracker board.\\n- Place the Wildcard Letter in the center.",
+      "Gameplay": "**1. Each player has a letter card in front of them, visible to all but themselves.**  \\n**2. Players take turns forming words using the visible letters.**  \\n**3. The clue giver provides the word by placing number tokens for letter order.**  \\n**4. Players deduce their letter based on clues and write guesses.**  \\n**5. When ready, swap letters and continue until all letters are used.**  ",
+      "EndOfGame": "The game ends when all players either successfully guess their word or run out of clue cards.  "
     }
   },
   {
     "Game": "One Night Werewolf",
-    "Mechanics": [],
+    "Mechanics": [
+      "Hidden Role",
+      "Bluffing",
+      "Deduction",
+      "Social Deduction",
+      "Team Play"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 10,
+      "Max": 15
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 3,
+      "Max": 10
     },
-    "Complexity": "",
+    "Complexity": "Light",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Social deduction game where players take on secret roles, trying to uncover the werewolves among them in a single night.",
+      "Setup": "1. Select the roles to be used and gather the corresponding role cards and tokens.\\n2. Shuffle the role cards and deal one to each player.\\n3. Place the remaining role cards in the center.\\n4. Use the app or a moderator to guide the game.",
+      "PlayerSetup": "- Select roles based on the number of players and shuffle them.\\n- Deal one role card to each player and three in the center.\\n- Give each player a role card face down.\\n- Place the role reminder tiles in the center.\\n- Distribute one token per player if using expansions.",
+      "Gameplay": "**1. All players receive a secret role.**  \\n**2. The night phase occurs: roles perform their actions in order.**  \\n**3. The day phase begins: players discuss and debate who is a Werewolf.**  \\n**4. After a time limit, players vote on whom to eliminate.**  \\n**5. The game ends immediately after the vote.**  ",
+      "EndOfGame": "- The game ends after a single night phase and voting round.  \\n- The team (Villagers or Werewolves) with the most favorable outcome wins.  "
     }
   },
   {
     "Game": "For Sale",
-    "Mechanics": [],
+    "Mechanics": [
+      "Auction/Bidding",
+      "Push Your Luck",
+      "Set Collection"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 20,
+      "Max": 30
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 3,
+      "Max": 6
     },
-    "Complexity": "",
+    "Complexity": "Light",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Fast-paced auction game where players bid on properties and sell them for the highest profit.",
+      "Setup": "1. Separate the Property and Currency cards.\\n2. Shuffle each deck separately.\\n3. Deal a set amount of money to each player.",
+      "PlayerSetup": "- Shuffle and divide the Property deck into two equal phases.\\n- Each player starts with a set amount of money (varies by player count).\\n- Shuffle the Check deck and place it face down.",
+      "Gameplay": "**1. In the first phase, players bid on properties using their starting money.**  \\n**2. Players continue bidding or pass to take a property.**  \\n**3. This continues until all properties are auctioned.**  \\n**4. In the second phase, players secretly select a property and reveal simultaneously.**  \\n**5. Check the value of properties played and distribute checks accordingly.**  \\n**6. Repeat until all properties have been sold.**  ",
+      "EndOfGame": "The game ends after all properties have been auctioned and players tally their money.  "
     }
   },
   {
     "Game": "Just One",
-    "Mechanics": [],
+    "Mechanics": [
+      "Cooperative Play",
+      "Word Deduction",
+      "Party",
+      "Limited Communication"
+    ],
     "Playtime": {
-      "Min": 0,
-      "Max": 0
+      "Min": 20,
+      "Max": 30
     },
     "Players": {
-      "Min": 1,
-      "Max": 1
+      "Min": 3,
+      "Max": 7
     },
-    "Complexity": "",
+    "Complexity": "Light",
     "QuickSetupGuide": {
-      "Overview": "",
-      "Setup": "",
-      "PlayerSetup": "",
-      "Gameplay": "",
-      "EndOfGame": ""
+      "Overview": "Cooperative party game where players give one-word clues to help a teammate guess a secret word.",
+      "Setup": "1. Give each player a marker and an easel.\\n2. Shuffle the deck of word cards and place it face down.\\n3. Determine the starting player.",
+      "PlayerSetup": "- Shuffle the deck of Word cards and place it in the center.\\n- Each player takes a small dry-erase board and marker.\\n- Select a starting active player.",
+      "Gameplay": "**1. The active player selects a number without seeing the word associated with it.**  \\n**2. Other players write down one-word clues related to the secret word.**  \\n**3. Duplicate clues are eliminated.**  \\n**4. The active player sees the remaining clues and makes a guess.**  \\n**5. The round ends, and the next player takes a turn as the guesser.**  ",
+      "EndOfGame": "The game ends when all players have given clues and the final word is guessed.  "
     }
   }
 ]
