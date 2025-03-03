@@ -18,7 +18,7 @@
     </header>
 
     <main>
-        <!-- ✅ Most Played & Suggested Game at the Top -->
+        <!-- ✅ Most Played & Suggested Game -->
         <div id="gameStats">
             <h3>Most Played Game</h3>
             <p id="mostPlayedGame">No data yet.</p>
@@ -27,7 +27,7 @@
             <p id="suggestedGame">No data yet.</p>
         </div>
 
-        <!-- ✅ Filters (Search Box Removed) -->
+        <!-- ✅ Filters -->
         <div class="filters-container">
             <label for="playerFilter">Players:</label>
             <select id="playerFilter">
@@ -47,18 +47,6 @@
             <label for="timeFilter">Time (Max Minutes):</label>
             <select id="timeFilter">
                 <option value="">Any</option>
-                <option value="15">15 min</option>
-                <option value="30">30 min</option>
-                <option value="45">45 min</option>
-                <option value="60">60 min</option>
-                <option value="75">75 min</option>
-                <option value="90">90 min</option>
-                <option value="105">105 min</option>
-                <option value="120">120 min</option>
-                <option value="135">135 min</option>
-                <option value="150">150 min</option>
-                <option value="165">165 min</option>
-                <option value="180">180 min</option>
             </select>
         </div>
 
@@ -79,10 +67,25 @@
             <p><strong>Players:</strong> <span id="gamePlayers"></span></p>
             <p><strong>Complexity:</strong> <span id="gameComplexity"></span></p>
             <p><strong>Quick Setup Guide:</strong></p>
-            <div id="gameGuide"></div>
+            <div id="gameGuide">
+                <h3>Overview</h3>
+                <p id="overview"></p>
+
+                <h3>Setup</h3>
+                <p id="setup"></p>
+
+                <h3>Player Setup</h3>
+                <p id="playerSetup"></p>
+
+                <h3>Gameplay</h3>
+                <p id="gameplay"></p>
+
+                <h3>End of Game</h3>
+                <p id="endOfGame"></p>
+            </div>
         </div>
 
-        <!-- ✅ Recently Played at the Bottom -->
+        <!-- ✅ Recently Played Games -->
         <div id="recentGamesSection">
             <h3>Recently Played</h3>
             <ul id="recentGamesList"></ul>

@@ -4,8 +4,6 @@ let games = [];
 let filteredGames = [];
 const recentGamesKey = "recentGames";
 const playCountKey = "playCount";
-
-// ✅ Predefined Complexity Order
 const complexityOrder = ["Light", "Light-Med", "Medium", "Medium-Heavy", "Heavy"];
 
 // ✅ Fetch Game Data
@@ -16,32 +14,12 @@ async function fetchGames() {
         filteredGames = [...games];
         populateDropdown(filteredGames);
         populateFilters(games);
-        
         displayRecentGames();
         displayMostPlayedGame();
         displaySuggestedGame();
     } catch (error) {
         console.error("Error fetching game data:", error);
     }
-}
-// ✅ Display Suggested Game
-function displaySuggestedGame() {
-    const suggestedGameElement = document.getElementById("suggestedGame");
-    let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
-
-    let neverPlayedGames = games.filter(game => !playCount[game.Game]);
-    let leastPlayedGame = null;
-
-    if (neverPlayedGames.length > 0) {
-        // ✅ Randomly select from never-played games
-        leastPlayedGame = neverPlayedGames[Math.floor(Math.random() * neverPlayedGames.length)];
-    } else if (Object.keys(playCount).length > 0) {
-        // ✅ If all games have been played, find the least-played
-        let sortedGames = Object.entries(playCount).sort((a, b) => a[1] - b[1]);
-        leastPlayedGame = games.find(game => game.Game === sortedGames[0][0]);
-    }
-
-    suggestedGameElement.textContent = leastPlayedGame ? leastPlayedGame.Game : "No suggestions available.";
 }
 
 // ✅ Populate Filters
@@ -62,10 +40,10 @@ function populateFilters(gameList) {
     });
 
     populateFilterDropdown(playerFilter, [...maxPlayers].sort((a, b) => a - b), "Players");
-    populateFilterDropdown(complexityFilter, complexityOrder, ""); // Sorted Complexity
-    populateFilterDropdown(mechanicsFilter, [...mechanicsSet].sort(), ""); // Alphabetically Sorted Mechanics
+    populateFilterDropdown(complexityFilter, complexityOrder, "");
+    populateFilterDropdown(mechanicsFilter, [...mechanicsSet].sort(), "");
 
-    // ✅ Populate Time Dropdown in 15-minute increments (15 to 180 min)
+    // ✅ Populate Time Dropdown in 15-minute increments
     timeFilter.innerHTML = `<option value="">Any</option>`;
     for (let i = 15; i <= 180; i += 15) {
         const option = document.createElement("option");
@@ -127,17 +105,18 @@ function displaySelectedGame() {
         document.getElementById("gamePlayers").textContent = `${selectedGame.Players.Min}-${selectedGame.Players.Max} Players`;
         document.getElementById("gameComplexity").textContent = selectedGame.Complexity;
 
+        // ✅ Convert `\n` into actual line breaks
         document.getElementById("gameGuide").innerHTML = `
             <h3>Overview</h3>
-            <p>${selectedGame.QuickSetupGuide.Overview || "No overview available."}</p>
+            <p>${formatText(selectedGame.QuickSetupGuide.Overview)}</p>
             <h3>Setup</h3>
-            <p>${selectedGame.QuickSetupGuide.Setup || "No setup details available."}</p>
+            <p>${formatText(selectedGame.QuickSetupGuide.Setup)}</p>
             <h3>Player Setup</h3>
-            <p>${selectedGame.QuickSetupGuide.PlayerSetup || "No player setup details available."}</p>
+            <p>${formatText(selectedGame.QuickSetupGuide.PlayerSetup)}</p>
             <h3>Gameplay</h3>
-            <p>${selectedGame.QuickSetupGuide.Gameplay || "No gameplay details available."}</p>
+            <p>${formatText(selectedGame.QuickSetupGuide.Gameplay)}</p>
             <h3>End of Game</h3>
-            <p>${selectedGame.QuickSetupGuide.EndOfGame || "No end game details available."}</p>
+            <p>${formatText(selectedGame.QuickSetupGuide.EndOfGame)}</p>
         `;
 
         document.getElementById("gameDetails").style.display = "block";
@@ -145,6 +124,11 @@ function displaySelectedGame() {
     } else {
         document.getElementById("gameDetails").style.display = "none";
     }
+}
+
+// ✅ Format Text (Replace `\n` with `<br>`)
+function formatText(text) {
+    return text ? text.replace(/\\n/g, "<br>") : "No details available.";
 }
 
 // ✅ Display Most Played Game
@@ -160,6 +144,24 @@ function displayMostPlayedGame() {
     let mostPlayed = Object.entries(playCount).sort((a, b) => b[1] - a[1])[0];
 
     mostPlayedElement.textContent = mostPlayed ? `${mostPlayed[0]} (${mostPlayed[1]} plays)` : "No games played yet.";
+}
+
+// ✅ Display Suggested Game
+function displaySuggestedGame() {
+    const suggestedGameElement = document.getElementById("suggestedGame");
+    let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
+
+    let neverPlayedGames = games.filter(game => !playCount[game.Game]);
+    let leastPlayedGame = null;
+
+    if (neverPlayedGames.length > 0) {
+        leastPlayedGame = neverPlayedGames[Math.floor(Math.random() * neverPlayedGames.length)];
+    } else if (Object.keys(playCount).length > 0) {
+        let sortedGames = Object.entries(playCount).sort((a, b) => a[1] - b[1]);
+        leastPlayedGame = games.find(game => game.Game === sortedGames[0][0]);
+    }
+
+    suggestedGameElement.textContent = leastPlayedGame ? leastPlayedGame.Game : "No suggestions available.";
 }
 
 // ✅ Display Recently Played Games
@@ -179,7 +181,13 @@ function displayRecentGames() {
         recentList.appendChild(listItem);
     });
 }
+function formatText(text) {
+    if (!text) return "No details available.";
 
+    return text
+        .replace(/\\n/g, "<br>") // ✅ Convert `\n` into line breaks
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"); // ✅ Convert `**bold**` to `<strong>bold</strong>`
+}
 // ✅ Track Recently Played Games
 function trackRecentGame(gameName) {
     let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
@@ -194,18 +202,10 @@ function trackRecentGame(gameName) {
     localStorage.setItem(recentGamesKey, JSON.stringify(recentGames));
     localStorage.setItem(playCountKey, JSON.stringify(playCount));
 
-    // ✅ Ensure `displaySuggestedGame()` exists before calling it
-    if (typeof displaySuggestedGame === "function") {
-        displaySuggestedGame();
-    } else {
-        console.error("displaySuggestedGame is not defined!");
-    }
-
     displayRecentGames();
     displayMostPlayedGame();
+    displaySuggestedGame();
 }
-
-
 // ✅ Clear Recently Played Games
 function clearRecentGames() {
     localStorage.removeItem(recentGamesKey);
@@ -215,11 +215,6 @@ function clearRecentGames() {
     displayMostPlayedGame();
     displaySuggestedGame();
 }
-
-// ✅ Event Listeners
+// ✅ Clear Recently Played Games
 document.getElementById("gameSelect").addEventListener("change", displaySelectedGame);
-document.getElementById("randomButton").addEventListener("click", pickRandomGame);
-document.getElementById("clearRecentButton").addEventListener("click", clearRecentGames);
-
-// ✅ Fetch Games on Page Load
 fetchGames();
