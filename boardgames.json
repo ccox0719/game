@@ -767,6 +767,30 @@
     }
   },
   {
+    "Game": "For Sale",
+    "Mechanics": [
+      "Auction/Bidding",
+      "Push Your Luck",
+      "Set Collection"
+    ],
+    "Playtime": {
+      "Min": 20,
+      "Max": 30
+    },
+    "Players": {
+      "Min": 3,
+      "Max": 6
+    },
+    "Complexity": "Light",
+    "QuickSetupGuide": {
+      "Overview": "Fast-paced auction game where players bid on properties and sell them for the highest profit.",
+      "Setup": "1. Separate the Property and Currency cards.\\n2. Shuffle each deck separately.\\n3. Deal a set amount of money to each player.",
+      "PlayerSetup": "- Shuffle and divide the Property deck into two equal phases.\\n- Each player starts with a set amount of money (varies by player count).\\n- Shuffle the Check deck and place it face down.",
+      "Gameplay": "**1. In the first phase, players bid on properties using their starting money.**  \\n**2. Players continue bidding or pass to take a property.**  \\n**3. This continues until all properties are auctioned.**  \\n**4. In the second phase, players secretly select a property and reveal simultaneously.**  \\n**5. Check the value of properties played and distribute checks accordingly.**  \\n**6. Repeat until all properties have been sold.**  ",
+      "EndOfGame": "The game ends after all properties have been auctioned and players tally their money.  "
+    }
+  },
+  {
     "Game": "Forbidden Island",
     "Mechanics": [
       "Cooperative Play",
@@ -904,6 +928,31 @@
     }
   },
   {
+    "Game": "Harry Potter Hogwarts Battle",
+    "Mechanics": [
+      "Deck Building",
+      "Cooperative Play",
+      "Hand Management",
+      "Variable Player Powers"
+    ],
+    "Playtime": {
+      "Min": 30,
+      "Max": 60
+    },
+    "Players": {
+      "Min": 1,
+      "Max": 4
+    },
+    "Complexity": "Light-Med",
+    "QuickSetupGuide": {
+      "Overview": "Cooperative deck-building game where players work together as Hogwarts students to defeat villains and protect the wizarding world.",
+      "Setup": "1. Place the game board on the table.\\n2. Shuffle the Hogwarts cards and place them in their designated space.\\n3. Place the Villain deck and Dark Arts deck in their respective spaces.\\n4. Set the Location cards in order, starting with the first location on top.\\n5. Place the Horcrux and Encounter cards (if applicable) nearby.\\n6. Set the Influence tokens, Attack tokens, and Health trackers within reach.",
+      "PlayerSetup": "- Each player selects a Hero (Harry, Ron, Hermione, or Neville).\\n- Take the corresponding Hero Deck (10 starting cards).\\n- Shuffle and place the Hero Deck face down as the draw pile.\\n- Draw 5 cards as the starting hand.\\n- Place a Player Board in front of each player.\\n- Set starting Health to 10 on the Player Board.\\n- Place Influence tokens nearby.",
+      "Gameplay": "**1. Reveal the Dark Arts card and resolve its effect.**  \\n**2. Resolve any Villain abilities that trigger at the start of a turn.**  \\n**3. Play cards from hand to gain Influence, Attack, or Health.**  \\n**4. Use Influence to acquire new cards from the market.**  \\n**5. Assign Attack to Villains.**  \\n**6. Discard remaining cards and draw a new hand.**  \\n**7. Replenish the market and pass to the next player.**  ",
+      "EndOfGame": "The game ends when either:  \\n  - Players successfully defeat all villains in the final scenario.  \\n  - All locations are controlled by villains, resulting in player loss.  "
+    }
+  },
+  {
     "Game": "Here to Slay",
     "Mechanics": [
       "Set Collection",
@@ -1001,6 +1050,57 @@
       "PlayerSetup": "- **Fruit Collectors**: Each player starts with five fruit collector tokens placed on their island's grid.\\n\\n- **Score Markers**: Place each player's score marker on the starting position of the score track.\\n\\n- **Personal Supply**: Players begin with no fruit in their personal supply.\\n",
       "Gameplay": "**Harvesting Fruit**: On your turn, slide a fruit collector token in a straight line on your island's grid. The number of spaces moved determines the amount of that fruit type you collect. Collectors cannot move through other tokens.\\n\\n**Fulfilling Ship Orders**: Spend the required fruit to fulfill an order for a ship adjacent to your island. Remove the ship token, freeing up space for future movements, and gain the points indicated.\\n\\n**Acquiring Businesses**: Spend fruit to acquire business tiles from the business board. Place these tiles on your island, which may provide immediate or ongoing benefits and points.\\n\\n**Juice Factory (If Using)**: Instead of the above actions, you may choose to produce juice by moving your discs in the juice factory, converting fruit into points.\\n\\n**End of Turn**: Replenish any emptied business spaces on the business board. Play proceeds clockwise.\r",
       "EndOfGame": "The game ends when the last fruit is taken from the center, and the player with the most points wins."
+    }
+  },
+  {
+    "Game": "Just One",
+    "Mechanics": [
+      "Cooperative Play",
+      "Word Deduction",
+      "Party",
+      "Limited Communication"
+    ],
+    "Playtime": {
+      "Min": 20,
+      "Max": 30
+    },
+    "Players": {
+      "Min": 3,
+      "Max": 7
+    },
+    "Complexity": "Light",
+    "QuickSetupGuide": {
+      "Overview": "Cooperative party game where players give one-word clues to help a teammate guess a secret word.",
+      "Setup": "1. Give each player a marker and an easel.\\n2. Shuffle the deck of word cards and place it face down.\\n3. Determine the starting player.",
+      "PlayerSetup": "- Shuffle the deck of Word cards and place it in the center.\\n- Each player takes a small dry-erase board and marker.\\n- Select a starting active player.",
+      "Gameplay": "**1. The active player selects a number without seeing the word associated with it.**  \\n**2. Other players write down one-word clues related to the secret word.**  \\n**3. Duplicate clues are eliminated.**  \\n**4. The active player sees the remaining clues and makes a guess.**  \\n**5. The round ends, and the next player takes a turn as the guesser.**  ",
+      "EndOfGame": "The game ends when all players have given clues and the final word is guessed.  "
+    }
+  },
+  {
+    "Game": "King of Tokyo",
+    "Mechanics": [
+      "Dice Rolling",
+      "Push Your Luck",
+      "Player Elimination",
+      "Variable Player Powers",
+      "Take That"
+    ],
+    "Playtime": {
+      "Min": 30,
+      "Max": 45
+    },
+    "Players": {
+      "Min": 3,
+      "Max": 6
+    },
+    "Complexity": "Light-Med",
+    "QuickSetupGuide": {
+      "Overview": "Dice-rolling game where players take on the roles of monsters battling to become the king of Tokyo through attacks and special powers.",
+      "Setup": "1. Place the Tokyo board in the center.\\n2. Shuffle the deck of Power cards and place it face down.\\n3. Place the Energy cubes, dice, and tokens within reach.\\n4. Each player chooses a Monster and takes the corresponding figure and board.",
+      "PlayerSetup": "- Each player selects a Monster and takes the corresponding Monster board.\\n- Set Health to 10 and Victory Points to 0 on the Monster board.\\n- Shuffle the deck of Power cards and place it in the center.\\n- Reveal the top 3 Power cards as the market.\\n- Place the Energy cubes within reach of all players.\\n- Roll dice to determine the first player (most Attack results starts).  ",
+      "Gameplay": "**1. Roll six dice (up to three times, keeping or rerolling any number of dice).**  \\n**2. Resolve dice results: Attack (damage opponents), Energy (gain energy cubes), Heal (restore health), Points (gain stars).**  \\n**3. If dealing damage, the current Tokyo occupant takes it and may choose to yield.**  \\n**4. If entering Tokyo, gain 1 star.**  \\n**5. Spend energy cubes to purchase power cards.**  \\n**6. Check if any player reaches 20 stars or is the last monster standing.**  ",
+      "EndOfGame": "The game ends when a player reaches **20 Victory Points** or is the **last monster standing**.  "
     }
   },
   {
@@ -1104,6 +1204,31 @@
       "PlayerSetup": "- **Deck and Hand**: Each player begins with a personal deck of 12 cards (8 S.H.I.E.L.D. Agents and 4 S.H.I.E.L.D. Troopers). After shuffling, draw an initial hand of six cards.\\n\\n- **Play Area**: Designate space in front of you for your play area, where you'll play cards, recruit heroes, and fight villains.\\n\\n- **Player Mat (Optional)**: If available, use a player mat to organize your play area, deck, and discard pile.\\n",
       "Gameplay": "**Villain Phase**:\\n   - Draw the top card of the Villain Deck and resolve its effects. This may involve villains entering the city, Scheme Twists altering the game state, or Master Strikes triggering the Mastermind's abilities.\\n\\n**Hero Phase**:\\n   - **Play Cards**: Play cards from your hand to generate Recruit Points (for recruiting heroes) and Attack Points (for battling villains).\\n   - **Recruit Heroes**: Spend Recruit Points to acquire hero cards from the HQ, placing them into your discard pile.\\n   - **Fight Villains**: Use Attack Points to defeat villains in the city or confront the Mastermind. Defeated villains are placed in your victory pile.\\n\\n**Draw Phase**:\\n   - Discard any remaining cards in your hand and draw a new hand of six cards. If your deck is empty, shuffle your discard pile to form a new deck.\\n\\n**End of Turn**:\\n   - Play passes to the next player clockwise.\\n\\n**Additional Rules**:\\n   - **Escaping Villains**: If a villain moves off the city track, it escapes, potentially causing negative effects.\\n   - **Wounds**: Certain effects may cause players to gain Wound cards, which clutter your deck and reduce efficiency.\\n   - **Bystanders**: Rescuing Bystanders can provide bonuses and are added to your victory pile.\\n",
       "EndOfGame": "A Marvel Deck Building Game: The game ends when the final villain is defeated, or the heroes are overpowered. The player with the most points wins."
+    }
+  },
+  {
+    "Game": "Letter Jam",
+    "Mechanics": [
+      "Word Deduction",
+      "Cooperative Play",
+      "Limited Communication",
+      "Puzzle Solving"
+    ],
+    "Playtime": {
+      "Min": 30,
+      "Max": 45
+    },
+    "Players": {
+      "Min": 2,
+      "Max": 6
+    },
+    "Complexity": "Light",
+    "QuickSetupGuide": {
+      "Overview": "Cooperative word game where players give and interpret clues to deduce their hidden letters and form a word.",
+      "Setup": "1. Arrange the letter cards into a deck and shuffle.\\n2. Place the clue tokens, number tokens, and green tokens within reach.\\n3. Set up the clue sheet and pencils for each player.",
+      "PlayerSetup": "- Each player selects a set of Letter cards, shuffles, and forms a word.\\n- Place Letter cards face down in a stack in front of the player.\\n- Reveal the top Letter card on a stand, facing outward.\\n- Place the numbered clue tokens within reach.\\n- Set up the Clue Tracker board.\\n- Place the Wildcard Letter in the center.",
+      "Gameplay": "**1. Each player has a letter card in front of them, visible to all but themselves.**  \\n**2. Players take turns forming words using the visible letters.**  \\n**3. The clue giver provides the word by placing number tokens for letter order.**  \\n**4. Players deduce their letter based on clues and write guesses.**  \\n**5. When ready, swap letters and continue until all letters are used.**  ",
+      "EndOfGame": "The game ends when all players either successfully guess their word or run out of clue cards.  "
     }
   },
   {
@@ -1336,6 +1461,32 @@
       "PlayerSetup": "- **Hero Setup**: Each player places their hero card in front of them, ensuring the appropriate side (1P or 2P) is facing up.\\n\\n- **Starting Equipment**: Players begin with the attributes and skills shown on their hero cards.\\n\\n- **Potion Tokens**: Place potion tokens on the Turn Reference card, accessible to all players.\\n",
       "Gameplay": "**Time Passes**: At the start of each turn, discard two cards from the encounter deck to represent the passage of time.\\n\\n**Explore or Enter a Room**:\\n   - *Explore*: If fewer than four face-down doors are present, draw cards from the encounter deck to place face-down doors until there are four.\\n   - *Enter a Room*: Choose a face-down door to reveal an encounter. Decide to face the encounter or flee:\\n     - *Face Encounter*: Engage in combat or peril by rolling dice to match challenge boxes on the encounter card.\\n     - *Flee*: Close the door without consequences; the turn ends.\\n\\n**Resolve Encounters**:\\n   - *Combat*:\\n     - Roll dice corresponding to your hero's attributes.\\n     - Use skills and potions to modify dice results.\\n     - Place dice on the encounter card to cover challenge boxes.\\n     - Suffer consequences for any uncovered boxes (damage or time loss).\\n   - *Peril*:\\n     - Choose one of two challenges.\\n     - Roll and assign dice as in combat.\\n\\n**Claim Loot**: After a successful encounter, choose one:\\n   - *Item*: Slide the card under your hero card to gain attribute bonuses.\\n   - *Skill*: Place the card below your hero card to acquire a new skill.\\n   - *Potion*: Add a new potion type by placing the card under the Turn Reference card.\\n   - *Experience (XP)*: Slide the card under the current level card to gain XP.\\n\\n**Level Up**: Accumulate XP to reach new levels, allowing more items and skills, and granting additional benefits.\\n\\n**Descending**: After the encounter deck is exhausted, the stairs card appears. Choose to descend to the next dungeon floor, increasing difficulty and rewards.\\n\\n**Boss Battle**: After three floors, face the dungeon boss. Defeat the boss by covering its challenge boxes over multiple rounds to win the game.\\n",
       "EndOfGame": "The game ends when the dungeon is cleared or when the player loses all their health."
+    }
+  },
+  {
+    "Game": "One Night Werewolf",
+    "Mechanics": [
+      "Hidden Role",
+      "Bluffing",
+      "Deduction",
+      "Social Deduction",
+      "Team Play"
+    ],
+    "Playtime": {
+      "Min": 10,
+      "Max": 15
+    },
+    "Players": {
+      "Min": 3,
+      "Max": 10
+    },
+    "Complexity": "Light",
+    "QuickSetupGuide": {
+      "Overview": "Social deduction game where players take on secret roles, trying to uncover the werewolves among them in a single night.",
+      "Setup": "1. Select the roles to be used and gather the corresponding role cards and tokens.\\n2. Shuffle the role cards and deal one to each player.\\n3. Place the remaining role cards in the center.\\n4. Use the app or a moderator to guide the game.",
+      "PlayerSetup": "- Select roles based on the number of players and shuffle them.\\n- Deal one role card to each player and three in the center.\\n- Give each player a role card face down.\\n- Place the role reminder tiles in the center.\\n- Distribute one token per player if using expansions.",
+      "Gameplay": "**1. All players receive a secret role.**  \\n**2. The night phase occurs: roles perform their actions in order.**  \\n**3. The day phase begins: players discuss and debate who is a Werewolf.**  \\n**4. After a time limit, players vote on whom to eliminate.**  \\n**5. The game ends immediately after the vote.**  ",
+      "EndOfGame": "- The game ends after a single night phase and voting round.  \\n- The team (Villagers or Werewolves) with the most favorable outcome wins.  "
     }
   },
   {
@@ -2009,6 +2160,31 @@
     }
   },
   {
+    "Game": "Tiny Towns",
+    "Mechanics": [
+      "Pattern Building",
+      "Resource Management",
+      "Tile Placement",
+      "Grid Movement"
+    ],
+    "Playtime": {
+      "Min": 45,
+      "Max": 60
+    },
+    "Players": {
+      "Min": 2,
+      "Max": 6
+    },
+    "Complexity": "Light",
+    "QuickSetupGuide": {
+      "Overview": "Strategic city-building game where players construct towns using polyomino pieces, balancing resources and placement.",
+      "Setup": "1. Place the Town Hall board in the center.\\n2. Shuffle the Resource deck and place it face down.\\n3. Arrange the Monument cards and distribute one to each player.\\n4. Place the Resource cubes (wood, wheat, brick, glass, stone) within reach.\\n5. Set up the Building cards in a 4x4 grid.",
+      "PlayerSetup": "- Give each player a 4x4 grid player board.\\n- Shuffle and place all Building cards in the center.\\n- Randomly select one of each type of Building card for the game.\\n- Each player takes a Monument card (randomly drawn or chosen).\\n- Place the Resource cubes within reach of all players.",
+      "Gameplay": "**1. The active player names a resource.**  \\n**2. All players must place that resource on an empty square of their board.**  \\n**3. If the placement completes a building pattern, replace the resources with the corresponding building.**  \\n**4. Repeat until no players can place resources or construct buildings.**  ",
+      "EndOfGame": "-The game ends when all players can no longer place a building or choose to pass.  \\n- Scores are calculated based on completed buildings and negative points for empty spaces.  "
+    }
+  },
+  {
     "Game": "Under Falling Skies",
     "Mechanics": [
       "Solo Play",
@@ -2108,182 +2284,6 @@
       "PlayerSetup": "- **Answer Boards**: Write your name or team name on your Answer Board.\\n\\n- **Betting Chips**: Keep your two Betting Chips ready for placing bets during each round.\\n\\n- **Dry Erase Pen**: Use it to write your guesses on the Answer Board.\\n\\n- **Poker Chips**: Start without any Poker Chips; these are earned through correct bets.",
       "Gameplay": "**Question Phase**:\\n   - The Question Reader announces the question number and reads it aloud.\\n   - Players have 30 seconds to write their numerical guess on their Answer Board.\\n\\n**Placement Phase**:\\n   - Once time is up, place all Answer Boards face-up on the Betting Mat.\\n   - Arrange guesses in ascending order:\\n     - If multiple guesses are identical, stack them together.\\n     - For an odd number of unique guesses, place the middle guess in the \"Pays 2 to 1\" slot.\\n     - For an even number, leave the \"Pays 2 to 1\" slot empty; place the two middle guesses in the \"Pays 3 to 1\" slots.\\n\\n**Betting Phase**:\\n   - Players have 30 seconds to place their Betting Chips:\\n     - Bet both chips on one answer or split them between two.\\n     - You may bet on any answer, not just your own.\\n     - Bets can be moved during the betting period but are locked once time expires.\\n\\n**Resolution Phase**:\\n   - The Question Reader reveals the correct answer.\\n   - Determine the winning guess: the closest answer without exceeding the correct number.\\n   - If all guesses are over, the \"All Guesses Too High\" slot wins.\\n\\n**Payout Phase**:\\n   - The Banker awards payouts based on the odds of the winning slot:\\n     - Return the original bet plus the payout (e.g., a 2 to 1 slot pays back double the bet).\\n   - Players who wrote the winning guess receive a bonus of 3 Poker Chips.\\n   - Collect losing bets; Betting Chips are returned to players, but lost Poker Chips go back to the bank.\\n\\n**Preparation for Next Round**:\\n   - Players erase their Answer Boards.\\n   - The used Question Card is set aside.\\n   - Repeat the process for the next question.",
       "EndOfGame": "The game ends after a predetermined number of rounds, or when a player reaches a point goal."
-    }
-  },
-  {
-    "Game": "Harry Potter Hogwarts Battle",
-    "Mechanics": [
-      "Deck Building",
-      "Cooperative Play",
-      "Hand Management",
-      "Variable Player Powers"
-    ],
-    "Playtime": {
-      "Min": 30,
-      "Max": 60
-    },
-    "Players": {
-      "Min": 1,
-      "Max": 4
-    },
-    "Complexity": "Light-Med",
-    "QuickSetupGuide": {
-      "Overview": "Cooperative deck-building game where players work together as Hogwarts students to defeat villains and protect the wizarding world.",
-      "Setup": "1. Place the game board on the table.\\n2. Shuffle the Hogwarts cards and place them in their designated space.\\n3. Place the Villain deck and Dark Arts deck in their respective spaces.\\n4. Set the Location cards in order, starting with the first location on top.\\n5. Place the Horcrux and Encounter cards (if applicable) nearby.\\n6. Set the Influence tokens, Attack tokens, and Health trackers within reach.",
-      "PlayerSetup": "- Each player selects a Hero (Harry, Ron, Hermione, or Neville).\\n- Take the corresponding Hero Deck (10 starting cards).\\n- Shuffle and place the Hero Deck face down as the draw pile.\\n- Draw 5 cards as the starting hand.\\n- Place a Player Board in front of each player.\\n- Set starting Health to 10 on the Player Board.\\n- Place Influence tokens nearby.",
-      "Gameplay": "**1. Reveal the Dark Arts card and resolve its effect.**  \\n**2. Resolve any Villain abilities that trigger at the start of a turn.**  \\n**3. Play cards from hand to gain Influence, Attack, or Health.**  \\n**4. Use Influence to acquire new cards from the market.**  \\n**5. Assign Attack to Villains.**  \\n**6. Discard remaining cards and draw a new hand.**  \\n**7. Replenish the market and pass to the next player.**  ",
-      "EndOfGame": "The game ends when either:  \\n  - Players successfully defeat all villains in the final scenario.  \\n  - All locations are controlled by villains, resulting in player loss.  "
-    }
-  },
-  {
-    "Game": "Tiny Towns",
-    "Mechanics": [
-      "Pattern Building",
-      "Resource Management",
-      "Tile Placement",
-      "Grid Movement"
-    ],
-    "Playtime": {
-      "Min": 45,
-      "Max": 60
-    },
-    "Players": {
-      "Min": 2,
-      "Max": 6
-    },
-    "Complexity": "Light",
-    "QuickSetupGuide": {
-      "Overview": "Strategic city-building game where players construct towns using polyomino pieces, balancing resources and placement.",
-      "Setup": "1. Place the Town Hall board in the center.\\n2. Shuffle the Resource deck and place it face down.\\n3. Arrange the Monument cards and distribute one to each player.\\n4. Place the Resource cubes (wood, wheat, brick, glass, stone) within reach.\\n5. Set up the Building cards in a 4x4 grid.",
-      "PlayerSetup": "- Give each player a 4x4 grid player board.\\n- Shuffle and place all Building cards in the center.\\n- Randomly select one of each type of Building card for the game.\\n- Each player takes a Monument card (randomly drawn or chosen).\\n- Place the Resource cubes within reach of all players.",
-      "Gameplay": "**1. The active player names a resource.**  \\n**2. All players must place that resource on an empty square of their board.**  \\n**3. If the placement completes a building pattern, replace the resources with the corresponding building.**  \\n**4. Repeat until no players can place resources or construct buildings.**  ",
-      "EndOfGame": "-The game ends when all players can no longer place a building or choose to pass.  \\n- Scores are calculated based on completed buildings and negative points for empty spaces.  "
-    }
-  },
-  {
-    "Game": "King of Tokyo",
-    "Mechanics": [
-      "Dice Rolling",
-      "Push Your Luck",
-      "Player Elimination",
-      "Variable Player Powers",
-      "Take That"
-    ],
-    "Playtime": {
-      "Min": 30,
-      "Max": 45
-    },
-    "Players": {
-      "Min": 3,
-      "Max": 6
-    },
-    "Complexity": "Light-Med",
-    "QuickSetupGuide": {
-      "Overview": "Dice-rolling game where players take on the roles of monsters battling to become the king of Tokyo through attacks and special powers.",
-      "Setup": "1. Place the Tokyo board in the center.\\n2. Shuffle the deck of Power cards and place it face down.\\n3. Place the Energy cubes, dice, and tokens within reach.\\n4. Each player chooses a Monster and takes the corresponding figure and board.",
-      "PlayerSetup": "- Each player selects a Monster and takes the corresponding Monster board.\\n- Set Health to 10 and Victory Points to 0 on the Monster board.\\n- Shuffle the deck of Power cards and place it in the center.\\n- Reveal the top 3 Power cards as the market.\\n- Place the Energy cubes within reach of all players.\\n- Roll dice to determine the first player (most Attack results starts).  ",
-      "Gameplay": "**1. Roll six dice (up to three times, keeping or rerolling any number of dice).**  \\n**2. Resolve dice results: Attack (damage opponents), Energy (gain energy cubes), Heal (restore health), Points (gain stars).**  \\n**3. If dealing damage, the current Tokyo occupant takes it and may choose to yield.**  \\n**4. If entering Tokyo, gain 1 star.**  \\n**5. Spend energy cubes to purchase power cards.**  \\n**6. Check if any player reaches 20 stars or is the last monster standing.**  ",
-      "EndOfGame": "The game ends when a player reaches **20 Victory Points** or is the **last monster standing**.  "
-    }
-  },
-  {
-    "Game": "Letter Jam",
-    "Mechanics": [
-      "Word Deduction",
-      "Cooperative Play",
-      "Limited Communication",
-      "Puzzle Solving"
-    ],
-    "Playtime": {
-      "Min": 30,
-      "Max": 45
-    },
-    "Players": {
-      "Min": 2,
-      "Max": 6
-    },
-    "Complexity": "Light",
-    "QuickSetupGuide": {
-      "Overview": "Cooperative word game where players give and interpret clues to deduce their hidden letters and form a word.",
-      "Setup": "1. Arrange the letter cards into a deck and shuffle.\\n2. Place the clue tokens, number tokens, and green tokens within reach.\\n3. Set up the clue sheet and pencils for each player.",
-      "PlayerSetup": "- Each player selects a set of Letter cards, shuffles, and forms a word.\\n- Place Letter cards face down in a stack in front of the player.\\n- Reveal the top Letter card on a stand, facing outward.\\n- Place the numbered clue tokens within reach.\\n- Set up the Clue Tracker board.\\n- Place the Wildcard Letter in the center.",
-      "Gameplay": "**1. Each player has a letter card in front of them, visible to all but themselves.**  \\n**2. Players take turns forming words using the visible letters.**  \\n**3. The clue giver provides the word by placing number tokens for letter order.**  \\n**4. Players deduce their letter based on clues and write guesses.**  \\n**5. When ready, swap letters and continue until all letters are used.**  ",
-      "EndOfGame": "The game ends when all players either successfully guess their word or run out of clue cards.  "
-    }
-  },
-  {
-    "Game": "One Night Werewolf",
-    "Mechanics": [
-      "Hidden Role",
-      "Bluffing",
-      "Deduction",
-      "Social Deduction",
-      "Team Play"
-    ],
-    "Playtime": {
-      "Min": 10,
-      "Max": 15
-    },
-    "Players": {
-      "Min": 3,
-      "Max": 10
-    },
-    "Complexity": "Light",
-    "QuickSetupGuide": {
-      "Overview": "Social deduction game where players take on secret roles, trying to uncover the werewolves among them in a single night.",
-      "Setup": "1. Select the roles to be used and gather the corresponding role cards and tokens.\\n2. Shuffle the role cards and deal one to each player.\\n3. Place the remaining role cards in the center.\\n4. Use the app or a moderator to guide the game.",
-      "PlayerSetup": "- Select roles based on the number of players and shuffle them.\\n- Deal one role card to each player and three in the center.\\n- Give each player a role card face down.\\n- Place the role reminder tiles in the center.\\n- Distribute one token per player if using expansions.",
-      "Gameplay": "**1. All players receive a secret role.**  \\n**2. The night phase occurs: roles perform their actions in order.**  \\n**3. The day phase begins: players discuss and debate who is a Werewolf.**  \\n**4. After a time limit, players vote on whom to eliminate.**  \\n**5. The game ends immediately after the vote.**  ",
-      "EndOfGame": "- The game ends after a single night phase and voting round.  \\n- The team (Villagers or Werewolves) with the most favorable outcome wins.  "
-    }
-  },
-  {
-    "Game": "For Sale",
-    "Mechanics": [
-      "Auction/Bidding",
-      "Push Your Luck",
-      "Set Collection"
-    ],
-    "Playtime": {
-      "Min": 20,
-      "Max": 30
-    },
-    "Players": {
-      "Min": 3,
-      "Max": 6
-    },
-    "Complexity": "Light",
-    "QuickSetupGuide": {
-      "Overview": "Fast-paced auction game where players bid on properties and sell them for the highest profit.",
-      "Setup": "1. Separate the Property and Currency cards.\\n2. Shuffle each deck separately.\\n3. Deal a set amount of money to each player.",
-      "PlayerSetup": "- Shuffle and divide the Property deck into two equal phases.\\n- Each player starts with a set amount of money (varies by player count).\\n- Shuffle the Check deck and place it face down.",
-      "Gameplay": "**1. In the first phase, players bid on properties using their starting money.**  \\n**2. Players continue bidding or pass to take a property.**  \\n**3. This continues until all properties are auctioned.**  \\n**4. In the second phase, players secretly select a property and reveal simultaneously.**  \\n**5. Check the value of properties played and distribute checks accordingly.**  \\n**6. Repeat until all properties have been sold.**  ",
-      "EndOfGame": "The game ends after all properties have been auctioned and players tally their money.  "
-    }
-  },
-  {
-    "Game": "Just One",
-    "Mechanics": [
-      "Cooperative Play",
-      "Word Deduction",
-      "Party",
-      "Limited Communication"
-    ],
-    "Playtime": {
-      "Min": 20,
-      "Max": 30
-    },
-    "Players": {
-      "Min": 3,
-      "Max": 7
-    },
-    "Complexity": "Light",
-    "QuickSetupGuide": {
-      "Overview": "Cooperative party game where players give one-word clues to help a teammate guess a secret word.",
-      "Setup": "1. Give each player a marker and an easel.\\n2. Shuffle the deck of word cards and place it face down.\\n3. Determine the starting player.",
-      "PlayerSetup": "- Shuffle the deck of Word cards and place it in the center.\\n- Each player takes a small dry-erase board and marker.\\n- Select a starting active player.",
-      "Gameplay": "**1. The active player selects a number without seeing the word associated with it.**  \\n**2. Other players write down one-word clues related to the secret word.**  \\n**3. Duplicate clues are eliminated.**  \\n**4. The active player sees the remaining clues and makes a guess.**  \\n**5. The round ends, and the next player takes a turn as the guesser.**  ",
-      "EndOfGame": "The game ends when all players have given clues and the final word is guessed.  "
     }
   }
 ]
