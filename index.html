@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game Quick Setup</title>
@@ -33,22 +34,36 @@
             <select id="playerFilter">
                 <option value="">Any</option>
             </select>
-
+        
             <label for="complexityFilter">Complexity:</label>
             <select id="complexityFilter">
                 <option value="">Any</option>
             </select>
-
+        
             <label for="mechanicsFilter">Mechanics:</label>
             <select id="mechanicsFilter">
                 <option value="">Any</option>
             </select>
-
+        
             <label for="timeFilter">Time (Max Minutes):</label>
             <select id="timeFilter">
                 <option value="">Any</option>
             </select>
-        </div>
+        
+            <!-- ✅ New Favorites Filter -->
+            <label for="favoritesFilter">Favorites:</label>
+            <select id="favoritesFilter">
+                <option value="">Any</option>
+                <option value="Dad">Dad's Favorite</option>
+                <option value="Mom">Mom's Favorite</option>
+                <option value="Jaden">Jaden's Favorite</option>
+                <option value="Kyden">Kyden's Favorite</option>
+                <option value="Elsie">Elsie's Favorite</option>
+                <option value="Family">Family Favorite</option>
+                <option value="CrowdFavorite">Crowd Favorite</option>
+                <option value="GatewayGame">Gateway Game</option>
+            </select>
+        </div>        
 
         <!-- ✅ Game Selection -->
         <div class="game-selection">

@@ -50,13 +50,22 @@ h3 {
 
 /* ✅ Game Stats Headings */
 #gameStats h3 {
-    color: #58c7c7;
+    color: #ffffff;
 }
 
 /* ✅ Recently Played & Game Details Headings */
 #recentGamesSection h3, .game-details h2 {
-    color: #58c7c7;
+    color: #4aa5a5;
     font-size: 20px;
+}
+/* ✅ Ensure the Favorites Filter Matches Other Filters */
+#favoritesFilter {
+    width: 240px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #58c7c7;
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
 
 /* ✅ Game Guide Headings */

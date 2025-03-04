@@ -48,29 +48,30 @@ function populateFilters(gameList) {
     const complexityFilter = document.getElementById("complexityFilter");
     const mechanicsFilter = document.getElementById("mechanicsFilter");
     const timeFilter = document.getElementById("timeFilter");
+    const favoritesFilter = document.getElementById("favoritesFilter");
 
     let maxPlayers = new Set();
+    let complexities = new Set();
     let mechanicsSet = new Set();
+    let times = new Set();
 
     gameList.forEach(game => {
-        for (let i = game.Players.Min; i <= Math.min(game.Players.Max, 15); i++) {
-            maxPlayers.add(i);
+        if (game.Players) {
+            let minPlayers = Math.min(game.Players.Min, game.Players.Max);
+            let maxPlayersNum = Math.max(game.Players.Min, game.Players.Max);
+            for (let i = minPlayers; i <= maxPlayersNum; i++) {
+                maxPlayers.add(i);
+            }
         }
-        game.Mechanics.forEach(mechanic => mechanicsSet.add(mechanic));
+        if (game.Complexity) complexities.add(game.Complexity);
+        if (game.Mechanics) game.Mechanics.forEach(mechanic => mechanicsSet.add(mechanic));
+        if (game.Playtime) times.add(game.Playtime.Max);
     });
 
     populateFilterDropdown(playerFilter, [...maxPlayers].sort((a, b) => a - b), "Players");
     populateFilterDropdown(complexityFilter, complexityOrder, "");
     populateFilterDropdown(mechanicsFilter, [...mechanicsSet].sort(), "");
-
-    // ✅ Populate Time Dropdown in 15-minute increments
-    timeFilter.innerHTML = `<option value="">Any</option>`;
-    for (let i = 15; i <= 180; i += 15) {
-        const option = document.createElement("option");
-        option.value = i;
-        option.textContent = `${i} min`;
-        timeFilter.appendChild(option);
-    }
+    populateFilterDropdown(timeFilter, [...times].sort((a, b) => a - b), "min");
 }
 
 // ✅ Helper Function to Populate Dropdowns
@@ -84,26 +85,39 @@ function populateFilterDropdown(filterElement, dataArray, label = "") {
     });
 }
 
-// ✅ Apply Filters to the Game List
 function filterGames() {
     const selectedPlayers = document.getElementById("playerFilter").value;
     const selectedComplexity = document.getElementById("complexityFilter").value;
     const selectedMechanic = document.getElementById("mechanicsFilter").value;
     const selectedTime = document.getElementById("timeFilter").value;
+    const selectedFavorite = document.getElementById("favoritesFilter").value;
 
     filteredGames = games.filter(game => {
         let matchesPlayers = selectedPlayers === "" || (game.Players.Min <= selectedPlayers && game.Players.Max >= selectedPlayers);
         let matchesComplexity = selectedComplexity === "" || game.Complexity === selectedComplexity;
         let matchesMechanic = selectedMechanic === "" || game.Mechanics.some(mech => mech === selectedMechanic);
-        
-        // ✅ Time filter: Show games that take equal to OR LESS than the selected time
         let matchesTime = selectedTime === "" || game.Playtime.Max <= selectedTime;
 
-        return matchesPlayers && matchesComplexity && matchesMechanic && matchesTime;
+        // ✅ Handle Favorite Filters
+        let matchesFavorite = true;
+        if (selectedFavorite) {
+            if (selectedFavorite === "Family") {
+                let ratings = Object.values(game.Ratings).filter(r => r !== null);
+                let avgRating = ratings.length > 0 ? ratings.reduce((sum, r) => sum + r, 0) / ratings.length : 0;
+                matchesFavorite = avgRating >= 8; // Define "Family Favorite" as avg rating ≥ 8
+            } else if (selectedFavorite === "CrowdFavorite") {
+                matchesFavorite = game.CrowdFavorite === true;
+            } else if (selectedFavorite === "GatewayGame") {
+                matchesFavorite = game.GatewayGame === true;
+            } else {
+                matchesFavorite = game.Ratings[selectedFavorite] !== null && game.Ratings[selectedFavorite] >= 8;
+            }
+        }
+
+        return matchesPlayers && matchesComplexity && matchesMechanic && matchesTime && matchesFavorite;
     });
 
     populateDropdown(filteredGames);
-    displaySuggestedGame(); // ✅ Update suggested game after filtering
 }
 
 // ✅ Populate Game Dropdown
@@ -118,7 +132,7 @@ function populateDropdown(gameList) {
         dropdown.appendChild(option);
     });
 
-    document.getElementById("gameSelect").value = ""; // ✅ Reset selection
+    document.getElementById("gameSelect").value = "";
 }
 
 function trackRecentGame(gameName) {
@@ -193,36 +207,41 @@ function displaySuggestedGame() {
     suggestedGameElement.textContent = leastPlayedGame ? leastPlayedGame.Game : "No suggestions available.";
 }
 function displaySelectedGame() {
-    const selectedGameName = document.getElementById("gameSelect").value;
-    const selectedGame = games.find(game => game.Game === selectedGameName);
+    const dropdown = document.getElementById("gameSelect");
+    const selectedGameName = dropdown.value;
 
-    if (selectedGame) {
-        document.getElementById("gameTitle").textContent = selectedGame.Game;
-        document.getElementById("gameMechanics").textContent = selectedGame.Mechanics.join(", ");
-        document.getElementById("gamePlaytime").textContent = `${selectedGame.Playtime.Min}-${selectedGame.Playtime.Max} min`;
-        document.getElementById("gamePlayers").textContent = `${selectedGame.Players.Min}-${selectedGame.Players.Max} Players`;
-        document.getElementById("gameComplexity").textContent = selectedGame.Complexity;
+    console.log("🎮 Selected Game:", selectedGameName); // Debugging log
 
-        document.getElementById("gameGuide").innerHTML = `
-            <h3>Overview</h3>
-            <p>${formatText(selectedGame.QuickSetupGuide.Overview)}</p>
-            <h3>Setup</h3>
-            <p>${formatText(selectedGame.QuickSetupGuide.Setup)}</p>
-            <h3>Player Setup</h3>
-            <p>${formatText(selectedGame.QuickSetupGuide.PlayerSetup)}</p>
-            <h3>Gameplay</h3>
-            <p>${formatText(selectedGame.QuickSetupGuide.Gameplay)}</p>
-            <h3>End of Game</h3>
-            <p>${formatText(selectedGame.QuickSetupGuide.EndOfGame)}</p>
-        `;
-
-        document.getElementById("gameDetails").style.display = "block";
-
-        // ✅ Track the game view
-        trackRecentGame(selectedGame.Game);
-    } else {
-        document.getElementById("gameDetails").style.display = "none";
+    if (!selectedGameName) {
+        console.warn("⚠️ No game selected.");
+        return;
     }
+
+    const selectedGame = games.find(game => game.Game === selectedGameName);
+    if (!selectedGame) {
+        console.error(`❌ Game not found: ${selectedGameName}`);
+        return;
+    }
+
+    document.getElementById("gameTitle").textContent = selectedGame.Game;
+    document.getElementById("gameMechanics").textContent = selectedGame.Mechanics ? selectedGame.Mechanics.join(", ") : "N/A";
+    document.getElementById("gamePlaytime").textContent = `${selectedGame.Playtime.Min}-${selectedGame.Playtime.Max} min`;
+    document.getElementById("gamePlayers").textContent = selectedGame.Players ? `${selectedGame.Players.Min}-${selectedGame.Players.Max} Players` : "N/A";
+    document.getElementById("gameComplexity").textContent = selectedGame.Complexity || "N/A";
+
+    if (selectedGame.QuickSetupGuide) {
+        document.getElementById("overview").textContent = selectedGame.QuickSetupGuide.Overview || "N/A";
+        document.getElementById("setup").textContent = selectedGame.QuickSetupGuide.Setup || "N/A";
+        document.getElementById("playerSetup").textContent = selectedGame.QuickSetupGuide.PlayerSetup || "N/A";
+        document.getElementById("gameplay").textContent = selectedGame.QuickSetupGuide.Gameplay || "N/A";
+        document.getElementById("endOfGame").textContent = selectedGame.QuickSetupGuide.EndOfGame || "N/A";
+    }
+
+    document.getElementById("gameDetails").style.display = "block";
+    console.log("✅ Displayed details for:", selectedGame.Game);
+
+    // ✅ Track the game view
+    trackRecentGame(selectedGame.Game);
 }
 // ✅ Format Text (Replace `\n` with `<br>`)
 function formatText(text) {
@@ -236,20 +255,23 @@ function clearRecentGames() {
     displayMostPlayedGame();
     displaySuggestedGame();
 }
-// ✅ Attach Event Listeners
-document.getElementById("playerFilter").addEventListener("change", filterGames);
-document.getElementById("complexityFilter").addEventListener("change", filterGames);
-document.getElementById("mechanicsFilter").addEventListener("change", filterGames);
-document.getElementById("timeFilter").addEventListener("change", filterGames);
-document.getElementById("gameSelect").addEventListener("change", displaySelectedGame);
-document.getElementById("randomButton").addEventListener("click", pickRandomGame);
-document.getElementById("clearRecentButton").addEventListener("click", () => {
-    localStorage.removeItem(recentGamesKey);
-    localStorage.removeItem(playCountKey);
-    displayRecentGames();
-    displayMostPlayedGame();
-    displaySuggestedGame();
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("playerFilter").addEventListener("change", filterGames);
+    document.getElementById("complexityFilter").addEventListener("change", filterGames);
+    document.getElementById("mechanicsFilter").addEventListener("change", filterGames);
+    document.getElementById("timeFilter").addEventListener("change", filterGames);
+    document.getElementById("favoritesFilter").addEventListener("change", filterGames);
+    document.getElementById("gameSelect").addEventListener("change", displaySelectedGame);
+    document.getElementById("randomButton").addEventListener("click", pickRandomGame);
+    document.getElementById("clearRecentButton").addEventListener("click", () => {
+        localStorage.removeItem(recentGamesKey);
+        localStorage.removeItem(playCountKey);
+        displayRecentGames();
+        displayMostPlayedGame();
+        displaySuggestedGame();
+    });
+
+    fetchGames();
 });
 
-// ✅ Fetch Games on Page Load
-fetchGames();
+
