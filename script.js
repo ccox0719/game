@@ -11,16 +11,23 @@ async function fetchGames() {
     try {
         const response = await fetch(apiUrl + "?nocache=" + new Date().getTime());
         games = await response.json();
+
+        // ✅ Ensure filteredGames starts with all games available
         filteredGames = [...games];
+
         populateDropdown(filteredGames);
         populateFilters(games);
         displayRecentGames();
         displayMostPlayedGame();
         displaySuggestedGame();
+        
+        // ✅ Apply initial filters (ensures games are available on first load)
+        filterGames();
     } catch (error) {
         console.error("Error fetching game data:", error);
     }
 }
+
 function displayRecentGames() {
     const recentList = document.getElementById("recentGamesList");
     let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
@@ -134,6 +141,29 @@ function populateDropdown(gameList) {
 
     document.getElementById("gameSelect").value = "";
 }
+// ✅ Display Recently Played Games
+function displayRecentGames() {
+    const recentList = document.getElementById("recentGamesList");
+    let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
+
+    // Clear existing list
+    recentList.innerHTML = "";
+
+    if (recentGames.length === 0) {
+        recentList.innerHTML = "<p>No games played recently.</p>";
+        return;
+    }
+
+    recentGames.forEach(game => {
+        const listItem = document.createElement("li");
+        listItem.textContent = game;
+        listItem.onclick = () => {
+            document.getElementById("gameSelect").value = game;
+            displaySelectedGame();
+        };
+        recentList.appendChild(listItem);
+    });
+}
 
 function trackRecentGame(gameName) {
     let recentGames = JSON.parse(localStorage.getItem(recentGamesKey)) || [];
@@ -157,18 +187,30 @@ function trackRecentGame(gameName) {
 }
 
 // ✅ Pick Random Game (From Filtered List)
+// ✅ Pick Random Game (Uses filteredGames with fallback to all games)
 function pickRandomGame() {
-    if (filteredGames.length === 0) {
+    // Ensure `filteredGames` is populated correctly
+    let availableGames = (filteredGames.length > 0) ? filteredGames : [...games];
+
+    if (availableGames.length === 0) {
         alert("No games available. Adjust your filters!");
         return;
     }
 
-    let randomIndex = Math.floor(Math.random() * filteredGames.length);
-    let randomGame = filteredGames[randomIndex];
+    let randomIndex = Math.floor(Math.random() * availableGames.length);
+    let randomGame = availableGames[randomIndex];
 
-    document.getElementById("gameSelect").value = randomGame.Game;
+    console.log("🎲 Randomly picked:", randomGame.Game); // ✅ Debugging log
+
+    // ✅ Ensure dropdown is updated
+    let dropdown = document.getElementById("gameSelect");
+    dropdown.value = randomGame.Game;
+
+    // ✅ Directly update and call display function
     displaySelectedGame();
 }
+
+
 function displayMostPlayedGame() {
     const mostPlayedElement = document.getElementById("mostPlayedGame");
     let playCount = JSON.parse(localStorage.getItem(playCountKey)) || {};
