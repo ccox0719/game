@@ -2246,6 +2246,42 @@
     "GatewayGame": true
   },
   {
+    "Game": "Resitance",
+    "Mechanics": [
+      "Hidden Roles",
+      "Social Deduction",
+      "Bluffing",
+      "Voting",
+      "Player Elimination (Potential)",
+      "Team-Based Play"
+    ],
+    "Playtime": {
+      "Min": 30,
+      "Max": 45
+    },
+    "Players": {
+      "Min": 5,
+      "Max": 10
+    },
+    "Complexity": "Light-Med",
+    "QuickSetupGuide": {
+      "Overview": "A hidden role social deduction game where players are divided into two teams: the Resistance and the Spies. The Resistance must complete missions without being sabotaged, while the Spies work in secret to ensure the Resistance fails. Discussion, deception, and deduction are key elements as players try to uncover each other?s identities.",
+      "Setup": "- Shuffle the Role cards and deal one to each player.\n- Each player secretly looks at their Role card.\n- Prepare the Mission cards (Success and Fail) and Leader token.\n- Place the Score Tracker and Mission Team Tokens in the center.\n- Use the appropriate Mission Team size based on the number of players.\n- Randomly select a Leader to start the game.\n",
+      "PlayerSetup": "- 5-10 players\n- Shuffle and deal one role card to each player (Resistance or Spy)\n- Spies reveal themselves to each other in secret\n- Choose a Leader to begin the game (determined randomly)\n",
+      "Gameplay": "1. **Leader Selection**: A leader is chosen and selects a team for the mission.\n2. **Team Voting**: All players vote to approve or reject the proposed mission team.\n   - If rejected, leadership passes and a new team is proposed.\n   - If five teams are rejected in a row, the Spies win.\n3. **Mission Execution**: Approved teams secretly submit a **Success** or **Fail** card.\n   - Resistance members must always choose **Success**.\n   - Spies can choose either **Success** or **Fail** to create doubt.\n4. **Mission Outcome**: Cards are shuffled and revealed.\n   - If enough **Fail** cards appear, the mission fails.\n   - Otherwise, the mission succeeds.\n5. **Next Round**: Leadership rotates and a new mission begins.\n\n",
+      "EndOfGame": "**The Resistance**  \n- The game ends after five successful mission votes (either success or fail).  \n- If the Resistance completes three missions successfully, they win.  \n- If the Spies cause three missions to fail, they win.  \r"
+    },
+    "Ratings": {
+      "Dad": 8,
+      "Mom": 6,
+      "Jaden": null,
+      "Kyden": 3,
+      "Elsie": null
+    },
+    "CrowdFavorite": true,
+    "GatewayGame": true
+  },
+  {
     "Game": "Roll Player",
     "Mechanics": [
       "Dice Drafting",
@@ -2272,10 +2308,10 @@
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 8,
-      "Mom": 6,
+      "Dad": 9,
+      "Mom": 5,
       "Jaden": null,
-      "Kyden": 3,
+      "Kyden": null,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2306,14 +2342,14 @@
       "EndOfGame": "The game ends when a predetermined number of points are reached, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": 5,
+      "Dad": 7,
+      "Mom": null,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": true
+    "GatewayGame": false
   },
   {
     "Game": "Sagrada",
@@ -2340,14 +2376,14 @@
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most points from their stained glass window wins."
     },
     "Ratings": {
-      "Dad": 7,
-      "Mom": null,
+      "Dad": 9,
+      "Mom": 6,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": false
+    "GatewayGame": true
   },
   {
     "Game": "San Juan",
@@ -2375,14 +2411,14 @@
       "EndOfGame": "The game ends when a player reaches a set number of victory points or when all players have built their buildings."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": 6,
-      "Jaden": null,
-      "Kyden": null,
+      "Dad": 8,
+      "Mom": 3,
+      "Jaden": 5,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": true
+    "GatewayGame": false
   },
   {
     "Game": "Sanctum",
@@ -2411,13 +2447,13 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": 3,
-      "Jaden": 5,
-      "Kyden": 7,
+      "Mom": 8,
+      "Jaden": 7,
+      "Kyden": 8,
       "Elsie": null
     },
-    "CrowdFavorite": true,
-    "GatewayGame": false
+    "CrowdFavorite": false,
+    "GatewayGame": true
   },
   {
     "Game": "Sea Salt & Paper",
@@ -2443,11 +2479,11 @@
       "EndOfGame": "The game ends when one player collects enough combo points or the deck is exhausted."
     },
     "Ratings": {
-      "Dad": 8,
-      "Mom": 8,
+      "Dad": 10,
+      "Mom": 9,
       "Jaden": 7,
-      "Kyden": 8,
-      "Elsie": null
+      "Kyden": 6,
+      "Elsie": 8
     },
     "CrowdFavorite": false,
     "GatewayGame": true
@@ -2478,12 +2514,12 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": 9,
-      "Jaden": 7,
-      "Kyden": 6,
+      "Mom": 10,
+      "Jaden": 8,
+      "Kyden": 10,
       "Elsie": 8
     },
-    "CrowdFavorite": false,
+    "CrowdFavorite": true,
     "GatewayGame": true
   },
   {
@@ -2512,11 +2548,11 @@
       "EndOfGame": "The game ends when a player reaches 40 points or more, and that player wins."
     },
     "Ratings": {
-      "Dad": 10,
-      "Mom": 10,
-      "Jaden": 8,
-      "Kyden": 10,
-      "Elsie": 8
+      "Dad": 9,
+      "Mom": 8,
+      "Jaden": 10,
+      "Kyden": 8,
+      "Elsie": 10
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2548,14 +2584,14 @@
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most investment profit wins."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": 8,
-      "Jaden": 10,
-      "Kyden": 8,
-      "Elsie": 10
+      "Dad": null,
+      "Mom": null,
+      "Jaden": null,
+      "Kyden": null,
+      "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": true
+    "GatewayGame": false
   },
   {
     "Game": "Sushi Go!",
@@ -2582,11 +2618,11 @@
       "EndOfGame": "The game ends after three rounds, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": null,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Dad": 10,
+      "Mom": 10,
+      "Jaden": 1,
+      "Kyden": 9,
+      "Elsie": 1
     },
     "CrowdFavorite": true,
     "GatewayGame": false
@@ -2618,13 +2654,13 @@
       "EndOfGame": "The game ends after a set number of generations, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 10,
-      "Mom": 10,
-      "Jaden": 1,
-      "Kyden": 9,
-      "Elsie": 1
+      "Dad": null,
+      "Mom": null,
+      "Jaden": null,
+      "Kyden": null,
+      "Elsie": null
     },
-    "CrowdFavorite": true,
+    "CrowdFavorite": false,
     "GatewayGame": false
   },
   {
@@ -2652,13 +2688,13 @@
       "EndOfGame": "The game ends when the players repair their ship and escape, or if they are all defeated."
     },
     "Ratings": {
-      "Dad": null,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Dad": 10,
+      "Mom": 7,
+      "Jaden": 5,
+      "Kyden": 8,
+      "Elsie": 8
     },
-    "CrowdFavorite": false,
+    "CrowdFavorite": true,
     "GatewayGame": false
   },
   {
@@ -2690,13 +2726,13 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": 7,
-      "Jaden": 5,
-      "Kyden": 8,
+      "Mom": 10,
+      "Jaden": 3,
+      "Kyden": 9,
       "Elsie": 8
     },
     "CrowdFavorite": true,
-    "GatewayGame": false
+    "GatewayGame": true
   },
   {
     "Game": "The Castles of Mad King Ludwig",
@@ -2724,11 +2760,11 @@
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 10,
-      "Mom": 10,
-      "Jaden": 3,
-      "Kyden": 9,
-      "Elsie": 8
+      "Dad": 9,
+      "Mom": 9,
+      "Jaden": 4,
+      "Kyden": 3,
+      "Elsie": 4
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2758,14 +2794,14 @@
       "EndOfGame": "The Quest for Planet Nine: The game ends when players complete all missions or fail in a mission."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": 9,
-      "Jaden": 4,
-      "Kyden": 3,
-      "Elsie": 4
+      "Dad": 8,
+      "Mom": 4,
+      "Jaden": null,
+      "Kyden": 6,
+      "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": true
+    "GatewayGame": false
   },
   {
     "Game": "The Fox in the Forest",
@@ -2791,14 +2827,14 @@
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 8,
-      "Mom": 4,
+      "Dad": 9,
+      "Mom": 9,
       "Jaden": null,
-      "Kyden": 6,
+      "Kyden": null,
       "Elsie": null
     },
     "CrowdFavorite": true,
-    "GatewayGame": false
+    "GatewayGame": true
   },
   {
     "Game": "The Initiative",
@@ -2827,13 +2863,13 @@
       "EndOfGame": "The game ends when the final puzzle is solved and the narrative concludes."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": 9,
+      "Dad": 7,
+      "Mom": 7,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
     },
-    "CrowdFavorite": true,
+    "CrowdFavorite": false,
     "GatewayGame": true
   },
   {
@@ -2864,12 +2900,12 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": 7,
+      "Mom": 5,
       "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Kyden": 1,
+      "Elsie": 6
     },
-    "CrowdFavorite": false,
+    "CrowdFavorite": true,
     "GatewayGame": true
   },
   {
@@ -2897,14 +2933,14 @@
       "EndOfGame": "The game ends when the train cards run out, and the player with the most points wins."
     },
     "Ratings": {
-      "Dad": 7,
-      "Mom": 5,
-      "Jaden": null,
-      "Kyden": 1,
-      "Elsie": 6
+      "Dad": 10,
+      "Mom": 7,
+      "Jaden": 4,
+      "Kyden": 6,
+      "Elsie": 9
     },
     "CrowdFavorite": true,
-    "GatewayGame": true
+    "GatewayGame": false
   },
   {
     "Game": "Tiny Towns",
@@ -2931,13 +2967,13 @@
       "EndOfGame": "-The game ends when all players can no longer place a building or choose to pass.  \n- Scores are calculated based on completed buildings and negative points for empty spaces.  "
     },
     "Ratings": {
-      "Dad": 10,
-      "Mom": 7,
-      "Jaden": 4,
-      "Kyden": 6,
-      "Elsie": 9
+      "Dad": 9,
+      "Mom": null,
+      "Jaden": null,
+      "Kyden": 3,
+      "Elsie": null
     },
-    "CrowdFavorite": true,
+    "CrowdFavorite": false,
     "GatewayGame": false
   },
   {
@@ -2966,14 +3002,14 @@
       "EndOfGame": "The game ends when players successfully defend Earth or fail to prevent the alien invasion."
     },
     "Ratings": {
-      "Dad": 9,
-      "Mom": null,
+      "Dad": 8,
+      "Mom": 8,
       "Jaden": null,
-      "Kyden": 3,
+      "Kyden": null,
       "Elsie": null
     },
-    "CrowdFavorite": false,
-    "GatewayGame": false
+    "CrowdFavorite": true,
+    "GatewayGame": true
   },
   {
     "Game": "Viticulture",
@@ -3001,11 +3037,11 @@
       "EndOfGame": "The game ends when a player reaches a set number of victory points, and that player wins."
     },
     "Ratings": {
-      "Dad": 8,
+      "Dad": 7,
       "Mom": 8,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Jaden": 9,
+      "Kyden": 10,
+      "Elsie": 9
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -3035,11 +3071,11 @@
       "EndOfGame": "The game ends when all players decide not to enter the dungeon, and the player who was last to enter wins."
     },
     "Ratings": {
-      "Dad": 7,
-      "Mom": 8,
-      "Jaden": 9,
-      "Kyden": 10,
-      "Elsie": 9
+      "Dad": 5,
+      "Mom": 5,
+      "Jaden": null,
+      "Kyden": null,
+      "Elsie": null
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -3069,14 +3105,14 @@
       "EndOfGame": "The game ends after a predetermined number of rounds, or when a player reaches a point goal."
     },
     "Ratings": {
-      "Dad": 5,
-      "Mom": 5,
+      "Dad": null,
+      "Mom": null,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
     },
-    "CrowdFavorite": true,
-    "GatewayGame": true
+    "CrowdFavorite": false,
+    "GatewayGame": false
   },
   {
     "Game": "",
