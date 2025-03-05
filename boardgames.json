@@ -29,7 +29,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 8,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -67,7 +67,7 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
+      "Mom": 9,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -106,9 +106,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 6,
+      "Jaden": 2,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -142,7 +142,7 @@
       "Setup": "**Map Setup**: Arrange the game board with 6 clusters, each containing 4 systems (3 planets and 1 gate). Depending on the player count, cover 1 or 2 clusters with out-of-play markers, ensuring the remaining clusters are accessible.\n\n**Player Components**: Each player selects a faction and receives:\n   - A player board\n   - A set of ships\n   - Building tokens (cities and starports)\n   - Resource tokens\n   - Action cards\n\n**Initial Placement**: Players place their starting ships and buildings on designated systems as outlined in their faction's setup instructions.\n\n**Court Setup**: Shuffle the deck of guild cards and place a number of them face-up in the Court area, accessible to all players.\n\n**Determine Initiative**: Randomly select a player to hold the initiative marker, indicating they will lead the first round.",
       "PlayerSetup": "- **Action Cards**: Each player is dealt a hand of action cards. These cards dictate the types of actions a player can perform, such as movement, taxation, or combat.\n\n- **Resource Slots**: Players have resource slots on their boards to store various resources collected during the game. As cities are built, additional slots become available.\n\n- **Agents and Influence**: Players have agents that can be placed on guild cards in the Court to gain special abilities or bonuses. Controlling these cards can provide strategic advantages.",
       "Gameplay": "**Rounds and Turns**: The game progresses through a series of rounds, each consisting of multiple turns where players play action cards to perform actions.\n\n**Leading and Following**: The player with the initiative plays an action card, and other players must follow by playing a card of the same suit with a higher value to perform full actions. Playing off-suit or lower-value cards allows only limited actions.\n\n**Actions**:\n   - **Movement**: Move ships between adjacent systems.\n   - **Taxation**: Collect resources from planets where the player has cities.\n   - **Combat**: Engage in battles with rival players to control systems.\n   - **Building**: Construct cities and starports on controlled planets.\n   - **Influence**: Place agents on guild cards in the Court to gain control over them.\n\n**Ambitions**: The leading player can declare an ambition, setting the scoring objective for the round. Players earn power by fulfilling these ambitions, which can involve collecting resources, winning battles, or controlling specific systems.\n\n**Initiative Shift**: At the end of each round, the initiative may shift to another player based on the action cards played, influencing the order of play in the next round.",
-      "EndOfGame": "The game ends when a player completes their faction’s goal, or after a set number of rounds. The player with the most points wins."
+      "EndOfGame": "The game ends when a player completes their faction?s goal, or after a set number of rounds. The player with the most points wins."
     },
     "Ratings": {
       "Dad": null,
@@ -182,9 +182,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 8,
+      "Kyden": 4,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -218,9 +218,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 4,
+      "Jaden": 9,
+      "Kyden": 6,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -253,9 +253,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
+      "Mom": 7,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 3,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -291,9 +291,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 5,
+      "Kyden": 9,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -325,9 +325,9 @@
     },
     "Ratings": {
       "Dad": 5,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 9,
+      "Kyden": 1,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -361,7 +361,7 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
+      "Mom": 9,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -393,9 +393,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 5,
+      "Jaden": 7,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -430,9 +430,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 4,
+      "Kyden": 4,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -465,9 +465,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 8,
+      "Jaden": 10,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -500,9 +500,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 10,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -531,14 +531,14 @@
       "Overview": "A cooperative crime-solving game where players use an app and virtual reality to investigate crime scenes and solve mysteries.",
       "Setup": "**Game Board Setup**: Place the Evidence Board in the center of the table. This board will hold clues and evidence gathered during the investigation.\n\n**Component Placement**:\n   - **Location Boards**: Arrange the 17 Location Boards around the Evidence Board. These represent various places in London that players can visit.\n   - **Character Cards**: Shuffle the 55 Character Cards and place them face down in a stack.\n   - **Evidence Category Cards**: Lay out the 37 Evidence Category Cards face up for easy access.\n   - **Special Item Cards**: Keep the 15 Special Item Cards in a separate face-down pile.\n\n**Forensic Contacts**: Distribute the 4 Forensic Contact Boards (Criminologist, Scientist, Hacker, and Doctor) among players or place them within reach of all participants.\n\n**Starting Location**: Place the \"Home\" Location Board (Scotland Yard) at the base of the Evidence Board.\n\n**App Integration**: Download and install the *Chronicles of Crime* app on a compatible device. Launch the app and select the desired scenario to begin the investigation.",
       "PlayerSetup": "- **Role Assignment**: Players collectively decide on their approach to the investigation, with no fixed roles assigned. Collaboration and communication are key.\n\n- **App Familiarization**: Ensure all players understand how to interact with the app, including scanning QR codes and navigating virtual crime scenes.\n\n- **Component Access**: Arrange all cards and boards so that they are easily accessible to all players, facilitating smooth gameplay.",
-      "Gameplay": "**Investigate Locations**:\n   - To visit a location, scan its QR code using the app. Traveling to a new location consumes in-game time.\n   - Upon arrival, players can search for clues. One player uses the device to look around the crime scene in a 360° view for 40 seconds, describing the scene to others who select relevant Evidence Category Cards.\n\n**Interrogate Characters**:\n   - Scan the QR code of a Character Card to initiate a conversation.\n   - During interrogation, players can present Evidence Category Cards or inquire about other characters by scanning their respective QR codes.\n\n**Consult Forensic Contacts**:\n   - At any point, players can consult their forensic experts by scanning the QR codes on the Forensic Contact Boards, providing insights into evidence or suspects.\n\n**Manage In-Game Time**:\n   - Each action, such as scanning a character or analyzing evidence, advances the in-game clock by 5 minutes.\n   - Traveling between locations consumes 20 minutes.\n\n**Gather Special Items**:\n   - Some scenarios may introduce Special Item Cards, which can be obtained by scanning specific QR codes during the investigation.\n\n**Solve the Case**:\n   - Once players feel confident in their deductions, they return to the \"Home\" location and choose the \"Solve the Case\" option in the app.\n   - The app will prompt a series of questions about the case. Players respond by scanning the relevant cards.\n   - After submitting answers, the app provides a score based on accuracy and the time taken, followed by a detailed explanation of the case solution.",
-      "EndOfGame": "The game ends when the players solve the case or run out of time. The players lose if they don’t solve the case."
+      "Gameplay": "**Investigate Locations**:\n   - To visit a location, scan its QR code using the app. Traveling to a new location consumes in-game time.\n   - Upon arrival, players can search for clues. One player uses the device to look around the crime scene in a 360? view for 40 seconds, describing the scene to others who select relevant Evidence Category Cards.\n\n**Interrogate Characters**:\n   - Scan the QR code of a Character Card to initiate a conversation.\n   - During interrogation, players can present Evidence Category Cards or inquire about other characters by scanning their respective QR codes.\n\n**Consult Forensic Contacts**:\n   - At any point, players can consult their forensic experts by scanning the QR codes on the Forensic Contact Boards, providing insights into evidence or suspects.\n\n**Manage In-Game Time**:\n   - Each action, such as scanning a character or analyzing evidence, advances the in-game clock by 5 minutes.\n   - Traveling between locations consumes 20 minutes.\n\n**Gather Special Items**:\n   - Some scenarios may introduce Special Item Cards, which can be obtained by scanning specific QR codes during the investigation.\n\n**Solve the Case**:\n   - Once players feel confident in their deductions, they return to the \"Home\" location and choose the \"Solve the Case\" option in the app.\n   - The app will prompt a series of questions about the case. Players respond by scanning the relevant cards.\n   - After submitting answers, the app provides a score based on accuracy and the time taken, followed by a detailed explanation of the case solution.",
+      "EndOfGame": "The game ends when the players solve the case or run out of time. The players lose if they don?t solve the case."
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 10,
+      "Kyden": 4,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -572,9 +572,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 8,
+      "Kyden": 3,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -641,9 +641,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 10,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -676,9 +676,9 @@
     },
     "Ratings": {
       "Dad": 5,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 9,
+      "Kyden": 1,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -710,9 +710,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 2,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -744,9 +744,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 4,
+      "Kyden": 5,
       "Elsie": 10
     },
     "CrowdFavorite": true,
@@ -779,9 +779,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
+      "Mom": 4,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -808,14 +808,14 @@
       "Overview": "A classic dungeon-crawling card game where players explore dungeons, battle monsters, and collect treasure.",
       "Setup": "- Lay out the **dungeon board** (6 levels, color-coded by difficulty).\n- Shuffle and place **Monster & Treasure decks** near the board.\n- Wizards only: Set aside **Spell Cards** (used later).\n- Place **all pawns at the 'Start' space (Main Staircase).**\n- Determine turn order: **Roll two dice; highest roll starts, play proceeds clockwise.**",
       "PlayerSetup": "- **Elf (Green):** Finds secret doors easily.\n- **Hero (Blue):** Balanced stats.\n- **Superhero (Red):** Strong fighter, needs more treasure.\n- **Wizard (White):** Uses spells instead of combat.\n- **Wizards only:** Select **10 Spell Cards** before playing.",
-      "Gameplay": "-**Movement:** Move **up to 5 spaces** per turn; secret doors require discovery.\n- **Exploring Rooms:** Enter a **new room = draw a Monster card**; win to collect treasure.\n- **Combat:** Roll **2d6** to match the monster’s requirement.\n   - **Win?** Defeat the monster and collect treasure.\n   - **Lose?** Monster counterattacks (retreat, steal treasure, or death).\n- **Secret Doors:** Roll **1d6**:\n   - **Elf:** Finds on **1-4**\n   - **Hero:** Finds on **1-2**\n- **Spells (Wizards Only):** Cast **one spell per turn**, then discard.",
+      "Gameplay": "-**Movement:** Move **up to 5 spaces** per turn; secret doors require discovery.\n- **Exploring Rooms:** Enter a **new room = draw a Monster card**; win to collect treasure.\n- **Combat:** Roll **2d6** to match the monster?s requirement.\n   - **Win?** Defeat the monster and collect treasure.\n   - **Lose?** Monster counterattacks (retreat, steal treasure, or death).\n- **Secret Doors:** Roll **1d6**:\n   - **Elf:** Finds on **1-4**\n   - **Hero:** Finds on **1-2**\n- **Spells (Wizards Only):** Cast **one spell per turn**, then discard.",
       "EndOfGame": "The game ends when the first player reaches the goal and wins, or all players are eliminated."
     },
     "Ratings": {
       "Dad": 5,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 9,
+      "Kyden": 1,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -847,9 +847,9 @@
     },
     "Ratings": {
       "Dad": 4,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 2,
+      "Jaden": 10,
+      "Kyden": 6,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -881,9 +881,9 @@
     },
     "Ratings": {
       "Dad": 3,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 10,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -916,9 +916,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 3,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -951,9 +951,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 7,
+      "Jaden": 1,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -981,13 +981,13 @@
       "Setup": "**Board Placement**: Lay the game board flat, ensuring all players have clear access. Each player selects a tower in one of the board's corners to defend.\n\n**Component Organization**:\n   - **Fire Gems**: Place the orange fire gems in a communal pile accessible to all.\n   - **Firebreak Tokens**: Place the purple firebreak tokens in a separate communal pile.\n\n**Weathervane Setup**: Position the weathervane next to the board, aligning its compass directions (N, E, S, W) with those on the board.\n\n**Bucket Cards**: Each player receives one Bucket/Reckless Abandon card, placing it bucket-side up in front of them.\n\n**Event Cards Removal**: Remove the \"Firestorm\" and \"Mutual Aid\" event cards from the action deck. Shuffle the remaining action cards thoroughly.\n\n**Card Distribution**: Deal five action cards to each player. Players may look at their own cards but should keep them hidden from opponents.\n\n**Firestorm Card Placement**: After dealing, shuffle the \"Firestorm\" card back into the action deck and place the deck face down as the draw pile.\n\n**Wind Direction Determination**: Roll the wind die to establish the initial wind direction. Place the wooden flame marker on the corresponding direction on the weathervane.\n\n**Starting Player**: The player whose tower is closest to the initial wind direction takes the first turn. If multiple towers are equidistant, the player with the wind direction to their left goes first.",
       "PlayerSetup": "- **Tower Defense**: Each player focuses on protecting their designated tower located at a corner of the board.\n\n- **Action Cards**: Players begin with five action cards, which they can use strategically to influence the game's progression.\n\n- **Bucket Card**: Each player has a Bucket card for emergency fire suppression within their tower area, usable once per game.",
       "Gameplay": "Players take turns in clockwise order, with each turn comprising two mandatory steps:\n\n**Wind-Driven Fire Spread**:\n   - Place one fire gem on an empty space that is orthogonally adjacent (not diagonal) to an existing fire gem or the Eternal Flame, in the current wind direction.\n   - If no such space is available, skip this step.\n\n**Tower Actions** (choose one):\n   - **Play an Action Card**: Use a card from your hand to perform its specific effect, then draw a new card from the deck.\n   - **Discard and Draw**: Discard any number of cards from your hand and draw back up to your hand size.\n\n**Optional Action**:\n   - **Bucket Use**: At any point during your turn, you may use your Bucket card to remove fire gems from your Fire Tower Area. This is a one-time action per game.\n\n**Card Types**:\n   - **Fire Cards**: Add fire gems to the board in specified patterns.\n   - **Water Cards**: Remove fire gems from the board in specified patterns.\n   - **Firebreak Cards**: Place firebreak tokens to block the spread of fire.\n   - **Wind Cards**: Change the wind direction or spread fire in the current wind direction.\n\n**Special Rules**:\n   - Firebreaks cannot be placed adjacent to each other orthogonally but can touch diagonally.\n   - The wind direction remains constant unless changed by a Wind card or specific event.\n   - If a player's tower is burned (a fire gem is placed on the tower's back corner square), that player is eliminated, and their remaining cards are distributed among active players, increasing their hand sizes by one.",
-      "EndOfGame": "The game ends when the fire reaches a set level and destroys a tower, or when one player’s tower survives the longest."
+      "EndOfGame": "The game ends when the fire reaches a set level and destroys a tower, or when one player?s tower survives the longest."
     },
     "Ratings": {
       "Dad": 6,
-      "Mom": null,
+      "Mom": 6,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -1052,9 +1052,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 10,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1087,9 +1087,9 @@
     },
     "Ratings": {
       "Dad": 5,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 7,
+      "Kyden": 5,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1126,9 +1126,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 5,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1165,9 +1165,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 4,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1199,10 +1199,10 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 5,
+      "Jaden": 9,
+      "Kyden": 10,
+      "Elsie": 10
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -1234,7 +1234,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 8,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -1268,9 +1268,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 8,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1297,14 +1297,14 @@
       "Overview": "A lighthearted, fantasy-themed card game where players build a party of heroes and try to slay monsters.",
       "Setup": "**Separate Decks**: Divide the cards into their respective types: Party Leader cards, Monster cards, and the main deck (comprising Hero, Item, Magic, Modifier, and Challenge cards).\n\n**Choose Party Leaders**: Each player selects a Party Leader card to represent them. To determine the selection order, players can roll dice or choose another random method. Once chosen, place any unselected Party Leader cards back in the box.\n\n**Distribute Reference Cards**: Provide each player with a rules reference card for guidance during gameplay.\n\n**Prepare the Main Deck**: Shuffle the main deck thoroughly and deal five cards to each player. Place the remaining cards face down in the center of the table to form the draw pile, leaving space beside it for a discard pile.\n\n**Set Up Monster Cards**: Shuffle the Monster cards and reveal the top three, placing them face up in the center of the table. The remaining Monster cards form a face-down Monster deck.\n\n**Establish Player Areas**: Each player places their chosen Party Leader card face up in front of them, designating their Party area where Heroes and Items will be played.\r",
       "PlayerSetup": "- **Party Leader Placement**: Place your selected Party Leader card face up in your designated Party area.\n\n- **Initial Hand**: Ensure you have five cards drawn from the main deck.\n\n- **Action Points**: Familiarize yourself with the concept of action points; each player has three action points to spend on their turn for various actions.\n",
-      "Gameplay": "**Turn Sequence**: Players take turns in a clockwise order. On your turn, you have three action points to spend on the following actions:\n\n   - **Draw a Card**: Spend 1 action point to draw the top card from the main deck into your hand.\n\n   - **Play a Hero, Item, or Magic Card**: Spend 1 action point to play one of these cards from your hand into your Party or apply its effect. When playing a Hero card, you may immediately roll two dice to attempt activating its effect.\n\n   - **Activate a Hero's Effect**: Spend 1 action point to roll two dice and try to use an effect of a Hero card already in your Party. Note that each Hero's effect can only be attempted once per turn.\n\n   - **Attack a Monster**: Spend 2 action points to attack a face-up Monster card in the center of the table, provided you meet its Party requirements.\n\n   - **Refresh Your Hand**: Spend 3 action points to discard your entire hand and draw five new cards from the main deck.\n\n**Challenges**: If another player plays a Hero, Item, or Magic card, you may play a Challenge card to attempt to negate their action. Both players roll two dice; if the challenger’s roll is equal to or higher than the other player's roll, the challenged card is discarded without effect.\n\n**Modifiers**: You can play Modifier cards from your hand to adjust any player's dice roll (including your own), either increasing or decreasing the result as specified on the Modifier card.\n\n**Ending Your Turn**: After spending your action points, or if you choose to take no further actions, your turn ends, and play passes to the next player clockwise.\n\n**Winning the Game**: The game ends when a player either slays three Monster cards or assembles a full Party containing six different classes, including their Party Leader. That player is declared the winner.\n",
+      "Gameplay": "**Turn Sequence**: Players take turns in a clockwise order. On your turn, you have three action points to spend on the following actions:\n\n   - **Draw a Card**: Spend 1 action point to draw the top card from the main deck into your hand.\n\n   - **Play a Hero, Item, or Magic Card**: Spend 1 action point to play one of these cards from your hand into your Party or apply its effect. When playing a Hero card, you may immediately roll two dice to attempt activating its effect.\n\n   - **Activate a Hero's Effect**: Spend 1 action point to roll two dice and try to use an effect of a Hero card already in your Party. Note that each Hero's effect can only be attempted once per turn.\n\n   - **Attack a Monster**: Spend 2 action points to attack a face-up Monster card in the center of the table, provided you meet its Party requirements.\n\n   - **Refresh Your Hand**: Spend 3 action points to discard your entire hand and draw five new cards from the main deck.\n\n**Challenges**: If another player plays a Hero, Item, or Magic card, you may play a Challenge card to attempt to negate their action. Both players roll two dice; if the challenger?s roll is equal to or higher than the other player's roll, the challenged card is discarded without effect.\n\n**Modifiers**: You can play Modifier cards from your hand to adjust any player's dice roll (including your own), either increasing or decreasing the result as specified on the Modifier card.\n\n**Ending Your Turn**: After spending your action points, or if you choose to take no further actions, your turn ends, and play passes to the next player clockwise.\n\n**Winning the Game**: The game ends when a player either slays three Monster cards or assembles a full Party containing six different classes, including their Party Leader. That player is declared the winner.\n",
       "EndOfGame": "The game ends when a player slays three monsters or their party reaches full strength."
     },
     "Ratings": {
       "Dad": 6,
       "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Jaden": 6,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1332,13 +1332,13 @@
       "Setup": "**Health Tracking**: Each player sets their starting health to **Starting Deck**: Each player shuffles a personal deck containing:\n   - 7 Gold cards\n   - 1 Shortsword card\n   - 1 Dagger card\n   - 1 Ruby card\n\n**Market Setup**: Shuffle the Market Deck and reveal the top five cards, placing them face-up in the center as the Market Row. Place the Fire Gem cards in a pile accessible to all players.\n\n**Determine First Player**: Randomly select a starting player. The first player draws a three-card hand; the second player draws four cards; all other players draw five cards.\n",
       "PlayerSetup": "- **Deck and Hand**: Each player shuffles their personal deck and draws their initial hand based on turn order.\n\n- **Play Area**: Designate space for a personal discard pile and in-play area for champions and actions.\n\n- **Health Tracker**: Use a method (such as a scorecard or app) to monitor your health, starting at 50.\n",
       "Gameplay": "**Starting Phase**: Begin your turn.\n\n**Main Phase**:\n   - **Play Cards**: Play cards from your hand to generate Gold, Combat, and other effects.\n   - **Acquire Cards**: Use Gold to purchase cards from the Market Row or Fire Gems, placing acquired cards into your discard pile.\n   - **Combat**: Use Combat to attack opponents or their champions. Opponents' guards must be defeated before targeting them directly or their non-guard champions.\n\n**Discard Phase**: Place all played and unplayed cards into your discard pile.\n\n**Draw Phase**: Draw five new cards. If your deck is empty, shuffle your discard pile to form a new deck and continue drawing.\n\n**End Phase**: Conclude your turn; the next player begins theirs.\n",
-      "EndOfGame": "The game ends when one player’s health reaches zero, and the other player wins."
+      "EndOfGame": "The game ends when one player?s health reaches zero, and the other player wins."
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 5,
+      "Jaden": 5,
+      "Kyden": 9,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1370,9 +1370,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 2,
+      "Kyden": 9,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1405,8 +1405,8 @@
     "Ratings": {
       "Dad": 8,
       "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Jaden": 7,
+      "Kyden": 3,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -1438,7 +1438,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 9,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -1473,9 +1473,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 2,
+      "Jaden": 9,
+      "Kyden": 4,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1508,9 +1508,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 8,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1538,14 +1538,14 @@
       "Setup": "**Game Board Setup**:\n   - Place the game board in the center of the playing area.\n   - The board features 16 fixed path tiles forming a grid with empty spaces.\n\n**Path Tiles**:\n   - Shuffle the 34 square path tiles face down.\n   - Randomly place 33 of them face up on the empty spaces of the game board, creating a continuous maze.\n   - Keep the remaining tile aside; it will be used during gameplay.\n\n**Treasure Cards**:\n   - Shuffle the 24 treasure cards thoroughly.\n   - Deal them evenly among all players, face down. Each player should have their own stack.\n   - Players may look at the top card of their stack but must keep it hidden from others.\n\n**Playing Pieces**:\n   - Each player selects a colored playing piece and places it on the corresponding colored corner of the board.\n\n**Determine Starting Player**:\n   - Choose a player to begin; turns will proceed clockwise.",
       "PlayerSetup": "- **Treasure Cards**: Without revealing them to others, look at the top card of your stack to identify your current target treasure.\n\n- **Starting Position**: Place your playing piece on the corner square that matches your piece's color.\n\n- **Objective**: Plan your moves to navigate the maze, collect your treasures in order, and return to your starting position.",
       "Gameplay": "**Shifting the Maze**:\n   - On your turn, take the extra path tile and insert it into the maze at any of the 12 entry points marked by arrows along the board's edge.\n   - Push the tile into the chosen row or column, shifting all tiles in that line and pushing the last tile off the board.\n   - The tile that is pushed off becomes the new extra tile for the next player.\n   - Note: You cannot reverse the previous player's move by immediately undoing their tile placement.\n\n**Moving Your Playing Piece**:\n   - After shifting the maze, you may move your piece as far as desired along open pathways.\n   - Movement can continue through any number of connected path tiles but cannot pass through walls.\n   - If you reach the space depicting your current treasure, reveal your treasure card to confirm, then look at your next card to identify your new target.\n   - If you cannot reach your target, position your piece strategically for your next turn.\n\n**Special Situations**:\n   - If a player's piece is on a tile that is pushed off the board, place their piece on the newly inserted tile on the opposite side. This does not count as a move for that player.",
-      "EndOfGame": "The game ends when a player reaches the treasure or the game’s objective."
+      "EndOfGame": "The game ends when a player reaches the treasure or the game?s objective."
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 8,
+      "Jaden": 10,
+      "Kyden": 7,
+      "Elsie": 9
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -1612,9 +1612,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 9,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1646,9 +1646,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 8,
+      "Kyden": 6,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1673,16 +1673,16 @@
     "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A two-player card game where players embark on expeditions to score points by playing cards in sequence.",
-      "Setup": "**Game Board Setup**:\n   - Place the game board between both players. It features five colored spaces corresponding to the five expeditions and areas for discard piles.\n\n**Card Preparation**:\n   - Shuffle the 60-card deck, comprising:\n     - 45 Expedition cards (values 2–10 in five colors).\n     - 15 Wager cards (three per color).\n   - Deal eight cards face down to each player.\n   - Place the remaining deck face down as the draw pile beside the board.\n\n**Discard Piles**:\n   - Ensure space is available for five separate discard piles, one for each color.",
+      "Setup": "**Game Board Setup**:\n   - Place the game board between both players. It features five colored spaces corresponding to the five expeditions and areas for discard piles.\n\n**Card Preparation**:\n   - Shuffle the 60-card deck, comprising:\n     - 45 Expedition cards (values 2?10 in five colors).\n     - 15 Wager cards (three per color).\n   - Deal eight cards face down to each player.\n   - Place the remaining deck face down as the draw pile beside the board.\n\n**Discard Piles**:\n   - Ensure space is available for five separate discard piles, one for each color.",
       "PlayerSetup": "- **Hand Management**: Each player starts with eight cards in hand.\n\n- **Player Area**: On your side of the board, you'll build columns for each expedition you undertake, placing cards in ascending order.\n\n- **Discard Access**: Both players share access to the five discard piles, which can influence drawing strategies.",
       "Gameplay": "**Playing a Card**:\n   - On your turn, choose one card from your hand to either:\n     - **Start/Extend an Expedition**: Place a card on your side to begin or continue a colored expedition. Cards must be in ascending order; wager cards precede numbered cards.\n     - **Discard a Card**: Place a card on the corresponding color's discard pile if it's not immediately useful.\n\n**Drawing a Card**:\n   - After playing, draw a card to replenish your hand to eight cards. You may draw from:\n     - The top of the draw pile.\n     - The top card of any discard pile (except the one you just discarded to).\n\n**Game End Condition**:\n   - Turns alternate until the draw pile is exhausted, signaling the end of the round.\n\n**Scoring**:\n   - For each expedition:\n     - Sum the values of cards played.\n     - Subtract 20 points as the expedition's cost.\n     - Multiply the result by the number of wager cards plus one.\n     - Add a 20-point bonus if the expedition has eight or more cards.\n   - Calculate the total for all expeditions to determine the round's score.\n\n**Subsequent Rounds**:\n   - Shuffle all cards and repeat setup for the next round. The game consists of three rounds in total.",
       "EndOfGame": "The game ends when all cards have been drawn, and the player with the most points wins."
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 5,
+      "Kyden": 5,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1718,7 +1718,7 @@
       "Dad": 10,
       "Mom": null,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 10,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1746,7 +1746,7 @@
     "Complexity": "Medium-Heavy",
     "QuickSetupGuide": {
       "Overview": "A dungeon crawler where players take on the role of heroes exploring dark environments to defeat enemies and gain loot.",
-      "Setup": "**Select Quest**: Choose a quest from the quest book and set up the game tiles as indicated.\n\n**Prepare Hero Dashboards**: Each player selects a hero and takes the corresponding dashboard, miniature, and class components. Attach the colored base to the hero miniature and place the level token in the level slot on the dashboard, starting at level **Distribute Starting Equipment**: Lay out the starting equipment cards. Each hero selects one starting weapon, one starting armor, and one potion (health or mana) and places them in the appropriate slots on their dashboard.\n\n**Set Up Lifebringer Tokens**: Place two Lifebringer tokens face-up within reach of all players.\n\n**Arrange Game Components**: Shuffle the Door, Mob, Roaming Monster, and Treasure decks separately. Place the Darkness track and marker nearby. Position all monster miniatures, tokens, and dice within easy reach.\n\n**Spawn Initial Mobs**: For each white spawn point on the game tiles, draw a card from the Level 1–2 Mob deck and place the corresponding miniatures (one leader and a number of minions equal to the number of heroes) on the spawn point. Equip each mob with a Level 1–2 monster item by drawing from the appropriate deck.\n\n**Position Heroes**: Place all hero miniatures in the designated starting zone as specified by the quest.\n\n**Prepare Treasure Bag**: Place the specified number of Common, Rare, and Epic Treasure tokens into the Treasure bag as directed by the quest setup.\r",
+      "Setup": "**Select Quest**: Choose a quest from the quest book and set up the game tiles as indicated.\n\n**Prepare Hero Dashboards**: Each player selects a hero and takes the corresponding dashboard, miniature, and class components. Attach the colored base to the hero miniature and place the level token in the level slot on the dashboard, starting at level **Distribute Starting Equipment**: Lay out the starting equipment cards. Each hero selects one starting weapon, one starting armor, and one potion (health or mana) and places them in the appropriate slots on their dashboard.\n\n**Set Up Lifebringer Tokens**: Place two Lifebringer tokens face-up within reach of all players.\n\n**Arrange Game Components**: Shuffle the Door, Mob, Roaming Monster, and Treasure decks separately. Place the Darkness track and marker nearby. Position all monster miniatures, tokens, and dice within easy reach.\n\n**Spawn Initial Mobs**: For each white spawn point on the game tiles, draw a card from the Level 1?2 Mob deck and place the corresponding miniatures (one leader and a number of minions equal to the number of heroes) on the spawn point. Equip each mob with a Level 1?2 monster item by drawing from the appropriate deck.\n\n**Position Heroes**: Place all hero miniatures in the designated starting zone as specified by the quest.\n\n**Prepare Treasure Bag**: Place the specified number of Common, Rare, and Epic Treasure tokens into the Treasure bag as directed by the quest setup.\r",
       "PlayerSetup": "- **Hero Dashboard Setup**: Each player places their hero card into the hero slot on their dashboard. Insert pegs into the experience track at \"0\" and the level track at \"1\".\n\n- **Equip Starting Items**: Players equip their chosen weapon and armor in the appropriate slots on their dashboard. Potions are placed next to the dashboard.\n\n- **Class Components**: Depending on the chosen class, players set up any additional components or tokens as described in their class rules.\n",
       "Gameplay": "The game progresses through a series of rounds, each consisting of four phases:\n\n**Hero Phase**: Players decide the activation order for their heroes. Each hero performs three actions, choosing from:\n   - **Move**: Spend movement points to navigate the dungeon or interact with objects.\n   - **Combat**: Engage enemies in melee, ranged, or magic attacks.\n   - **Trade and Equip**: Exchange items with other heroes in the same zone and adjust equipped items.\n   - **Special Actions**: Use class-specific abilities or interact with quest-specific elements.\n\n**Enemy Phase**: All enemies activate, performing actions based on their AI:\n   - **Mobs**: Groups of enemies that attack heroes within range or move toward the nearest hero if no targets are in range.\n   - **Roaming Monsters**: Powerful singular enemies with unique behaviors and attack patterns.\n\n**Level Up Phase**: Heroes can spend accumulated experience points to gain new skills or enhance existing ones, increasing their effectiveness in combat and exploration.\n\n**Darkness Phase**: The Darkness track advances, potentially spawning new enemies or triggering events that escalate the dungeon's danger.\n",
       "EndOfGame": "The game ends when players defeat the final boss or are all eliminated."
@@ -1787,9 +1787,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 6,
+      "Jaden": 8,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -1821,9 +1821,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 10,
+      "Kyden": 9,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1889,9 +1889,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 7,
+      "Jaden": 2,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1959,9 +1959,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 4,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -1994,9 +1994,9 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 1,
+      "Jaden": 10,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2029,7 +2029,7 @@
     },
     "Ratings": {
       "Dad": 6,
-      "Mom": null,
+      "Mom": 6,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -2062,9 +2062,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 7,
+      "Jaden": 6,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2097,9 +2097,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 7,
+      "Jaden": 9,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2125,15 +2125,15 @@
     "QuickSetupGuide": {
       "Overview": "A deck-building game that combines match-3 style puzzles with strategic gameplay.",
       "Setup": "**Choose a Character**: Each player selects a character and takes the corresponding 3 character-specific chips.\n**Starting Deck**: Each player starts with 6 \"Gem\" chips (2x 1-gem and 4x 2-gem), 1 \"Crash Gem\", 1 \"Combine\", and 1 \"Double Crash\" chip.\n**Setup the Bank**: Shuffle and place a selection of 10 different chips face-up in the center, forming the \"Bank.\" These are the available chips players can buy during the game.\n**Starting Gem Pile**: Each player places a single 1-gem chip in their gem pile.\n**Draw Pile and Hand**: Players shuffle their starting chips to form a draw pile and draw 5 chips.\n**Determine First Player**: Randomly select a starting player.\r",
-      "PlayerSetup": "- Each player starts with a personal bag containing their deck of chips.\n- Players draw 5 chips at the beginning of each turn.\n- Players start with one 1-gem in their gem pile.\n- The character’s unique chips are placed in their deck from the start.\r",
+      "PlayerSetup": "- Each player starts with a personal bag containing their deck of chips.\n- Players draw 5 chips at the beginning of each turn.\n- Players start with one 1-gem in their gem pile.\n- The character?s unique chips are placed in their deck from the start.\r",
       "Gameplay": "**Ante**: At the start of each turn, the player antes one gem into their gem pile.\n**Action Phase**: Play one action chip from your hand (if possible). Some chips allow additional actions.\n**Buy Phase**: Spend gems to buy new chips from the Bank and add them to your discard pile.\n**Cleanup Phase**: Discard unplayed chips, then draw back up to 5 chips.\n**Crashing**: Use \"Crash Gem\" chips to break large gems and send them to opponents' piles.\n**Losing the Game**: If a player's gem pile reaches 10 or more gems at the end of their turn, they are eliminated.\r",
-      "EndOfGame": "The game ends when a player’s gem pile is emptied. The player with the most points wins."
+      "EndOfGame": "The game ends when a player?s gem pile is emptied. The player with the most points wins."
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 8,
+      "Jaden": 5,
+      "Kyden": 9,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2167,9 +2167,9 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 4,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 6,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2198,13 +2198,13 @@
       "Setup": "**General Setup**:\n   - **Camp Deck**: Shuffle and place the camp deck in the center.\n   - **Water Discs**: Place extra water discs (black) nearby.\n   - **Draw Deck**: Shuffle the main deck (person and event cards) and place it centrally, leaving space for a discard pile.\n\n**Player Setup**:\n   - **Camps**: Each player draws 6 camp cards, selects 3 to place face-up in a row as their camps, and returns the rest.\n   - **Water Silo and Raiders**: Each player places a Water Silo and Raiders card face-up in their area.\n   - **Water Supply**: Each player takes 3 water discs (white) as their starting supply.\n   - **Starting Hand**: Draw cards equal to the total number in the black rectangles on your camps.\n\n**Determine Start Player**: Flip a water disc; if it lands water side up, you start; otherwise, your opponent starts.\n",
       "PlayerSetup": "- **Camps**: Arrange your 3 chosen camps in a row, leaving space in front for up to 2 people cards per camp.\n- **Water Silo and Raiders**: Place these cards face-up near your camps.\n- **Water Supply**: Keep your 3 water discs accessible; this is your resource pool.\n- **Hand**: Draw cards as indicated by your camps' combined draw values.\n",
       "Gameplay": "**Turn Phases**:\n   - **Events Phase**: Resolve and advance events in your event queue.\n   - **Replenish Phase**: Draw 1 card and collect 3 water discs (only 1 water on the first turn for the starting player).\n   - **Actions Phase**: Perform any combination of the following actions:\n\n     - **Play a Person Card**: Spend water equal to the card's cost to place it in front of a camp. New persons enter play not ready and can be placed in front or behind existing persons, with a maximum of 2 persons per column.\n\n     - **Play an Event Card**: Spend water equal to the event's cost to place it in the corresponding space of your event queue. Events resolve after reaching the front of the queue.\n\n     - **Draw a Card**: Spend 2 water to draw an additional card.\n\n     - **Junk a Card**: Discard a card from your hand to gain its junk effect.\n\n     - **Use an Ability**: Spend water as indicated to use an ability on a ready person or camp. After use, mark the card as not ready.\n\n     - **Take Water Silo**: Spend 1 water to take your Water Silo into your hand; it can later be junked for extra water.\n\n**End of Turn**: Return all spent water discs to the supply. The game continues until one player destroys all three of their opponent's camps.\n",
-      "EndOfGame": "The game ends when a player destroys the opponent’s bases, and that player wins."
+      "EndOfGame": "The game ends when a player destroys the opponent?s bases, and that player wins."
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 4,
+      "Jaden": 10,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2237,9 +2237,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 6,
+      "Jaden": 4,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2273,9 +2273,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
+      "Mom": 6,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 3,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2307,7 +2307,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 5,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -2376,7 +2376,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 6,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -2411,9 +2411,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 3,
+      "Jaden": 5,
+      "Kyden": 7,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2444,9 +2444,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 8,
+      "Jaden": 7,
+      "Kyden": 8,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -2478,9 +2478,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 9,
+      "Jaden": 7,
+      "Kyden": 6,
       "Elsie": 8
     },
     "CrowdFavorite": false,
@@ -2513,9 +2513,9 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
+      "Mom": 10,
+      "Jaden": 8,
+      "Kyden": 10,
       "Elsie": 8
     },
     "CrowdFavorite": true,
@@ -2549,10 +2549,10 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 8,
+      "Jaden": 10,
+      "Kyden": 8,
+      "Elsie": 10
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2612,17 +2612,17 @@
     "Complexity": "Heavy",
     "QuickSetupGuide": {
       "Overview": "A deep strategy game where players compete to terraform Mars and make it habitable, using resources and technologies.",
-      "Setup": "**Game Board Setup**:\n   - Place the game board in the center, showing Mars' surface with designated areas for ocean, greenery, and city tiles.\n   - Position the temperature marker at -30°C and the oxygen marker at 0% on their respective tracks.\n   - Place nine ocean tiles face down on the designated spots on the board.\n   - Shuffle the project cards and place them as a draw pile.\n\n**Player Setup**:\n   - Each player selects a color and receives:\n     - A player board.\n     - Matching markers.\n     - 1 MegaCredit (M€) production marker placed on the \"1\" space of the production track; all other production markers start at \"0\".\n     - A TR (Terraform Rating) marker placed on the \"20\" space of the TR track.\n   - Deal two corporation cards to each player; choose one to keep.\n   - Each player draws 10 project cards and may purchase any number of them for 3 M€ each, discarding the rest.\n\n**Starting Resources**:\n   - Players receive starting resources as indicated on their chosen corporation card.\r",
-      "PlayerSetup": "- **Corporation Selection**: After receiving two corporation cards, each player selects one to determine their starting resources, production capabilities, and unique abilities.\n\n- **Initial Resources**: Based on the chosen corporation, players adjust their production tracks and collect the corresponding starting resources.\n\n- **Project Cards**: Players review their initial 10 project cards and decide which to purchase for their starting hand, paying 3 M€ per card.\r",
-      "Gameplay": "The game progresses through a series of generations, each consisting of the following phases:\n\n**Turn Order Phase**:\n   - Pass the first player marker clockwise.\n   - Advance the generation marker by one.\n\n**Research Phase**:\n   - Each player draws four project cards.\n   - Players may purchase any number of these cards for 3 M€ each, adding them to their hand and discarding the rest.\n\n**Action Phase**:\n   - Players take turns performing one or two actions per turn, continuing clockwise until all players pass. Actions include:\n     - Playing a project card from hand, paying its cost and meeting any requirements.\n     - Using a standard project from the game board.\n     - Claiming a milestone by paying 8 M€ (limited to three milestones per game).\n     - Funding an award by paying 8 M€ (limited to three awards per game).\n     - Activating an action effect on a blue card in play.\n     - Converting 8 plant resources into a greenery tile, increasing the oxygen level and TR.\n     - Converting 8 heat resources to raise the temperature and increase TR.\n\n**Production Phase**:\n   - Players produce resources based on their production levels:\n     - MegaCredits: Equal to TR plus M€ production level.\n     - Steel, Titanium, Plants, Energy, and Heat: According to respective production levels.\n   - Convert all energy into heat.\r",
+      "Setup": "**Game Board Setup**:\n   - Place the game board in the center, showing Mars' surface with designated areas for ocean, greenery, and city tiles.\n   - Position the temperature marker at -30?C and the oxygen marker at 0% on their respective tracks.\n   - Place nine ocean tiles face down on the designated spots on the board.\n   - Shuffle the project cards and place them as a draw pile.\n\n**Player Setup**:\n   - Each player selects a color and receives:\n     - A player board.\n     - Matching markers.\n     - 1 MegaCredit (M?) production marker placed on the \"1\" space of the production track; all other production markers start at \"0\".\n     - A TR (Terraform Rating) marker placed on the \"20\" space of the TR track.\n   - Deal two corporation cards to each player; choose one to keep.\n   - Each player draws 10 project cards and may purchase any number of them for 3 M? each, discarding the rest.\n\n**Starting Resources**:\n   - Players receive starting resources as indicated on their chosen corporation card.\r",
+      "PlayerSetup": "- **Corporation Selection**: After receiving two corporation cards, each player selects one to determine their starting resources, production capabilities, and unique abilities.\n\n- **Initial Resources**: Based on the chosen corporation, players adjust their production tracks and collect the corresponding starting resources.\n\n- **Project Cards**: Players review their initial 10 project cards and decide which to purchase for their starting hand, paying 3 M? per card.\r",
+      "Gameplay": "The game progresses through a series of generations, each consisting of the following phases:\n\n**Turn Order Phase**:\n   - Pass the first player marker clockwise.\n   - Advance the generation marker by one.\n\n**Research Phase**:\n   - Each player draws four project cards.\n   - Players may purchase any number of these cards for 3 M? each, adding them to their hand and discarding the rest.\n\n**Action Phase**:\n   - Players take turns performing one or two actions per turn, continuing clockwise until all players pass. Actions include:\n     - Playing a project card from hand, paying its cost and meeting any requirements.\n     - Using a standard project from the game board.\n     - Claiming a milestone by paying 8 M? (limited to three milestones per game).\n     - Funding an award by paying 8 M? (limited to three awards per game).\n     - Activating an action effect on a blue card in play.\n     - Converting 8 plant resources into a greenery tile, increasing the oxygen level and TR.\n     - Converting 8 heat resources to raise the temperature and increase TR.\n\n**Production Phase**:\n   - Players produce resources based on their production levels:\n     - MegaCredits: Equal to TR plus M? production level.\n     - Steel, Titanium, Plants, Energy, and Heat: According to respective production levels.\n   - Convert all energy into heat.\r",
       "EndOfGame": "The game ends after a set number of generations, and the player with the most points wins."
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 10,
+      "Jaden": 1,
+      "Kyden": 9,
+      "Elsie": 1
     },
     "CrowdFavorite": true,
     "GatewayGame": false
@@ -2646,9 +2646,9 @@
     "Complexity": "Medium",
     "QuickSetupGuide": {
       "Overview": "A cooperative game where players must work together to repair their ship and escape after the captain's death.",
-      "Setup": "**Game Board Setup**:\n   - Place the game board at the center of the table, representing your starship.\n   - Position the 6 System cards on their designated spots on the board, \"Online\" side up.\n   - Shuffle the three Alert decks (Levels 1, 2, and 3) separately. Stack them face down on the External Scanners space, with Level 3 (Red) on the bottom, Level 2 (Orange) in the middle, and Level 1 (Yellow) on top. Draw the top two cards and place them face up in the adjacent slots.\n   - Shuffle the Skill deck and place it face down on the Computers space. Draw three Skill cards and place them face up on the Internal Sensors space. Deal 5 Skill cards to each player.\n   - Shuffle the Battle Plans deck and place it face down on the Captain’s Journal space.\n   - Place 5 Torpedoes on the red Torpedo icons near the Armory; keep the rest aside.\n   - Place a yellow status bar on the Shields at 100% and another on the Jump Core at the chosen difficulty level (e.g., \"Normal\").\n   - Keep the orange blocker bar near Engineering for future use.\n   - Set aside 12 Hostile Alien pawns for later use.",
+      "Setup": "**Game Board Setup**:\n   - Place the game board at the center of the table, representing your starship.\n   - Position the 6 System cards on their designated spots on the board, \"Online\" side up.\n   - Shuffle the three Alert decks (Levels 1, 2, and 3) separately. Stack them face down on the External Scanners space, with Level 3 (Red) on the bottom, Level 2 (Orange) in the middle, and Level 1 (Yellow) on top. Draw the top two cards and place them face up in the adjacent slots.\n   - Shuffle the Skill deck and place it face down on the Computers space. Draw three Skill cards and place them face up on the Internal Sensors space. Deal 5 Skill cards to each player.\n   - Shuffle the Battle Plans deck and place it face down on the Captain?s Journal space.\n   - Place 5 Torpedoes on the red Torpedo icons near the Armory; keep the rest aside.\n   - Place a yellow status bar on the Shields at 100% and another on the Jump Core at the chosen difficulty level (e.g., \"Normal\").\n   - Keep the orange blocker bar near Engineering for future use.\n   - Set aside 12 Hostile Alien pawns for later use.",
       "PlayerSetup": "- **Role Assignment**:\n  - Randomly distribute colored pawns to each player.\n  - Each player selects a Role card matching their pawn's color, representing their unique abilities and starting location.\n  - Players place their pawns in the corresponding rooms on the board.\n\n- **Initial Alerts**:\n  - Draw and resolve 5 Alert cards from the top of the Alert deck to simulate initial damage to the ship. Apply effects such as system malfunctions or alien boardings as indicated.",
-      "Gameplay": "**Player Actions**:\n   - On your turn, spend actions (as indicated on your Role card) to perform tasks such as:\n     - Moving between rooms.\n     - Repairing systems.\n     - Attacking or removing Hostile Aliens.\n     - Using or repairing ship systems.\n     - Sharing Skill cards with other players.\n\n**System Management**:\n   - Maintain and repair ship systems to utilize their benefits:\n     - **Jump Core**: Repair to achieve victory.\n     - **Shields**: Protect against external threats.\n     - **Teleporter**: Enables quick movement across the ship.\n     - **Comm System**: Facilitates sharing Skill cards remotely.\n     - **External Scanners**: Provides foresight of upcoming Alerts.\n     - **Computers**: Allows drawing additional Skill cards.\n     - **Internal Sensors**: Offers choice in Skill card acquisition.\n     - **Trauma Station**: Heals injured crew members.\n     - **Torpedo Tube**: Defends against external alien ships.\n     - **Security Station**: Deals with onboard alien threats.\n     - **Research Station**: Addresses ongoing Anomalies.\n     - **Captain’s Journal**: Grants access to powerful Battle Plans.\n     - **Cargo Pod**: Source of additional Skills and Tools.\n\n**End of Turn**:\n   - After completing actions, draw and resolve an Alert card, introducing new challenges such as system failures, alien boardings, or ship damage.",
+      "Gameplay": "**Player Actions**:\n   - On your turn, spend actions (as indicated on your Role card) to perform tasks such as:\n     - Moving between rooms.\n     - Repairing systems.\n     - Attacking or removing Hostile Aliens.\n     - Using or repairing ship systems.\n     - Sharing Skill cards with other players.\n\n**System Management**:\n   - Maintain and repair ship systems to utilize their benefits:\n     - **Jump Core**: Repair to achieve victory.\n     - **Shields**: Protect against external threats.\n     - **Teleporter**: Enables quick movement across the ship.\n     - **Comm System**: Facilitates sharing Skill cards remotely.\n     - **External Scanners**: Provides foresight of upcoming Alerts.\n     - **Computers**: Allows drawing additional Skill cards.\n     - **Internal Sensors**: Offers choice in Skill card acquisition.\n     - **Trauma Station**: Heals injured crew members.\n     - **Torpedo Tube**: Defends against external alien ships.\n     - **Security Station**: Deals with onboard alien threats.\n     - **Research Station**: Addresses ongoing Anomalies.\n     - **Captain?s Journal**: Grants access to powerful Battle Plans.\n     - **Cargo Pod**: Source of additional Skills and Tools.\n\n**End of Turn**:\n   - After completing actions, draw and resolve an Alert card, introducing new challenges such as system failures, alien boardings, or ship damage.",
       "EndOfGame": "The game ends when the players repair their ship and escape, or if they are all defeated."
     },
     "Ratings": {
@@ -2685,15 +2685,15 @@
       "Overview": "A strategy game where players build estates by collecting and placing tiles of various types to earn points.",
       "Setup": "In *The Castles of Burgundy*, players assume the roles of influential princes in 15th century France, aiming to develop their estates through strategic trade, construction, and research. Utilizing dice to determine actions, players must carefully plan to accumulate the most victory points by the game's end.",
       "PlayerSetup": "1. **Game Board Setup**:\n   - Place the game board centrally, displaying:\n     - 5 phase spaces labeled A to E.\n     - 5 round spaces.\n     - 6 numbered depots (1-6) for six-sided tiles and goods.\n     - 1 central black depot.\n     - 12 spaces for bonus tiles.\n     - Turn order and victory point tracks.\n\n2. **Component Placement**:\n   - Sort the 164 six-sided tiles by color and place them face-down near the board.\n   - Shuffle 42 goods tiles and create five face-down stacks of five tiles each, placing them on phase spaces A through E.\n   - Position 12 bonus tiles on their designated spaces.\n   - Keep 20 Silverlings, 30 worker tiles, and the white die accessible.\n\n3. **Player Allocation**:\n   - Each player receives:\n     - 1 player board.\n     - 1 dark green castle tile, placed on the central dark green space (marked '6') of their board.\n     - 3 random goods tiles, placed face-up in the goods storage area.\n     - 2 dice matching their color.\n     - 1 playing piece for the victory point track.\n     - 1 Silverling.\n     - 1 victory point marker (100/200) set aside.\n\n4. **Determine Starting Player**:\n   - Roll dice to select the start player, who receives 1 worker tile.\n   - Subsequent players in clockwise order receive 2, 3, and 4 worker tiles, respectively.\n   - Place turn order markers on the track accordingly, with the start player's marker on top.\n   - Give the white die to the start player.",
-      "Gameplay": "**Phase Setup**:\n   - At the start of each phase (A to E):\n     - Remove any remaining six-sided tiles from the board (goods tiles remain).\n     - Draw new six-sided tiles and place them face-up on the numbered depots:\n       - 2-player game: Use spaces marked '2'.\n       - 3-player game: Use spaces marked '2' and '3'.\n       - 4-player game: Use all spaces.\n     - Draw black-backed tiles and place them face-up in the central black depot (number varies by player count).\n     - Place the 5 goods tiles for the phase face-up on the round spaces.\n\n**Rounds**:\n   - Each phase consists of 5 rounds. In each round:\n     - All players roll their two dice; the start player also rolls the white die.\n     - The start player places the top goods tile onto the depot matching the white die's result.\n     - Players take turns in order, using their dice to perform actions.\n\n**Player Actions**:\n   - On a turn, a player uses each die to perform one of the following actions:\n     - **Take a Tile**: Select a six-sided tile from the depot matching the die's number and place it in a storage space.\n     - **Place a Tile**: Move a stored tile to the estate, placing it on a matching-colored space corresponding to the die's number. The tile must be adjacent to existing tiles.\n     - **Sell Goods**: Sell all goods of a type matching the die's number, earning Silverlings and victory points.\n     - **Gain Workers**: Use any die to take 2 worker tiles.\n\n**Worker Tiles**:\n   - Players can spend worker tiles to adjust a die's result by ±1 per worker (wrapping from 6 to 1 if needed).\n\n**Buying from Black Depot**:\n   - Once per turn, a player may spend 2 Silverlings to purchase a tile from the black depot, placing it in a storage space.\n\n**Completing Regions**:\n   - Filling all spaces of a colored region grants immediate victory points based on region size and phase.\n   - Completing all spaces of a color first awards a large bonus tile; the second player receives a small bonus tile.\n\n**End of Phase**:\n   - After 5 rounds, the phase ends. Players with mines receive 1 Silverling per mine. Some yellow 'knowledge' tiles may also have effects.",
+      "Gameplay": "**Phase Setup**:\n   - At the start of each phase (A to E):\n     - Remove any remaining six-sided tiles from the board (goods tiles remain).\n     - Draw new six-sided tiles and place them face-up on the numbered depots:\n       - 2-player game: Use spaces marked '2'.\n       - 3-player game: Use spaces marked '2' and '3'.\n       - 4-player game: Use all spaces.\n     - Draw black-backed tiles and place them face-up in the central black depot (number varies by player count).\n     - Place the 5 goods tiles for the phase face-up on the round spaces.\n\n**Rounds**:\n   - Each phase consists of 5 rounds. In each round:\n     - All players roll their two dice; the start player also rolls the white die.\n     - The start player places the top goods tile onto the depot matching the white die's result.\n     - Players take turns in order, using their dice to perform actions.\n\n**Player Actions**:\n   - On a turn, a player uses each die to perform one of the following actions:\n     - **Take a Tile**: Select a six-sided tile from the depot matching the die's number and place it in a storage space.\n     - **Place a Tile**: Move a stored tile to the estate, placing it on a matching-colored space corresponding to the die's number. The tile must be adjacent to existing tiles.\n     - **Sell Goods**: Sell all goods of a type matching the die's number, earning Silverlings and victory points.\n     - **Gain Workers**: Use any die to take 2 worker tiles.\n\n**Worker Tiles**:\n   - Players can spend worker tiles to adjust a die's result by ?1 per worker (wrapping from 6 to 1 if needed).\n\n**Buying from Black Depot**:\n   - Once per turn, a player may spend 2 Silverlings to purchase a tile from the black depot, placing it in a storage space.\n\n**Completing Regions**:\n   - Filling all spaces of a colored region grants immediate victory points based on region size and phase.\n   - Completing all spaces of a color first awards a large bonus tile; the second player receives a small bonus tile.\n\n**End of Phase**:\n   - After 5 rounds, the phase ends. Players with mines receive 1 Silverling per mine. Some yellow 'knowledge' tiles may also have effects.",
       "EndOfGame": "The game ends after a set number of rounds, and the player with the most points wins."
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 7,
+      "Jaden": 5,
+      "Kyden": 8,
+      "Elsie": 8
     },
     "CrowdFavorite": true,
     "GatewayGame": false
@@ -2725,10 +2725,10 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 10,
+      "Jaden": 3,
+      "Kyden": 9,
+      "Elsie": 8
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2759,10 +2759,10 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 9,
+      "Jaden": 4,
+      "Kyden": 3,
+      "Elsie": 4
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2792,9 +2792,9 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
+      "Mom": 4,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 6,
       "Elsie": null
     },
     "CrowdFavorite": true,
@@ -2828,7 +2828,7 @@
     },
     "Ratings": {
       "Dad": 9,
-      "Mom": null,
+      "Mom": 9,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -2864,7 +2864,7 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
+      "Mom": 7,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -2898,10 +2898,10 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
+      "Mom": 5,
       "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Kyden": 1,
+      "Elsie": 6
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -2932,10 +2932,10 @@
     },
     "Ratings": {
       "Dad": 10,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 7,
+      "Jaden": 4,
+      "Kyden": 6,
+      "Elsie": 9
     },
     "CrowdFavorite": true,
     "GatewayGame": false
@@ -2969,7 +2969,7 @@
       "Dad": 9,
       "Mom": null,
       "Jaden": null,
-      "Kyden": null,
+      "Kyden": 3,
       "Elsie": null
     },
     "CrowdFavorite": false,
@@ -3002,7 +3002,7 @@
     },
     "Ratings": {
       "Dad": 8,
-      "Mom": null,
+      "Mom": 8,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
@@ -3036,10 +3036,10 @@
     },
     "Ratings": {
       "Dad": 7,
-      "Mom": null,
-      "Jaden": null,
-      "Kyden": null,
-      "Elsie": null
+      "Mom": 8,
+      "Jaden": 9,
+      "Kyden": 10,
+      "Elsie": 9
     },
     "CrowdFavorite": true,
     "GatewayGame": true
@@ -3070,7 +3070,7 @@
     },
     "Ratings": {
       "Dad": 5,
-      "Mom": null,
+      "Mom": 5,
       "Jaden": null,
       "Kyden": null,
       "Elsie": null
