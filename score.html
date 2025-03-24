@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scorekeeper</title>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <style>
+    :root {
+      --coral: #f26b6b;
+      --green: #70c89c;
+      --mustard: #f4c95d;
+      --magenta: #c06c84;
+      --blue: #88bef5;
+      --lavender: #c3aed6;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: white;
+      overflow: hidden;
+    }
+
+    #menu-toggle {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: none;
+      border: none;
+      font-size: 1.8rem;
+      color: #f4f4f4;
+      z-index: 10;
+    }
+
+    #setup-menu {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #1f1f1f;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      z-index: 20;
+    }
+
+    #setup-menu.hidden {
+      display: none;
+    }
+
+    #player-grid {
+      display: grid;
+      height: 100vh;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+
+    .player-zone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem;
+      font-size: 1.1rem;
+      padding: 0.5rem;
+      position: relative;
+    }
+
+    .player-icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.4rem;
+      user-select: none;
+    }
+
+    .score-button {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: none;
+      font-size: 2rem;
+      color: white;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .minus-button {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    select, input, button {
+      font-size: 1rem;
+    }
+
+    select, input {
+      background: #2a2a2a;
+      color: white;
+      border: 1px solid #444;
+      padding: 0.3rem;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #333;
+      color: white;
+      border: 1px solid #666;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <button id="menu-toggle">☰</button>
+
+  <div id="setup-menu" class="hidden">
+    <label>Player Count:
+      <select id="player-count">
+        <option value="2">2 Players</option>
+        <option value="3">3 Players</option>
+        <option value="4" selected>4 Players</option>
+        <option value="5">5 Players</option>
+        <option value="6">6 Players</option>
+      </select>
+    </label>
+    <label>Point Increment:
+      <input type="number" id="point-step" min="1" value="1" />
+    </label>
+    <button onclick="initPlayers()">Start</button>
+  </div>
+
+  <main id="player-grid"></main>
+
+  <script>
+    const colors = ['var(--coral)', 'var(--green)', 'var(--mustard)', 'var(--magenta)', 'var(--blue)', 'var(--lavender)'];
+
+    const icons = [
+      'heroicons:rocket-launch-solid',
+      'heroicons:bolt-solid',
+      'heroicons:fire-solid',
+      'mdi:controller-classic',
+      'heroicons:star-solid',
+      'heroicons:shield-check-solid'
+    ];
+
+    let pointStep = 1;
+
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      document.getElementById('setup-menu').classList.toggle('hidden');
+    });
+
+    function initPlayers() {
+      const count = parseInt(document.getElementById('player-count').value, 10);
+      pointStep = parseInt(document.getElementById('point-step').value, 10);
+      renderPlayers(count);
+      document.getElementById('setup-menu').classList.add('hidden');
+    }
+
+    function renderPlayers(count) {
+      const grid = document.getElementById('player-grid');
+      grid.innerHTML = '';
+
+      // Responsive layout
+      if (count === 2) {
+        grid.style.gridTemplateColumns = '1fr';
+        grid.style.gridTemplateRows = 'repeat(2, 1fr)';
+      } else if (count <= 4) {
+        grid.style.gridTemplateColumns = 'repeat(2, 1fr)';
+        grid.style.gridTemplateRows = 'repeat(2, 1fr)';
+      } else {
+        grid.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        grid.style.gridTemplateRows = 'repeat(2, 1fr)';
+      }
+
+      for (let i = 0; i < count; i++) {
+        const zone = document.createElement('div');
+        zone.className = 'player-zone';
+        zone.style.background = colors[i % colors.length];
+
+        const icon = document.createElement('iconify-icon');
+        icon.setAttribute('icon', icons[i % icons.length]);
+        icon.className = 'player-icon';
+
+        const score = document.createElement('button');
+        score.className = 'score-button';
+        score.textContent = '0';
+
+        const minus = document.createElement('button');
+        minus.className = 'minus-button';
+        minus.textContent = '-';
+
+        minus.onclick = (e) => {
+          e.stopPropagation();
+          const current = parseInt(score.textContent, 10);
+          score.textContent = Math.max(current - pointStep, 0);
+        };
+
+        zone.onclick = () => {
+          const current = parseInt(score.textContent, 10);
+          score.textContent = current + pointStep;
+        };
+
+        zone.appendChild(icon);
+        zone.appendChild(score);
+        zone.appendChild(minus);
+        grid.appendChild(zone);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      renderPlayers(4);
+    });
+  </script>
+</body>
+</html>
