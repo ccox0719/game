@@ -154,7 +154,6 @@
 
   <script>
     const colors = ['var(--coral)', 'var(--green)', 'var(--mustard)', 'var(--magenta)', 'var(--blue)', 'var(--lavender)'];
-
     const icons = [
       'heroicons:rocket-launch-solid',
       'heroicons:bolt-solid',
@@ -181,7 +180,6 @@
       const grid = document.getElementById('player-grid');
       grid.innerHTML = '';
 
-      // Responsive layout
       if (count === 2) {
         grid.style.gridTemplateColumns = '1fr';
         grid.style.gridTemplateRows = 'repeat(2, 1fr)';
@@ -210,12 +208,60 @@
         minus.className = 'minus-button';
         minus.textContent = '-';
 
-        minus.onclick = (e) => {
-          e.stopPropagation();
-          const current = parseInt(score.textContent, 10);
-          score.textContent = Math.max(current - pointStep, 0);
-        };
+        let scoreInterval;
+        let minusInterval;
 
+        // Press-and-hold to increase
+        function startScoreInterval() {
+          scoreInterval = setInterval(() => {
+            const current = parseInt(score.textContent, 10);
+            score.textContent = current + pointStep;
+          }, 150);
+        }
+
+        function stopScoreInterval() {
+          clearInterval(scoreInterval);
+        }
+
+        // Press-and-hold to decrease
+        function startMinusInterval() {
+          minusInterval = setInterval(() => {
+            const current = parseInt(score.textContent, 10);
+            score.textContent = Math.max(current - pointStep, 0);
+          }, 150);
+        }
+
+        function stopMinusInterval() {
+          clearInterval(minusInterval);
+        }
+
+        // Score button events
+        score.addEventListener('mousedown', startScoreInterval);
+        score.addEventListener('mouseup', stopScoreInterval);
+        score.addEventListener('mouseleave', stopScoreInterval);
+        score.addEventListener('touchstart', (e) => {
+          e.preventDefault();
+          startScoreInterval();
+        });
+        score.addEventListener('touchend', stopScoreInterval);
+        score.addEventListener('touchcancel', stopScoreInterval);
+
+        // Minus button events
+        minus.addEventListener('mousedown', (e) => {
+          e.stopPropagation();
+          startMinusInterval();
+        });
+        minus.addEventListener('mouseup', stopMinusInterval);
+        minus.addEventListener('mouseleave', stopMinusInterval);
+        minus.addEventListener('touchstart', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          startMinusInterval();
+        });
+        minus.addEventListener('touchend', stopMinusInterval);
+        minus.addEventListener('touchcancel', stopMinusInterval);
+
+        // Also allow tap-to-increase by clicking the zone
         zone.onclick = () => {
           const current = parseInt(score.textContent, 10);
           score.textContent = current + pointStep;
